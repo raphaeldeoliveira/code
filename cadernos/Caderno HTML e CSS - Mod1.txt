@@ -1,0 +1,796 @@
+***SITE PRA CODAR ONLINE - https://codesandbox.io/s/kind-hoover-onm39?file=/index.html***
+
+video 1 - apresentação do curso
+   
+video 2 - 
+   
+   HTML e CSS não são linguagens de programação
+   github.com/gustavoguanabara => repositorios   
+   gustavoguanabara.github.io
+   
+
+video 3 - 
+   
+   *para complementar o aprendizado, deve-se con-
+   sultar a documentação oficial da linguagem
+   https://developer.mozilla.org/pt-BR/docs/Web/HTML
+
+   https://developer.mozilla.org/pt-BR/docs/Web/CSS
+   
+video 4 - 
+   
+   Referencias sites de HTML e CSS:
+
+   MDN - mozila developer network
+   W3C Standards - world wide web consortium (referencia oficial)
+   WHATWG Living Standard - web hypertext application technology working group
+   W3Schools - refsnes data
+   
+   Referencias livros de HTML e CSS:
+   
+   HTML5 - Mark Pilgrim - O'reilly
+   CSS - Eric Meyer - O'reilly
+   Flexbox in CSS - Eric Meyer - O'reilly
+   Grid Layout in CSS - Estelle Weyl - O'reilly
+   
+   HTML5 e CSS3 - Elizabeth Castro e Bruce Hyslop - Alta Books
+   HTML&CSS - Jon Duckett - Alta Books
+   HTML e CSS - Elisabeth Robson e Eric Freeman - Alta Books
+   Crie seu prorio site - Nate Cooper e Kim Gee - Novatec
+   
+   HTML5 - Mauricio Samy Silva - Novatec
+   CSS3 - Mauricio Samy Silva - Novatec
+   HTML5 e CSS3 - Mauricio Samy Silva - Novatec
+   CSS Grid Layout - Mauricio Samy Silva - Novatec
+   
+   Curso De Design Grafico
+   Design
+   A Psicoologia Das Cores
+   Pensar Com Tipos
+   
+VIDEO 5 - 
+   
+   A internet fui criada durante a guerra fria para a comunicação entre os centros mililtares AMERICANOS
+   protocolo = forma/mofo de trocar dados unico para os computadores se comunicarem (similar a se comunicar com um unico idioma)
+   => é o conjunto de informações , decisões, normas e regras defenidas a partir de um ato oficial
+   
+   foi criado o NCP (network control protocol) = protocolo de controle de rede
+   => esse protocolo funcionava apenas uma conexãso por vez, logo, não dava pra ter muitos
+   pontos transmitindo dados
+   
+   depois foi criato o TCP (transfer control protocol). Esse protocolo resolvia o problema
+   de sere apenas uma conexão por vez, mas surgiu um problema de identificação de maquinas
+   logo, foi criado o IP = internet protocol = protocolo de identificação de maquinas, 
+   resolvendo o problema de identificação de maquinas, a junção foi chamada de TCP/IP e é
+   usado ate hoje com versões atualizadas
+   
+   eles queriam juntar varias redes para criar conexões interenacionais, o nome da 
+   internet vem dai: inter|networking. A internet cobre o mundo inteiro, 
+   ligando todos os continentes da terra, conectados por cabos submarinos. A conexões 
+   para o interior acontece por meio de satelites, transmissões por antenas, etc
+   
+   quando se quer acessar do seu computador outro computador(servidor), o seu computador faz a
+   solicitação do arquivo ao servidor. Ai o servidor quebra o arquivo em varios pacotinhos e
+   manda por rotas/caminhos diferentes e no final, todos os pacotes vao estar no seu 
+   computador O TCP do seu computador vai reunir e reconstituir o arquivo
+   
+   => documentario sobre: youtu.be/TNQsmPf24go - How does the internet work? - canal Vox - glad you ask
+   
+   a internet antigamente nao tinha nada grafico, era só o terminal, dai ele juntava as letras
+   para criar estruturas, desenhos, letras em caixinhas, etc.
+   
+   depois foi criado o http = protocolo incluido no TCP/IP - hypertext transfer protocol e o
+   HTML (hyper text markup  lenguage) - linguagem de marcação para hipertextos. E o WWW 
+   (world wide web) - rede de alcance mundial depois foi criado o navegador para navegar na 
+   rede
+   
+   O conjunto do protocolo https:// ; o HTML ; O WWW ; e a criação de navegadores a world wide web se tornou realidade
+   
+   na internet existem varios servidores com varias funções especilizadas de cada um com seu serviço ou protocolo. 
+   Existem os especialistas em transferencia de arquivos ; hypertexto simples ; receber e mandar emails ; HTTP ; etc
+   essas redes se comunicam
+   
+   para produzir hypertexto (HTTP) usa-se o HTML
+   
+VIDEO 6 - 
+   
+   O computador não é inteligente, é um burro muito rapido. O PC funciona com sinais: "0" e "1", na verdade (não são 0s e 1s)/
+   são sinais eletricos com sinal (1) e sem sinal (0) - são digitos binarios (bit = binary digit) - (1 bit = 0 ou 1) para
+   representar algum dado é usado, no minimo, 8 bits em sequencia 01000001 = A - 8 bits forma 1 byte = porção minima para
+   representar uma informação.
+   
+   UTF-8 = codigo multibyte = usa de 1 a 4 bytes para representar letras simbolos, caracteres acentuados, emojis, etc.
+   O computador entende 0 e 1 mais ou menos assim |_|-| = onda quadrada, onda binaria
+   
+   Representação de dados
+   
+   1024 bytes = 1KB - o computador trabalha com a base 2 - 2ê10 = 1024, por isso não é 1000 bytes = 1KB
+   1024KB = 1MB - MegaByte
+   1024MB = 1GB - GigaByte
+   1024GB = 1TB - TeraByte
+   1024TB = 1PB - PetaByte
+   1024PB = 1EB - HexaByte
+   1024EB = 1ZB - ZetaByte
+   1024ZB = 1YB - YotaByte
+   etc....................
+   
+                    MB                  <>                   Mb
+                (MEGABYTES)                              (MEGABITS)
+   armazenamento(memoria do PC - 500GB)       transmissão(placa de rede - 100Mb)
+   
+   Como nos conectamos a internet
+   
+   
+   PC(clinete)---->modem---->linha_telefonica---->internet---->linha_telefonica---->modem---->servidorDNS
+   PC(clinete)<----modem<----linha_telefonica<----internet<----linha_telefonica<----modem<----servidorDNS
+   PC(clinete)---->modem---->linha_telefonica---->internet---->linha_telefonica---->modem---->site-PC(servidor)
+   PC(clinete)<----modem<----linha_telefonica<----internet<----linha_telefonica<----modem<----site-PC(servidor) *por diversas rotas*
+   
+   => o modem transforma onda senoidal (vinda da rede de telefone) em onda binaria para que os PCs consigam se comunicar
+   (modulação) quando os dados chegam e (demodulação) quando os dados saem 
+   modem = serve para fazer modulação e demodulação
+   
+   Os dados de (por ex) um site que se quer acessar ficam armazenados em um computador com alta capacidade de armazenar e
+   transmitir dados (servidor)
+   
+   Existe o IP publico e o IP local. O publico é gerado assim que se liga o computador, vai mudando e te identifica na
+   internet
+   
+   O servidor DNS (Domain Name System = Sistema de Nome de Dominio) faz a ligação entre a URL e o IP do servidor 
+   ex: instagram.com = 157.240.22.174
+   
+   A internet é composta por diversas rotas e os caminhos em que os dados são enviados são diversos e o arquivo vai dividido
+   as vezes uma das rotas que seria mais rapido esta congestionada e ele muda a rota. São diversas rotas com diferentes
+   partes do arquivo enviadas ao mesmo tempo
+   
+VIDEO 7 - 
+   
+   A URL é a ponte entre o IP e o nome de dominio
+   o servidor faz a hospedagem do SITE (arquivo HTML e CSS) para que seja acessado por PCs
+   
+   hospedagem = local onde seu site ficara armazenado - espaço para armazenar seus arquivos
+   dominio = nome que identifica seu site (nome unico)
+   
+   ex: www.github.com/gustavoguanabara
+    
+   => o endereço inteiro é a URL (uniform resource locator) - localizador de recurso unico
+   => github.com = dominio
+   => github = nome do dominio
+   => .com = TLD (top level domain)
+   => www = sub-dominio principal (mas pode ser outra coisa - nome por ex)
+   => o que fica depois da barra (/) = caminho - outra pagina do site
+   
+   ex: github.com - não tem sub-dominio
+   
+VIDEO 8 - 
+   
+   o HTML e CSS não pode ser programado, afinal, não é uma linguagem de programação, e sim desenvolvido em HTML e CSS
+   
+   HTML = HyperText Markup Language = linguagem de marcação para hipertexto => foca no CONTEUDO
+   (conteudo = textos, imagens, videos, tabelas, etc)
+   
+   CSS = Cascading Style Sheets = folhas de estilo em cascata (cascata - uma vai modificando a outra) => linguagem focada
+   em DESIGN. (atrativos visuais - posições, tamanhos, cores, sombras, etc)
+   
+   ***também tem o javascript (JS) que cria as interatividades (é uma lingugem de programação) - serve para criar menus, 
+   animações, popups, vlidações, etc
+   
+   Esses 3 formam um site completo com conteudo, design e interatividades
+   
+   HTML
+   
+   => no HTML usamos "tags" para criar conteudo (as tags ficam entre colchete angulares)
+   
+   ex: <h1> Exemplo de titulo </h1>
+     (abertura) (conteudo) (fechamento)
+       de tag                 de tag
+   
+   <img src="foto.png"alt="Exemplo de foto">
+   
+   -> a tag img não tem fechamento
+   -> src e alt = parametros
+   -> foto.png e Exemplo de foto = valor
+   -> alt = texto alternativo - se nao mostrar a imagem, aparece esse texto
+   
+   ***Algumas tags não tem fechamento
+   ***Toda tag pode ter parametros e valores
+   
+   Estilo em CSS
+   
+   -> geralmente esta dentro de uma tag <style>
+   -> usa seletores
+   -> toda declaração tem que ter ponto e virgula no final
+   
+(seletor)
+   h1{
+         (declaração)
+      font-family: Arial;
+      font-size: 20pt;
+      color: blue;
+  (propriedade) (valor)                    color = propriedade & blue = valor
+   }
+   
+   ESTRUTURA BASICA DE UM DOCUMENTO HTML
+   
+1   <!DOCTYPE html>                      = tag especifica de configuração pra dizer que é HTML5
+2   <html lang="pt-br">                  = propriedade para especificar a linguagem
+3      <head>   
+4          <meta charset="UTF-8">         = tag para que o site seja compativel com caracteres de UTF-8 - sites em portugues
+5          <meta name="viewport"          = tag para o site ocupar 100% da tela, sem usar zoom
+6          content="width=device-width,
+7          initial-scale=1.0">
+8          <title> Document </title>
+9      </head>
+10      <body>
+11         <h1> Olá, Mundo! </h1>
+12     </body> 
+13   </html>
+   
+   -> identação = posição que marca a hierarquia do codigo, serve para mostrar o que esta dentro do que
+   -> o head = area de configurações
+   -> o body = area onde fica o conteudo em sí
+   
+VIDEO 9 - 
+   
+   site estativo = criado com HTML, CSS e JavaScript puro
+   
+   FRONT-END E BACK-END
+   
+   HTML, CSS e JS são tecnologias client-side - que carregam/funcionam do lado do cliente (no PC-cliente)
+   => front-end = desenvolve tecnologias do lado do cliente
+   O desenvolvedor front-end deve saber o basico de imagens, cores, tipografia, photoshop, gimp
+   gera a parte visual e interativa do site - se preocupa com a experiencia do usuario que esta visitando o site
+   
+   php, JS Node, C#, python, java e ruby são tecnologias server-side - que carregam/funcionam do lado do servidor
+   => back-end = desenvolve tecnologias do lado do server
+   gera a interação com o servidor                                        Java <> JavaScript
+   
+   
+   => não é possivel criar uma loja virtual comente com client-side, pois é preciso verificar no estoque, colher informações,
+   etc. Logo, sera necessario usar tecnologias server-side para compor o site. No server-side tem um BANCO DE DADOS com todas
+   as informações de cores, tamanhos, estoque, promoções, etc
+   
+   => Nesse tipo de site o PC cliente faz uma solicitação ao servidor, o servidor faz requisições pra esse banco de dados por
+   meio da linguagem de programação, a linguagem vai gerar a pagina com HTML, CSS e JS puro e vai mandar pro PC-cliente. 
+   
+   desenvolvedor fullstack = font-end + back-end
+     
+VIDEO 10 -  
+   
+   Para criar os codigos usaremos o Visual Studio Code (versão stable) e como navegador o Google Chrome
+   clica em php e javascript para instala-los
+   clica na barra de busca, digita portugues e instala o pacote pra ficar em portugues
+   clica em arquivo, preferencias, configurações, pesquisa (na barra de busca) "word wrap", vai aparecer o editor word wrap,
+   habilita ele em "on" - serve para quando escrever a linha inteira, automaticamente, pular pra linha de baixo
+   pesquisa size e no editor: font size aumenta a font para uma fonte que fique confortavel (20<)
+   clica em arquivo, e salvar automaticamente (deixa habilitado) - vai salvar assim que for escrevendo (letra por letra)
+   
+VIDEO 11 - 
+   
+   atalho pra abrir as pastas = windows + e - vai em documentos, e cria uma pasta de estudos com nome "estudos", dentro dela
+   cria duas pastas: "HTML-CSS" e "Javascript", dentro de HTML-CSS cria uma pasta "exercicios" - dentro dela uma nova pasta
+   "exercicio-001"
+   
+   na pasta de exercicio é possivel clicar com o botao direito e ir na opção abrir com "Visual Studio Code" para abrir a 
+   pasta no VSCode
+   
+   com a pasta aberta, na secção  exercicio-001 tem a opção de criar um novo arquqivo, ele vai pedir o nome do arquivo, 
+   escreva: index.html (devem ser escritas em minusculas, sem espaço, com o ".html" no final. Ao dar enter ele vai criar seu
+   primeiro documento. Tambem da pra criar novas pastas, criando subdivisões do projeto
+   
+   digite "!" e aperte enter para o VSCode criar o codigo base HTML
+   
+   **ler os livros em pdf**
+   
+   					<html lang="pt-br">
+   
+   < & > = tag | html = valor da tag (qual tag) | lang = parametro | ="pt-br" = valor do parametro
+   
+   as tags que são aplicadas a algo especifico precisam da tag de fechamento, tags que são usadas para todo o arquivo só tem
+   abertura, não precisa fechar
+   
+   dentro do html existe a area body(conteudo do site) e a area head(configurações do site)
+   
+   *quando quebra uma linha ele não numera como uma nova linha, fica com vazio, a nova linha deve ter conteudo
+   
+   escreva no title = meu primeiro site
+   
+   se escrever a tag (sem <) e der enter, ele escreve a tag completa (inclusive com parametros)
+   ou se escrever <h1> o VSCode ja vai fechar a tag automaticamente
+   
+   h1 = heading 1 - cabeçalho, titulo. o numero determina o tamanho, quanto maior o hn menos o tamanho do cabeçalho
+   escreva <h1>Olá, Mundo"</h1> (h1 = titulo de nivel 1)
+   
+   p = tag para paragrafo
+   escreva <p>Esse é meu primeiro documento HTML!<p>
+   
+   quando abrir a pasta do exercicio-001 vai ta la o arquivo index
+   
+   o title fica escrito na aba da pagina
+   
+   para programar e ver o resultado sete a aba do VSCode a esqueda e a aba do navegador a direita para poder mexer nos dois
+   ao mesmo tempo. 
+   
+   o icone de duas folhas no canto superior esquerdo do VSCode abre e fecha as opções, então, enquanto estiver codando deixe
+   fechado para poder ter melhor aprovietamento da IDE
+   
+   *como o VSCode esta salvando automaticamente, basta atualizar o navegador para aparecer o que voce acabou de adicionar
+   sem precisar salvar no VSCode
+   
+   hr = linha horizontal = serve para criar uma linha 
+   
+   ***tudo no HTML é feito com marcas***
+   
+VIDEO 12 - 
+   
+   na pasta exercicios crie a pasta "exercicio-002" cria o novo arquivo "index.html"
+   **sempre use letras minusculas no nome dos seus arquivos**
+   
+   cria a base do html ! + "enter", o titulo vai ser "Parágrafos" e o h1 vai ser "Paragrafos e quebras de linhas"
+   
+   ***pratique muito para aprender é necessario muita pratica***
+   
+   o que importa para o fim do paragrafo não é a quantidade de "enter" e sim a marca (<P>) - se voce quiser fazer uma quebra
+   tem uma marca (tag) pra fazer isso => para quebrar usa a tag <br> (break) {da pra usar dentro da tag <p> um <br>
+   
+   para escrever por extenso < e > usa-se "&lt;" para "<" e  "&gt;" para ">" assim, é possivel escrever por extenso "<" e ">"
+   
+VIDEO 13 - 
+   
+   o comando <br> é cumulativo, ou seja, se fizer varias vezes ele vai quebrar varias vezes - mas isso é uma gambiarra. Pra
+   faze-lo, usa-se o CSS para o codigo ficar profissional
+   
+   para comentar usa-se <!-- comentario -->
+   
+   CARACTERES ESPECIAIS
+   
+   **tabelinha do material de apoio**  ex: &reg;| &copy; | &euro; | etc
+   todo caractere especial ou emoji começa com "&" e termina com ";" => ex: &euro;
+                                                                                                       (pega na emojipedia)
+   para encontrar os codigos dos emojis basta acessar: emojipedia.org -  ex: &#x1F596; => &#x        |       1F596;
+   tem que desconsiderar o "U+" quando for adicionar o codigo do emoji            (prefixo hexadecimal)  (codigo do emoji)
+   ficando assim 
+   
+   **adicionar uma tabelinha com alguns caracteres especiais e emojis, alem de uma referencia online para buscar os mesmos**
+   
+VIDEO 14 - 
+   
+   DIREITOS AUTORAIS DE IMAGENS
+   
+   *cuidado com direitos autorais na hora de adicionar imagens aos - para ver se tem direitos autorais, no google imagens, 
+   vai em ferramentas, direito de uso e selecione o tipo
+   
+   sites para pegar imagens sem direitos autorais: 
+   unsplash.com - vai mostrar os tipos de licenças das imagens
+   pexels.com
+   
+   instalar o gimp (editor de imagens)
+   
+VIDEO 15 - 
+   
+   JPG X PNG
+   
+   => para imagens usamos ".jpg" e ".png", no maximo um ".gif". O JPG é um metodo de compreensão de imagens - ele compacta a
+   imagem. A internet nao pode ter arquivos pesados, por isso o jpg é recomendado. O PNG tambem é compactado (nao tanto 
+   quanto o JPG) e tem transparencia (fundo transparente)
+   
+   no google imagens em ferramentas tem a opção de filtrar pelo tamanho da imagem, transparencia, etc
+   
+   **use somente letras minusculas nos nomes dos arquivos**
+   
+   o jpg distorce muito mais que o png, quando aproxima, porque esta mais compactado
+   
+VIDEO 16 - 
+   
+   para um site a largura maxima deve ser de 1500px. Com imagens muito pesadas o site vai demorar muito a carregar, ficando
+   inviavel de se acessar de forma rapida.
+   
+   a resolução da imagem tambem é algo que vai interferir muito no carregamento do site. Uma resolução entre 50 - 72 ja é 
+   suficiente.
+   
+   *no gimp, se reduzir a largura a altura é reduzida proporcionalmente* - basta clicar em redimensionar imagem
+   
+   no gimp, apos alterar a altura, vai em arquivo e exportar como, selecionar a qualidade como 70% e esta salvo! Para alterar
+   a largura vai em imagem, redimensionar imagem, para concluir, da um TAB. Para abrir a imagem basta selecionar a imagem e 
+   ir na opção abrir com gimp
+   
+   para um site, uma largura recomendada é 600-650. 
+   
+   Redimensionando tem-se um aproveitamento muito melhor do site. Uma imagem de 3000px tem 1836KB, com as resoluções
+   recomendadas para um site ela reduz para 650px com 122KB ou 1200px com 344KB
+   
+   O CSS serve para modificar o tamanho que a imagem vai aparecer no site, mas a imagem em si continua com o mesmo tamanho
+   quando é exportada para o servidor, logo é melhor dimensionar e exportar do tamanho proximo ao que sera usado
+   
+VIDEO 17 - 
+   
+   criar a pasta exercicio-003, cria o index.html e cria o codigo padrão (! + enter) o titulo é Teste com imagens, cria um h1
+   Testando carga e imagens, um <p> Abaixo voce vai ver uma imagem que esta na mesma pasta. </p>, vai baixar, sem fundo e com
+   todo o direito de uso as imagens dos logos HTML e CSS. E coloca dentro da pasta do exercicio.
+   
+   apos isso usa a tag img + enter =vai=abrir=> <img src="" alg=""> 
+   
+   dentro do das aspas do "src" voce vai apertar "ctrl + espaço" para abrir as opções que se encaixam ali e escolher uma
+   o alt é o texto alternativo que vai aparecer caso a imagem nao seja carregada. Não corre perigo de digitar errado
+   
+   *as imagens devem ser redimensionadas com o gimp. No gimp, vai usar a ferramente crop para que ambas imagens fiquem sem
+   bits inuteis (tranparencia que nao tem conteudo) apos isso, redimensiona, no mesmo tamanho, ambas imagens.
+   
+   ***cada byte que conseguir economiza melhor para o site, portanto, se redimensionar a imagem economizar 2KB, é importante
+   fazer, pois tornar o site mais otimizado e facil de carregar.***
+   
+   apos isso cria um novo <p> com: Podemos também carregar imagens que estão em sub-pastas. Abre a tag img e selecione uma 
+   imagem que esteja em outra pasta (que nao seja a do projeto). Para referencia-la é preciso colocar a pasta antes do nome
+   da imagem - ex: imagens/logo-css.png (a pasta deve estar dentro da pasta do projeto).
+   
+   para carregar imagens externas (de outros sites) - cria um novo <p>  Tambem podemos carregar imagens externas. abre o img
+   e coloca a URL (completa) dentro do src (isso não é recomendado, mas se for fazer, use uma imagem pequena de outro site)
+   
+VIDEO 18 - 
+   
+   favicon = icone que fica na aba junto do "title"
+   
+   cria o exercicio-004, cria o index.html, pega uma imagem (sem muito detalhe) pequena para adicionar ao favicon, ela deve
+   ter fundo transparente. Mas pra fazer o favicon tem que converter a imagem para o formato ".ico" 
+   pra pegar um icone pronto basta acessar o site iconarchive.com e pesquisa por algo que queira adicionar como favicon
+   baixa, adiciona a pasta do exercicio, outro site pra gerar um .ico é no favicon.io
+   
+   abre a pasta com o VSCode e cria um arquivo novo (index.html) - para adicionar o favicon, em cima do title, escreva link
+   e clique na opção "link : favicon", dentro do href da um "ctrl + space" e selecione o icone que voce quer
+   
+   no arquivo coloca title = "Teste de favicon" e um h1: "olha o favicon aqui em cima"
+   
+VIDEO 19 - 
+   
+   HIERARQUIA DE TITULOS (niveis e subniveis)
+   
+   ex:   Entendendo Portugal    ==> nivel 1 - *usa o <h1>*
+   
+   1.introdução   ==> nivel 2 *usa-se o <h2>*
+
+      1.1 justificação da tematica    ==> nivel 3 * *usa-se o <h3>*
+      1.2 caracter execional do caso                *usa-se o <h3>*
+      1.3 perguntas de partida                      *usa-se o <h3>*
+   
+   2. ordenamento do territorio *usa-se o <h2>*
+   
+      2.1 os instrumentos                           *usa-se o <h3>*
+         2.1.1 do planejamento territorial    ==> nivel 4    *usa-se o <h4>*
+         2.1.2 dos reinos especiais                          *usa-se o <h4>*
+   
+   **cria o exercicio 5 e 6. No 5 (que ja era pra ter feito) crie uma pagina com emojis. o 6 sera feito nessa aula
+   botao direito, abrir com VSCode, cria o index.html o title "Hierarquia de titulos", adiciona o favicon (pra praticar)**
+   
+   **se escrever "loren" dentro de um paragrafo, ele puxa um ipsum loren** => serve para criar texto para teste
+   
+   *dentro de h3 e h4 devem ter <p> com ipsum loren - 
+   
+   ==> o "hN" vai ate o h6. Para semantica HTML fazer sentido ela deve respeitar os niveis de hierarquização e conter 
+   paragrafos com conteudo dentro de cada nivel
+   
+   *nesse exercicio deve escrever, em paragrafos, conteudos (loren) dentro dos niveis hierarquicos h3 e h4. Mantendo a 
+   semantica HTML coerente
+   
+VIDEO 20 - 
+   
+   SEMANTICA HTML => no HTML, tags semanticas são as que fazem sentido
+   => algumas tag entraram em desuso por não fazerem muito sentido, pois fugiam da tematica conteudo, foram substituidas
+   
+   semantica = significado, sentindo
+   
+   *cria o exercicio 007 e abre com o VSCode
+   
+   *existem tags ou paprametros que ficaram obsoletas ao longo do tempo. O VSCode acusa que esta obsoleta deixando em 
+   vermelho, pois nao pode mais utilizar, apesar de funcionar. site para ver as tags obsoletas: 
+   https://dev.w3.org/html5/pf-summary/obsolete.html
+   
+   => agora tudo que se refere a forma (estilo) ex: posição, cor, etc. Usa-se CSS. As tags que deixam fazer isso no prorprio
+   HTML não são mais utilizadas, no HTML, hoje, usa-se só para conteudo
+   
+   **fique sempre de olho no site da w3c que é quem gerencia o HTML para ver o que esta funcionando e o que não**
+   
+VIDEO 21 - 
+   
+   *cria o ex-008 e abre com VSCode, abre o codigo base, o title é "formatação de textos",cria um h1 "principais formatações"
+   cria um h2 "negrito / destaque" e abre um <p> e, dentro de <p>, use a tag <b> para o que quiser deixar em negrito
+   
+   tag <b> = bold - para deixar em negrito, é escrito com a palavra em negrito dentro da tag ex: <b>Negrito</b>
+   tambem da pra usar a tag <strong> para deixar em negrito. 
+   
+   ***para colocar um termo em italico (ou negrito) de forma mais rapida: selecione o texto que vai modificar, use 
+   ctrl + shift + p (vai abrir uma barra de pesquisa) escreva "abb" e clique em wrap with abbreviation {quando se usa muitas
+   vezes ele vai ficar em primeiro, dai é só da enter pra fazer mais rapido} (vai abrir outra  barra de pesquisa) escreva 
+   "i" e de enter - essa função ENVELOPAR serve para todas as tags
+   
+   o recomendado é usar o <strong> no lugar do <bold> e o <em> no lugar do <i>. bold e i estão ficando obsoletas
+   
+VIDEO 22 - 
+   
+   *faz todo o processo ate o index.html - cria um <p>, um loren ipsum, seleciona, ctrl + shift + p e adiciona a tag <mark>
+   a tag mark faz o texto ficar marcado como um marca-texto. Para algo pontual (especifico) o correto é adicionar um
+   parametro "style" para modificar o estilo. Para mudar nesse caso ficaria: style="background-color:lime;"
+   **o mark nao é reconhecido pelo VSCode, portanto, é necessario escrever a tag por extenso
+   
+   ***o VSCode tem uma ferramente para escolher a cor de maneira mais rapida. Basta deixar o mouse parado sobre o valor do
+   parametro que esta mudando a cor, vai abrir uma interface para escolher, de forma precisa, a cor que se deseja 
+   implementar, podendo escolher exatamente a cor que deseja***
+   
+   => se cada tag precisar de uma configuração de estilo especifica, o melhor seria adicionar um parametro para cada uma com
+   seus diferentes estilos. Mas, no caso de todas usarem o mesmo estilo o melhor é criar uma tag style (no head) e adicionar
+   uma cor direto a tag, assim, só de adicionar a tag, a cor ja estará em vigor (o parametro ja esta setado)
+   
+   => a tag <big> ficou obsoleta, no entanto, a tag <small> não ficou. Logo, ainda da pra usar a tag <small> para escrever
+   em letras pequenas
+   
+   => a tag <del> será o texto com um risco em cima.
+   => a tag <ins> será o texto sublinhado
+   => a tag <sup> será o texto ficar acima (ex: para escrever um numero elevando)
+   => a tag <sub> será o texto ficar abaixo (ex: para escrever "H2O com o 2 para baixo)
+   
+VIDEO 23 - 
+   
+   *cria o ex-009 ate o index - 
+   
+   => a tag <code> serve para deixar a fonte mono-espaçada, ficando mais facil de ler, mas não faz identação
+   
+   => a tag  <pre> serve para que apareça como HTML exatamente como foi escrito. Logo, serve para mostrar identação e junto
+   ao code, vai ficar com mais cara de um codigo. Com o <pre> as quebras de linhas apareceram na pagina
+   
+   ***comando no VSCode para voltar um agrupamento inteiro = seleciona, shift + tab. Pra ele ir pra frente usa só o TAB***
+   
+   => a tag <q> serve para fazer uma citação simples - vai ficar entre aspas. (ex: "blablabla")
+   
+   => a tag <blockquote> serve para fazer uma citação que ficara com um espaçamento (tipo um TAB). Nessa tag é possivel
+   adicionar o parametro cite="" e adicionar o link da referencia, não aparecerá o link, mas, no mecanismo de busca do
+   google ele ficará referenciado
+   
+   => a tag <abbr> serve para fazer abreviações - vai aparecer um pequeno popup com o que aquela sigla significa
+   ===> ex: <abbr title="Hypertext">HYP</abbr> => na pagina aparecerá HYP sublinhado, quando passar o mouse aparece o popup
+   
+VIDEO 24 - 
+   
+   Para criar uma lista ordenada cria-se a tag <ol> (ordenade list) e dentro dela cria as <li> que são os itens da lista. Uma
+   lista ordenada numera os itens. Pode-se adicionar o parametro type para definir o tipo: numerico (1,2,3) romano (I,II,III)
+   romano min (i,ii,iii) letra (A,B,C) e letra min (a,b,c)
+   
+   Para que uma lista comece por um valor especifico usa-se o parametro start="" . O valor do start só pode ser numerico, mesmo
+   que a lista esteja outro tipo, deve-se colocar o equivalente de modo numerico. Ex: V = 5
+   
+   Também tem a lista não ordenada <ul> (unordenade list). Ela vai listar tudo com pontos. Da pra colocar um type para personalizar
+   o tipo de ponto que aparece, os tipos são: disc (bolinha [padrão]) , square (quadrado)
+   
+VIDEO 25 - 
+   
+   da pra criar uma lista dentro de um item de uma lista.
+   
+   O start deve ser numerico, mesmo a lista sendo alfabetica, o parametro vai ter que ser em numero o equivalente a letra
+   Ex: "e" = 5
+   
+   ***Para modificar varias linhas juntas, usa-se o comando "alt" + clicar onde quer mudar (com alt precionado) assimm da
+   pra escrever ou apagar todas as linhas selecionadas ao mesmo tempo
+   
+   tem também a lista de definição <dl> dentro da <dl> tem o <dt> que serve como termo e o <dd> que serve como descrição
+   o uso de dt e dd ajuda no SEO do google
+   
+VIDEO 26 - 
+   
+   para que seu site apareça na busca do google, voce não tem que se cadastrar em nada, o google que te acha. Para 
+   melhorar nesse quesito é preciso estudar sobre CEO (search engine optimization) = "sistema de busca otimizado"
+   
+   Para criar links usa-se a tag <a>. Ela abre um atributo href="" . Ddentro das aspas é adicionado a URL (para links externos)
+   ou o nome da outra pagina (link interno). Pode-se adicionar o atributo target com o valor _blank para que o link abra em uma
+   nova aba e, para melhorar o SEO, adicione o parametro rel com o valor external.
+   
+   
+VIDEO 27
+   
+   links internos - faz o direcionamento a outra pagina que esta no mesmo servidor do site. Para criar uma nova pagina deve-se criar
+   um novo arquivo
+   
+   Para criar um link interno basta aprtar (dentro da referencia) ctrl + espaço para abrir as opções de links internos (se
+   tiver pasta vai aparecer também). Para um arquivo que esta dentro de uma pasta deve-se referencias a origem do arquivo
+   anteriormente a ele - ex: pasta/arquivo.html . Já de uma pagina dentro de pasta para uma pagina fora da pasta deve-se 
+   referenciar pra ele voltar (como em um terminal) ../arquivo.html (o ../ serve para retornar)
+   
+   Para ir para primeira pagina deve-se adicionar o parametro rel="prev" e na segunda rel="next" (não existe rel internel)
+   => serve para melhorar o SEO do google. Também existe um rel="nofollow" para sites que não se tem total confiança, significa 
+   que você não da um aval. Existe um target para a propria pagina _self.
+   
+VIDEO 28 - 
+   
+   Para criar links de download usa-se a tag de ancora com o caminho para o arqvuico que será baixado. Para que seja baixado usa-se
+   o parametro type. O valor do parametro vai depender do tipo de arquivo que será baixado. Para pdf por exemplo é application/pdf
+   Para adescobrir esse valor basta acessar o site: https://www.iana.org/assignments/media-types/media-types.xhtml
+   
+VIDEO 29 - 
+   
+   Fazer os desafios 5 e 6 do link: https://github.com/gustavoguanabara/html-css/tree/master/desafios/modulo-01
+   
+VIDEO 30 - 
+   
+   Adaptando material para multiplos tamanhos de telca (PC, celular, tablet, etc)
+   
+   *aprender a usar o photoshop (saber usar bem mesmo para criar o design e as imagens) + como baixar o cracekado*
+   
+   -criar 3 arquivos - 300x300 (P) , 700x700 (M) , 1000x1000 (G) em branco e adiciona P, M e G dentro de cada uma e com cores bem
+   claras de fundo (azul, rosa e verde) (fazer com photoshop) 
+   
+   ***fiz no paint***
+   
+   cria o ex-011
+   
+   **estudar aprofundadamente sobre como comprimiro arquivo o maximo possivele tudo de imagens e design**
+   
+VIDEO 31 - 
+   
+   **os usuarios não gostam de sites com barra de rolagem lateral 
+   
+   (da uma olhada no google sobre essa tag)
+   tag <picture> = permite criar varias sources (opções de imagens dependendo do tamanho da imagem)
+   
+   tag <source> com o parametro source:media:type - para varias imagens (com varios sources) os que tiverem com max-width menor
+   devem ficar em cima dos que tem max-width maior
+   
+   para não ter problema com a barra de rolagem atrapalhando, sempre aumente em 50px o max-width, assim ela não aparecerá
+   
+   a ordem de sources é do menor ao maior
+   
+   fica mais ou menos assim:
+   
+   <picture>
+
+        <source media="(max-width: 750px)" srcset="imagemp-300.png" type="image/png">      niv1
+
+        <source media="(max-width: 1050px)" srcset="imagemm-700.png" type="image/png">     niv2
+
+        <img src="imagemg-1000.png" alt="imagem flexivel">                                 niv3
+
+    </picture>
+   
+   source é usado para especificar multiplos recursos de mídias <picture> , <audio> ou <video> . É usado para disponibilizar
+   multiplos formatos suportados por diferentes navegadores. **não tem fechamento**
+   
+   os elementos usados são:
+   
+   srcset (endereço do arquivo de midia) =-=-=-=-=-=-= srcset="imagem.png"
+   
+   type (o tipo do arquivo) =-=-=-=-=-=-=--==-=-=-=-=- type="imagem/png"
+   
+   media (define o tipo de midia) =-=-=-=-=-=-=-=-=-=- media="(max-width: 500px)" *da pra fazer pelo "min" também*
+   
+   funciona como uma pilha, se a primeira opção não for compativel vai para segunda, se a segunda nao for vai para terceira, etc.
+   
+VIDEO 32 - 
+   
+   Para pegar audios do youtube sem direitos autorais acesse o painel de controle, biblioteca de audio, atribuição: não necessaria
+   depois usa os outros filtros para selecionar a musica e clica em baixar para fazer o download. Tente pegar um audio com o tamanho
+   não tão grande. Depois adiciona o arquivo a pasta midia
+   
+   Alguns navegadores não tem compatibilidade com alguns tipos de audios, logo, será preciso usar alguns sources com varios
+   formatos para conseguir rodar na maioria dos navegadores
+   
+   É possivel criar (depois de todos os sources) um paragrafo para informar que seu navegador não é compativel com os formatos de
+   audio. A ordem do source é muito importante, ele vai tentar carregar o primeiro, depois o segundo, etc
+   
+   na tag <audio> pode-se adicionar o parametro preload. Ele tem 3 valores: none (sem preload) auto(o site só vai parar de 
+   carregar com o arquivo inteiro) e metadata (vai carregar só o nome do arquivo. Quando der play vai começar a puxar o audio). 
+   Também tem o control para mostrar os controles (menu pequeno pra dar play). Tem loop para o audio ficar em loop. autoplay
+   para que ja toque o audio assim que carregar a pagina
+   
+   qualidade top é para arquivos de download. Arquivos de navegação devem ser de facil acesso (mais leves, mais rapidos)
+   
+VIDEO 33 - 
+   
+   **as midias: imagens, audios, videos não devem ter direitos autorais**
+   
+   Pode baixar os videos no pexels.com . Nos videos também é interessante usar o source para disponibilizar varios formatos.
+   
+   handbrake - ferramenta para converter videos para outros formatos. Também da pra diminuir a qualidade e a taxa de FPS
+   tem que estudar certinho como render a compressão, pois mesmo reduzindo, pode ser que aumente o tamanho do arquivo
+   
+   cria o ex-012
+   
+VIDEO 34 - 
+   
+   Para adicionar video usamos a tag <video>. Nela pode-se adicionar o parametro width para escolher o tamanho da janela do video.
+   O controls também pra ter um menu interativo para dar play.
+   
+   Na tag <video> da pra adicionar o parametro poster="" para escolher uma imagem pra ficar como thumbnail
+   
+   Videos hospedados no proprio site vão consumir muito trafego de dados. Se o video tem 10MB e é acessado por 1024 pessoas o
+   trafego de dados vai se de 10GB e esse trafego encarece o custo para o dono do site (cliente).
+   
+VIDEO 35 - 
+   
+   A melhor forma de baratear é usar o youtube como hospedeiro do video e depois puxar para o site. Para isso basta clicar em
+   compartilhar, depois incorporar. Com isso ele vai montar um codigo HTML pronto (da pra mexer nos parametros do codigo no proprio
+   youtube na hora de incorporar). O problema do youtube é que vai recomendar outros videos além do que está aparecendo.
+   
+   Existem outras plataformas para hospedar videos pagas e gratuitas - ex: vimeo (pago) ele vai mostrar somente o video que voce
+   escolheu sem recomendar outros
+   
+VIDEO 36 - 
+   
+   fazer os exercicios 7,8 e 9 - https://gustavoguanabara.github.io/ - sem se preocupar com alinhamento, background color
+   
+VIDEO 37 - 
+   
+   CSS - cascadiang style sheets - folhas de estilo em cascata
+   
+   Estilos Inline = é criado o parametro style (na tag que será aplicado) e dentro do style sub-parametros para modificar o estilo. 
+   "Tem que fazer tag por tag" 
+   
+   Para deixar o background colorido usa-se background-color:cor ----- Ex: <h1 style="background-color:blue;">
+   
+   Para deixar a cor de um texto colorida usa-se o color:cor --------- Ex: <h1 style="color:blue;">
+   
+   Para mudar a fonte usa-se o font-family --------------------------- Ex: <h1 style="font-family:arial;">
+
+==========================================================================================================================
+   
+   O CSS não tem significado nenhum, é só estilo, é só perfumaria. 
+   
+   O Inline polui o HTML quando usado muitas vezes. No dia a dia é usado pontualmente para coisas especificas.
+   (Inline = na mesma linha) => o conteudo fica misturado com o estilo
+   
+   É possivel colocar no body um sub-parametro font-size para definir uma altura padrão (fonte base) e usar (nos font-sizes dos textos
+   dentro do body) o "em" que é uma medida em relação ao px definido. Ex: se o font-size for 20px: 1em = 20px / 2em = 40px / 0,5em = 10px
+   
+VIDEO 38 - 
+   
+   CSS Interno/Local
+   
+   HTML puro = sem estilo CSS (só o html)
+   
+   Algumas tags da pra minimizar no VSCode como o body, head, ul e ol, etc. Bom para focar no que está programando
+   
+   Abra a tag style no head - tudo que for escrito ali vai ser considerado CSS. Esse estilo é baseado em SELETORES "{}".
+   Esses seletores aplicam os estilos as tags. Para
+   fazer isso, dentro do style você escreve a tag que quer estilizar (ex: body) e abre conlchetes "{}" Tudo que for escreito vai ser
+   aplicado a tag body. O estilo será aplicado em todas as tags que forem a mesma que foi definido o estilo
+   
+   Ex:
+   
+   <head>
+   	<style>
+	      body{
+	   	    background-color: pink;
+		    font-family: Arial, Helvetica, sans-serif;
+		    font-size: 20px;
+		}
+   	</style>
+   </head>
+   
+   Deixa o codigo muito mais organizado, simples e prático
+   
+   o parametro text-align: justify; deixa o paragrafo alinhado com a tela de forma que o texto fique completando a tela, então se
+   aumentar ou diminuir o texto vai aparecer de maneira completa
+   
+   Essa tecnica tem algumas desvantagens: O estilo ocupa muito mais linhas que o conteudo, se tiver muitas paginas e quiser o mesmo
+   estilo vai ter que copiar e colar em todas elas, logo, dificulta modificações temporarias (ex: decoração de natal)
+   
+VIDEO 39 - 
+   
+   Folhas de estilo Externas
+   
+   A maneira mais versatil de adicionar estilo CSS ao HTML
+   
+   Você vai criar um arquivo style.css e nele escrever os estilos (não precisa abrir a tag style, só escrever
+   direto). Para que o index consiga puxar o estilo você vai adicionar, no head, o link:css. A recomendação do nome do arquivo é style.css
+   mas pode ter qualquer nome.
+   
+   No css existem regras que podem ser definidas. Para adicionar uma regra usa-se o "@" + "regra" Ex: @charset "UTF-8";; (deve-se 
+   adicionar na primeira linha
+   
+   No arquivo CSS você escreve apenas os seletores. Quando for alterado os estilos, todos os arquivos que estejam linkados sofreram a
+   alteração
+   
+   Pode se linkar quantos arquivos .css quiser. Ele vai somar e aplicar. Serve para coisas especificas que será feito em algumas paginas
+   
+   **evitar ao maximo o estilo inline**
+   
+   Pode-se usar todos os tipos ao mesmo tempo: inline, local e externo
+   
+=====================================================================================================================================
+   FIM DO MODULO 1 FIM DO MODULO 1 FIM DO MODULO 1 FIM DO MODULO 1 FIM DO MODULO 1 FIM DO MODULO 1 FIM DO MODULO 1 FIM DO MODULO
+=====================================================================================================================================

@@ -1,0 +1,145 @@
+Lição 1 - Criar links internos (na propria pagina)
+   
+   Voce pode criar um link pra qualquer tag. Basta criar um id na tag que o link vai direncionar
+   e na ancora (que vai criar o link interno) colocar no href "#" + O valor do id
+   
+   ex: print => freecode1
+   
+   
+Lição 2 - Link Morto
+   
+   Para criar um link morto basta colocar "#" no valor do href
+   
+Lição 3 - Criando um campo de texto
+   
+   Para criar um campo onde o usuario pode digitar um dado e enviar, usamos a tag input. Ela deve ser seguida por um atributo type com o valor
+   text. Tambem deve ser adicionado o atributo "placeholder" nele ficara escrito algo antes do usuario digitar.
+   
+   ex: print => freecode2
+   
+Lição 4 - Criando um formulario
+   
+   Voce pode criar formularios que enviam dados a um servidore usando HTML puro. Para isso use o atributo "action" na tag de formulario <form>
+   
+   ex: print => freecode3
+   
+   Para criar o botão de submit (enviar) usamos a tag <button> com o atributo "type" com o valor "submit". Ela deve ter fechamento
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   

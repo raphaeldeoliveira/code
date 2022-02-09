@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>    
+    <meta charset="utf-8">
+    <meta name="viewport"content="width-device-width, intial-scale=1.0">
+    <title>Caderno Curso HTML e CSS</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+    <h2 class="centralizar-titulo"><em>Caderno Curso HTML e CSS Curso em Vídeo</em></h2>
+
+    <h3 class="referencias">1. Referencias</h3>
+
+      <h4 class="referencias">1.1 Referencias de sites</h4>
+
+      <ul class="li-de-referencias">
+        <li>Repositorios do Professor - <a href="https://github.com/gustavoguanabara" target="_blank" rel="external">github.com/gustavoguanabara</a></li>
+
+        <li>Repositorios do Professor - <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">gustavoguanabara.github.io</a></li>
+
+        <li>Documentação Oficial do HTML - <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" rel="external">developer.mozilla.org/pt-BR/docs/Web/HTML</a></li>
+
+        <li>Documentação Oficial do CSS - <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank" rel="external">developer.mozilla.org/pt-BR/docs/Web/CSS</a></li>
+
+        <li>Mozila Developer Network - <a href="https://developer.mozilla.org/pt-BR/" target="_blank" rel="external">developer.mozilla.org/pt-BR/</a></li>
+
+        <li>World Wide Web Consortium (referencia oficial) - <a href="https://www.w3c.br?" target="_blank" rel="external">www.w3c.br?</a></li>
+
+        <li>Web Hypertext Application technology working group - <a href="https://whatwg.org/" target="_blank" rel="external">whatwg.org/</a></li>
+
+        <li>W3Schools (Refsnes Data) - <a href="https://w3schools.sinsixx.com/default.htm" target="_blank" rel="external">w3schools.sinsixx.com/default.htm</a></li>
+
+      </ul>
+
+      <h4 class="referencias">1.2 Referencias de Livros</h4>
+
+      <ul class="li-de-referencias">
+        <li>HTML5 - Mark Pilgrim - <span>O'reilly</span></li>
+        <li>CSS - Eric Meyer - <span>O'reilly</span></li>
+        <li>Flexbox in CSS - Eric Meyer - <span>O'reilly</span></li>
+        <li>Grid Layout in CSS - Estelle Weyl - <span>O'reilly</span></li>
+        <br>
+        <li>HTML5 e CSS3 - Elizabeth Castro e Bruce Hyslop - <span>Alta Books</span></li>
+        <li>HTML&CSS - Jon Duckett - <span>Alta Books</span></li>
+        <li>HTML e CSS - Elisabeth Robson e Eric Freeman - <span>Alta Books</span></li>
+        <li>Crie seu prorio site - Nate Cooper e Kim Gee - <span>Novatec</span></li>
+        <br>
+        <li>HTML5 - Mauricio Samy Silva - <span>Novatec</span></li>
+        <li>CSS3 - Mauricio Samy Silva - <span>Novatec</span></li>
+        <li>HTML5 e CSS3 - Mauricio Samy Silva - <span>Novatec</span></li>
+        <li>CSS Grid Layout - Mauricio Samy Silva - <span>Novatec</span></li>
+        <br>
+        <li>Curso De Design Grafico</li>
+        <li>Design</li>
+        <li>A Psicoologia Das Cores</li>
+        <li>Pensar Com Tipos</li>
+      </ul>
+
+      <h2 class="centralizar-titulo">A historia da internet</h2>
+
+        <p>A internet fui criada <mark>durante a guerra fria</mark> para a comunicação entre os centros mililtares americanos</p>
+
+        <p><strong>Protocolo</strong> = forma de trocar dados unico para os computadores se comunicarem (similar a se comunicar em um unico idioma para o entendimento de todos)<br> &#x27A1; É o conjunto de informações , decisões, normas e regras defenidas a partir de um ato oficial</p>
+        <p>Foi criado o <strong>NCP</strong> (<em>Network Control Protocol</em>) = <mark>protocolo de controle de rede</mark> <br> &#x27A1; Esse protocolo funcionava apenas uma conexãso por vez, logo, não dava pra ter muitos pontos transmitindo dados</p>
+
+        <p>Depois foi criato o <strong>TCP</strong> (<em>Transfer Control Protocol</em>). Esse protocolo <mark>resolvia o problema de ser apenas uma conexão por vez</mark>, mas, surgiu um problema de identificação de maquinas, que foi resolvido com a criação do <strong>IP</strong> (<em>internet protocol - protocolo de identificação de maquinas</em>), <mark style="background-color: rgba(255, 0, 221, 0.705);">resolvendo o problema de identificação de maquinas</mark>, a junção foi chamada de <strong>TCP/IP</strong> e é usado ate hoje!</p>
+
+        <p>Eles queriam <mark>juntar varias redes para criar conexões interenacionais</mark>, o nome da internet vem dai: <strong>inter</strong>national|<strong>net</strong>working. A internet cobre o mundo inteiro, ligando todos os continentes da terra, conectados por cabos submarinos. A conexões para o interior acontece por meio de satelites, transmissões por antenas, etc.</p>
+
+        <p>Quando se quer acessar do seu computador outro computador(servidor), o seu computador faz a solicitação do arquivo ao servidor, o servidor quebra o arquivo em varios pacotinhos e manda por rotas/caminhos diferentes e no final, todos os pacotes vao estar no seu computador. O TCP do seu computador vai reunir e reconstituir o arquivo</p>
+
+        <p><em><a href="https://youtu.be/TNQsmPf24go" target="_blank" rel="external">Documentario sobre como a internet funciona</a></em></p>
+
+        <p>A internet, antigamente, não tinha nada grafico, era só o terminal, ele juntava as letras para criar estruturas, desenhos, letras em caixinhas, etc.</p>
+
+          <img src="midias/img1.PNG" alt="como era antigamente" width="600px">
+
+        <p>Depois foi criado o <strong>http</strong> = (<em>hypertext transfer protocol</em>) - <mark>protocolo de transferencia de hipertexto</mark> - [protocolo incluido no TCP/IP] e o <strong>HTML</strong> (<em>Hyper Text Markup Lenguage</em>) - <mark>linguagem de marcação para hipertextos</mark>. E o <strong>WWW</strong> (<em>World Wide Web</em>) - <mark>rede de alcance mundial</mark>, depois foi criado o <strong>navegador</strong> para <mark>navegar na rede</mark></p>
+
+        <p>Com o conjunto dos protocolos: <strong>https://</strong> ; <strong>html</strong> ; <strong>www</strong> e a criação de <strong>navegadores</strong>. A <strong>world wide web</strong> se tornou realidade</p>
+
+        <p>Na internet existem varios servidores com varias funções especilizadas de cada um com seu serviço ou protocolo. Existem os especialistas em transferencia de arquivos, hypertexto simples, receber e mandar emails, HTTP, etc. Essas redes se comunicam entre sí.</p>
+        <!--Parei de estilizar aqui-->
+
+      <h2>Como funciona o computador</h2>
+
+        <p>O computador não é inteligente, é um burro muito rapido. O PC funciona com sinais: "0" e "1", na verdade (não são zeros e ums), são sinais eletricos com sinal (1) e sem sinal (0) - são digitos binarios (bit = <em>binary digit</em>) - (1 bit = 0 ou 1) </p>
+
+        <p>Para representar algum dado é usado, no minimo, 8 bits em sequência: 01000001 = A - 8 bits forma 1 byte = porção minima para representar uma informação.</p>
+
+        <p>UTF-8 = codigo multibyte = usa de 1 a 4 bytes para representar letras simbolos, caracteres acentuados, emojis, etc. O computador entende 0 e 1 mais ou menos assim |_|‾| (onda quadrada/binaria)</p>
+
+        <h3>Representação de dados</h3>
+
+          <p>O computador trabalha com base 2 - 2<sup>10</sup> = 1024, por isso não é 1000 bytes</p>
+          
+          <ul>
+            <li>1024B - Bytes</li>
+            <li>1024B = 1KB - KiloByte</li>
+            <li>1024KB = 1MB - MegaByte</li>
+            <li>1024MB = 1GB - GigaByte</li>
+            <li>1024GB = 1TB - TeraByte</li>
+            <li>1024TB = 1PB - PetaByte</li>
+            <li>1024PB = 1EB - HexaByte</li>
+            <li>1024EB = 1ZB - ZetaByte</li>
+            <li>1024ZB = 1YB - YotaByte</li>
+            <li>E assim por diante...</li>
+          </ul>
+
+        <h3>MegaBytes X Megabits</h3>
+
+          <p>Bytes é represenado com o "B" maiusculo. Normalmente é usado para <strong>ARMAZENAMENTO</strong><br> Enquanto bits o "b" é minusculo. É usado mais para <strong>TRANSMISSÃO</strong></p>
+
+        <h3>Como nos conectamos a internet</h3>
+
+          <p>PC(clinete)&#x27A1;&#x27A1;&#x27A1;modem&#x27A1;&#x27A1;&#x27A1;linha_telefonica&#x27A1;&#x27A1;&#x27A1;internet&#x27A1;&#x27A1;&#x27A1;linha_telefonica&#x27A1;&#x27A1;&#x27A1;modem&#x27A1;&#x27A1;&#x27A1;servidorDNS <br>
+             PC(clinete)&#x2B05;&#x2B05;&#x2B05;modem&#x2B05;&#x2B05;&#x2B05;linha_telefonica&#x2B05;&#x2B05;&#x2B05;internet&#x2B05;&#x2B05;&#x2B05;linha_telefonica&#x2B05;&#x2B05;&#x2B05;modem&#x2B05;&#x2B05;&#x2B05;servidorDNS<br>
+             PC(clinete)&#x27A1;&#x27A1;&#x27A1;modem&#x27A1;&#x27A1;&#x27A1;linha_telefonica&#x27A1;&#x27A1;&#x27A1;internet&#x27A1;&#x27A1;&#x27A1;linha_telefonica&#x27A1;&#x27A1;&#x27A1;modem&#x27A1;&#x27A1;&#x27A1;site-PC(servidor)<br>
+             PC(clinete)&#x2B05;&#x2B05;&#x2B05;modem&#x2B05;&#x2B05;&#x2B05;linha_telefonica&#x2B05;&#x2B05;&#x2B05;internet&#x2B05;&#x2B05;&#x2B05;linha_telefonica&#x2B05;&#x2B05;&#x2B05;modem&#x2B05;&#x2B05;&#x2B05;site-PC(servidor) <strong>*por diversas rotas diferentes*</strong></p>
+
+          <p>O modem transforma a onda senoidal (vinda da rede de telefone) em onda binaria para que os PCs consigam se comunicar
+          <p>O modem serve para fazer <em>modulação</em> e <em>demodulação</em><br><strong>Modulação</strong> = quando os dados chegam <br>> <strong>Demodulação</strong> = quando os dados saem</p>
+
+          <p>Servidor é um computador com alta capacidade de armazenar e transmitir dados, serve para armazenar os dados de um site</p>
+
+          <p>Existe o IP publico e o IP local. O publico é gerado assim que se liga o computador, vai mudando e te identifica na internet</p>
+
+          <p>O servidor DNS (<em>Domain Name System = Sistema de Nome de Dominio</em>) faz a ligação entre a URL e o IP do servidor ex: instagram.com = 157.240.22.174</p>
+
+          <p>A internet é composta por diversas rotas, os caminhos em que os dados são enviados são diversos. O arquivo vai dividido, as vezes, uma das rotas que seria mais rapido esta congestionada e ele muda a rota. São diversas rotas com diferentes partes do arquivo enviadas ao mesmo tempo.</p>
+
+          <p>A URL é a ponte entre o <strong>IP</strong> e o <strong>Nome de Dominio</strong>. O servidor faz a hospedagem do SITE (arquivo HTML e CSS) para que seja acessado por PCs</p>
+
+          <p>Hospedagem = local onde seu site ficara armazenado - espaço para armazenar seus arquivos</p>
+
+          <p>Dominio = nome que identifica seu site (<em>nome unico</em>)</p> 
+          
+          <h3>www.github.com/gustavoguanabara</h3>
+
+          <ul>
+            <li>O endereço inteiro é a <strong>URL</strong> (<em>uniform resource locator</em>) "localizador de recurso unico"</li>
+            <li>github.com = <strong>Dominio</strong></li>
+            <li>github = <strong>Nome do Dominio</strong></li>
+            <li>.com = <strong>TLD</strong> (<em>Top Level Domain</em>)</li>
+            <li>www = <strong>sub-dominio</strong> principal (mas pode ser outra coisa, nome por ex)</li>
+            <li>O que fica depois da barra (/) é o <strong>caminho</strong> - outra pagina do site</li>
+         </ul>
+
+         <h3>O que é HTML e CSS?</h3>
+
+         <p><strong>HTML</strong> = <em>HyperText Markup Language</em> = "linguagem de marcação para hipertexto" <br> &#x27A1; O foco é o <strong>CONTEUDO</strong>
+          (conteudo = textos, imagens, videos, tabelas, etc)</p>
+
+          <p>HTML puro = sem estilo CSS (só o html)</p>
+
+          <p><strong>CSS</strong> = <em>Cascading Style Sheets</em> = "folhas de estilo em cascata" <br>
+             &#x27A1; O foco é o <strong>DESIGN</strong>.</p>
+             &#x27A1; Cascata: uma vai modificando a outra) <br>
+
+          <p>Alem deles tem o <strong>JAVASCRIPT</strong> que cria as interatividades (é uma linguagem de programação) <br>
+            &#x27A1; Serve para criar menus, 
+            animações, popups, vlidações, etc</p>
+          
+          <p>A união dos 3 forma um site completo com <strong>conteudo</strong>, <strong>design</strong> e <strong>interatividades</strong></p>   
+
+        <h3>HTML na prática</h3>
+
+        <p>&#x27A1; no HTML usamos "tags" para criar conteudo (as tags ficam entre colchete angulares)</p>
+
+        <p>
+          ex: &lt;h1&gt; Exemplo de titulo &lt;h1&gt;<br>
+          &#x27A1; "&lt;" é a abertura da tag <br>
+          &#x27A1;Exemplo de titulo é o conteudo <br>
+          &#x27A1; "&gt;" é o fechamento da tag
+        </p>
+
+        <img src="midias/img2.PNG"alt="Foto de exemplo">
+   
+        <ul>
+          <li>A tag img não tem fechamento, assim como algumas outras tags</li>
+          <li>src e alt = <strong>parametros</strong></li>
+          <li>foto.png e Exemplo de foto = <strong>valor</strong></li>
+          <li>alt = texto alternativo - se nao mostrar a imagem, aparece esse texto</li>
+          <li>Toda tag pode ter parametros e valores</li>
+        </ul>
+
+        <h3>Estilo em CSS</h3>
+          <ul>
+            <li>Geralmente está dentro de uma tag &lt;style&gt; (no head)</li>
+            <li>Usa seletores</li>
+            <li>Toda declaração tem que ter ponto e virgula no final</li>
+          </ul>
+        <h4>Informações adicionais</h4>
+        <ul>   
+          <li><strong>Identação</strong> = posição que marca a hierarquia do codigo, serve para mostrar <strong>o que esta dentro do que</strong></li>
+          <li><strong>Head</strong> = area de configurações</li>
+          <li><strong>Body</strong> = area onde fica o conteudo em sí</li></ul>
+
+          <h3>Estrutura básica de um documento HTML</h3>
+
+          <img src="midias/img3.PNG" alt="Estrutura basica do HTML">
+
+          <p>Um site <strong>estrativo</strong> é um site criado apenas com HTML, CSS e JavaScript puro.</p>
+
+          <h3>Front-End e Back-End</h3>
+
+          <p><strong>HTML, CSS e JS</strong> são tecnologias <strong>client-side</strong> - que carregam/funcionam do <strong>lado do cliente</strong> (no PC-cliente) <br>
+          &#x27A1; Front-end = desenvolve tecnologias do lado do cliente. O desenvolvedor front-end deve saber o basico de imagens, cores, tipografia, photoshop, gimp. <br>
+          &#x27A1; Gera a parte visual e interativa do site - se preocupa com a <strong>experiencia do usuario</strong> que esta visitando o site</p>
+
+          <p><strong>Php, JS Node, C#, Python, Java e Ruby</strong> são tecnologias <strong>server-side</strong> - que carregam/funcionam do <strong>lado do servidor</strong> <br>
+          &#x27A1; Back-end = desenvolve tecnologias do <strong>lado do server</strong>. <br> &#x27A1; Gera a interação com o servidor <br> &#x27A1; Uma loja virtual (por exemplo) precisa que seja visto o estoque, quais tamanhos e cores estão disponiveis, promoções, etc. Essas tecnologias servem para isso.</p> 
+
+          <h4>Desenvolvedor Full-stack = Back-end + Front-end</h4>
+
+          <img src="midias/img4.PNG" alt="Como uma tag funciona">
+
+          <p>"&lt;" & "&gt;" = tag | html = valor da tag (qual tag) | lang = parametro | ="pt-br" = valor do parametro</p>
+
+          <p>as tags que são aplicadas a algo especifico precisam da tag de fechamento, tags que são usadas para todo o arquivo só tem abertura, não precisa fechar</p>
+
+          <p>dentro do html existe a area <strong>body</strong>(<em>conteudo do site</em>) e a area <strong>head</strong>(<em>configurações do site</em>)</p>
+
+          <p>Se escrever a tag (<em>sem &lt;</em>) e der enter, ele escreve a tag completa (<em>inclusive com parametros</em>) ou se escrever um lado (&lt;tag&gt;) já fecha automaticamente</p>
+          
+          <p>Tag de cabeçalho = &lt;h<sup>n</sup>&gt; onde <sup>n</sup> é o <strong>tamanho</strong>, de forma decrescente: 1>2>3>4>5>6 </p>
+
+          <p>Tag para parágrafo = &lt;p&gt; </p>
+
+          <p>Tag para quebrar linha = &lt;hr&gt; (<em>pula uma linha</em>), é cumulativo, mas, em um codigo profisional, não deve ser usado de forma acumulada.</p>
+
+        <h3>Parágrafos e quebras de linhas</h3>
+
+          <p>O HTML não contabiliza mais de um <em>espaço</em> ou <em>enter</em>. Ele funciona com marcações, se você precisa de mais de um <em>espaço</em> ou <em>enter</em> usa-se uma tag para isso.</p>
+
+          <p>Para escrever por extenso "&lt;" e "&gt;" usa-se "&" + "lt" + ";" para "&lt;" e  "&" + "gt" + ";"" para "&gt;" assim, é possivel escrever por extenso "&lt;" e "&gt;"</p>
+
+          <p>Para comentar escreva "&lt;!" + "--" para abrir o comentario, e "&lt;!" + "--" para fechar o comentario.</p>
+
+        <h3>Caracteres Especiais</h3>
+
+          <p>Todo cractere especial começa com "&" e termina em ";". <br>
+          Ex: &euro + ; = &euro; | &#X2709 + ; = &#X2709; | </p>
+
+          <p>Um dos principais caracteres especiais é o de espaço em branco. Para escreve-lo usa-se &nbsp + ;.</p>
+
+          <p>Para encontrar o codigo do emoji, basta acessar a <a href="https://emojipedia.com" target="_blank" rel="external">emojipedia.com</a> <br> &#x27A1;Deve-se copiar o que esta depois do "+" e colar depois do prefixo "&#x" e fechar com o ";" no final.</p>
+
+          <p>A maioria dos emojis não aparecem em sistemas 32 bits, principalmente os emojis mais novos, somente em 64 bits.</p>
+
+          <h3>Direitos Autorais</h3>
+          <p>Cuidado com direitos autorais na hora de adicionar imagens aos - para ver se tem direitos autorais, no google imagens, vai em ferramentas, direito de uso e selecione o tipo</p>
+          <img src="midias/img5.PNG" alt="Como filtrar">
+          <p>As licenças creative communs são de uso livre.</p>
+          <p>Alguns sites para pegar imagens sem direitos autorais: <br>
+            &#x27A1;unsplash.com <br>
+            &#x27A1;pexels.com</p>
+
+          <h3>JPG X PNG</h3>
+
+          <p>Para imagens usamos ".jpg" ou ".png". O JPG é um metodo de compreensão (<em>compactação</em>) de imagens. A internet não pode ter arquivos pesados, por isso o jpg é recomendado. O PNG tambem é compactado (<em>nao tanto quanto o JPG</em>) e <strong>tem transparencia</strong> (<em>fundo transparente</em>)</p>
+
+          <p>No google imagens podemos filtrar por transparencia, tamanho, etc.</p>
+          <p>O JPG distorce muito mais que o PNG quando aproxima pois está mais compactado (<em>menor</em>)</p>
+          <p>Para um site a largura maxima deve ser de 1500px. Com imagens muito pesadas o site vai demorar muito a carregar, ficando inviavel de acessar rapidamente.</p>
+          <p>A resolução da imagem tambem é algo que vai interferir muito no carregamento do site. Uma resolução entre 50 e 72 ja é suficiente. E uma largura recomendada é 600-650px</p>
+          <p>Redimensionando tem-se um aproveitamento muito melhor do site. Uma imagem de 3000px tem 1836KB, com as resoluções recomendadas para um site ela reduz para 650px com 122KB ou 1200px com 344KB (<em>muito menor</em>)</p>
+          <p>O CSS serve para modificar o tamanho que a imagem vai aparecer no site, mas a imagem em si continua com o mesmo tamanho quando é exportada para o servidor. Logo, é melhor dimensionar e exportar do tamanho proximo ao que sera usado</p>
+
+          <h3>Favicon</h3>
+
+          <p>É o <strong>icone</strong> que fica na aba junto ao title. Para adiciona-lo, ho head, em cima do title, vai criar a tag <strong>link:favicon</strong> e no href vai adicionar o nome do arquivo (<em>lembrando que ele deve estar em formato .ico</em>)</p>
+
+          <h3>Hierarquia de titulos</h3>
+
+          <img src="midias/img6.jpg" alt="exemplo">
+
+          <p>Os h<sup>n</sup> servem para hierarquizar os titulos e subtitulos do mais alto h1 ao mais baixo h6.</p>
+
+          <p>Para cria um texto aleatorio, basta escrever "lorem" e da enter para aparecer um texto avulso, sem nexo. Serve para testar algo.</p>
+
+          <p>O "h<sup>n</sup>" vai ate o h6. Para semantica HTML fazer sentido ela deve respeitar os niveis de hierarquização e conter paragrafos com conteudo dentro de cada nivel</p>
+
+          <h3>Semantica (<em>Significado</em>) HTML</h3>
+
+          <p>No HTML, tags semanticas são as que fazem sentido <br>
+            &#x27A1; Algumas tag entraram em desuso por não fazerem muito sentido, pois fugiam da tematica conteudo, foram substituidas</p>
+
+          <p>Existem tags ou paprametros que ficaram obsoletas ao longo do tempo. O VSCode acusa que esta obsoleta deixando em vermelho, pois nao pode mais utilizar, apesar de funcionar. site para ver as tags obsoletas: <a href="https://dev.w3.org/html5/pf-summary/obsolete.html" target="_blank" ref="external" >https://dev.w3.org/html5/pf-summary/obsolete.html</a>. Sempre esteja atualizado para saber as atualizações</p>
+
+          <p>Agora tudo que se refere a <strong>forma (estilo)</strong> ex: posição, cor, etc. <strong>Usa-se CSS</strong>. As tags que deixam fazer isso no prorprio HTML não são mais utilizadas, no HTML, hoje, usa-se só para conteudo</p>
+
+          <h3>Marcação de texto</h3>
+
+          <p>Para fazer marcações (como com um marcador-de-texto) usa-se a tag &lt;mark&gt;. Ela deixará todo o texto marcado.</p>
+
+          <p>É possivel mudar a cor de marcação. Por padrão a cor é amarela, mas adicionando o parametro style com o valor background-color: <em>NomeDaCor</em> da pra mudar para qualquer cor. No VSCode, com o mouse em cima do quadrado colorido da pra escolher mais especificamente a cor.</p>
+
+          <p>Se cada tag precisar de uma configuração de estilo especifica, o melhor seria adicionar um parametro para cada uma com seus diferentes estilos. Mas no caso de todas usarem o mesmo estilo, o melhor é criar uma tag style (no head) e adicionar uma cor direto a tag, assim, só de adicionar a tag, a cor ja estará em vigor (o parametro ja esta configurado)</p>
+
+          <p>A tag &lt;big&gt; <mark style="background-color: rgb(209, 58, 58);">ficou obsoleta</mark>, no entanto, a tag &lt;small&gt; <mark style="background-color: rgb(102, 218, 121);">não ficou</mark>. Logo, ainda da pra usar a tag &lt;small&gt; para escrever em letras pequenas. Ex: Isso está normal!!! | <small>Isso está pequeno!!!</small></p>
+
+          <ul>
+            <li>A tag &lt;del&gt; será o texto com um risco em cima. EX: <del>Isso esta com a tag del!!!</del></li>
+            <li>A tag &lt;ins&gt; será o texto sublinhado. EX: <ins>Isso esta com a tag ins!!!</ins></li>
+            <li>A tag &lt;sup&gt; será o texto ficar acima. Ex: 2<sup><mark style="background-color: darkkhaki;">10</mark></sup></li>
+            <li>A tag &lt;sub&gt; será o texto ficar abaixo. Ex: H<sub><mark style="background-color: darkkhaki;">2</mark></sub>O</li>
+            <li>A tag &lt;code&gt; serve para deixar a fonte mono-espaçada, ficando mais facil de ler (<em>não faz identação</em>) Ex: <code>Aqui está se aplicando a tag code!!!</code> </li>
+            <li>A tag  &lt;pre&gt; serve para que apareça como HTML exatamente como foi escrito(Espaços e quebras de linhas). <br>
+            Ex: 
+            <pre>
+              &lt;!DOCTYPE html&gt;
+              &lt;html lang="pt-br"&gt;
+              &lt;head&gt;
+                  &lt;meta charset="UTF-8"&gt;
+                  &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                  &lt;title&gt;Document&lt;/title&gt;
+              &lt;/head&gt;
+            </pre>
+          </li>
+          <li>A tag &lt;q&gt; serve para fazer uma citação simples - vai ficar entre aspas. Ex: <q>blablabla</q>
+          </li>
+          <li>A tag &lt;blockquote&gt; serve para fazer uma citação que ficara com um espaçamento (tipo um TAB). Nessa tag é possivel adicionar o parametro cite="" e adicionar o link da referencia, (não aparecerá o link mas, no mecanismo de busca do google ele ficará referenciado) <br> Ex: <blockquote cite="https://google.com">Exemplo de citação com cite do google</blockquote></li>
+          <li>A tag &lt;abbr&gt; serve para fazer abreviações (vai aparecer um pequeno popup com o que aquela sigla significa) <br>
+          Ex: <abbr title="Hyper Text Markup Languagee">HTML</abbr></li>
+          </ul>
+
+        <h2>Listas</h2>
+
+        <h3>Lista Ordenada</h3>
+
+        <p>Para criar uma <mark style="background-color: aqua;">lista ordenada</mark> cria-se a tag <mark style="background-color: aqua;">&lt;ol&gt; </mark>(ordenade list) e dentro dela cria as <mark style="background-color: crimson;">&lt;li&gt;</mark> que são os <mark style="background-color: crimson;">itens da lista</mark>. Uma lista ordenada numera os itens Pode-se adicionar o parametro type para definir o tipo: numerico (1,2,3) romano (I,II,III) romano min (i,ii,iii) letra (A,B,C) e letra min (a,b,c) <br> Ex: 
+        <ol><strong>Exemplo de lista</strong>
+          <li>Primeiro</li>
+          <li>Segundo</li>
+          <li>Terceiro</li>
+        </ol>
+      </p>
+        
+      <p>Para que uma lista comece por um valor especifico usa-se o parametro start="" . O valor do start só pode ser numerico, mesmo que a lista esteja outro tipo, deve-se colocar o equivalente de modo numerico. Ex: V = 5</p>
+
+       <h3>Lista Não Ordenada</h3>
+
+      <p>A tag para <mark style="background-color: rgb(136, 224, 136);">lista não ordenada</mark> é &lt;ul&gt;. Também usa os <mark style="background-color: rgb(136, 224, 136);">&lt;li&gt;</mark> para listar. Vai listar tudo com pontos. Da pra colocar um type para personalizar o tipo de ponto que aparece, os tipos são: disc (bolinha [padrão]) , square (quadrado) <br>
+      Ex: <ul><strong>Exemplo de lista</strong>
+        <li>Primeiro</li>
+        <li>Segundo</li>
+        <li>Terceiro</li>
+      </ul></p>
+
+      <p>Da pra criar uma lista dentro de um item de uma lista. <br>
+      Ex: <ol>
+        <li>Jogos PS1<ul>
+          <li>Power Ranger</li>
+          <li>Jackie Chan</li>
+          <li>Goin Quackers</li>
+        </ul></li>
+
+        <li>Jogos PS2<ul>
+          <li>Simpsons Hit and Run</li>
+          <li>Prince of Perce</li>
+          <li>God of War II</li>
+        </ul></li>
+
+        <li>Jogos PS3<ul>
+          <li>GTA V</li>
+          <li>Fifa 18</li>
+          <li>God of War III</li>
+        </ul></li>
+      </ol></p>
+
+      <h3>Lista de Definição</h3>
+
+      <p>Tem também a <mark style="background-color: darkorange">Lista de Definição &lt;dl&gt;</mark> dentro dela tem o <mark style="background-color: rgb(192, 123, 226);">&lt;dt&gt;</mark> que serve como <mark style="background-color: rgb(192, 123, 226);">Termo</mark> e o <mark style="background-color: rgb(214, 90, 156);">&lt;dd&gt;</mark> que serve como <mark style="background-color: rgb(214, 90, 156);">Descrição</mark> o uso de dt e dd ajuda no SEO do google <br>
+      Ex:
+      <dl>
+        <dt>Item 1</dt>
+        <dd>Descrição do item 1</dd>
+
+        <dt>Item 2</dt>
+        <dd>Descrição do item 2</dd>
+
+        <dt>item 3</dt>
+        <dd>Descrição do item 3</dd>
+      </dl></p>
+
+      <p>Para que seu site apareça na busca do google é preciso estudar sobre CEO (search engine optimization) = "<em>sistema de busca otimizado</em>"</p>
+
+      <p>Para <mark style="background-color: gold;">criar links</mark> usa-se a tag <mark style="background-color: gold;">&lt;a&gt;</mark>. Ela abre um atributo href="" . Dentro das aspas é adicionado a URL (para links externos) ou o nome da outra pagina do site (link interno). Pode-se adicionar o atributo <mark style="background-color: rgb(144, 133, 202)
+      ;">target com o valor _blank</mark> para que o <mark style="background-color: rgb(144, 133, 202)
+      ;">link abra em uma nova aba</mark> e, para melhorar o SEO, adicione o parametro <mark style="background-color: rgb(202, 80, 76);">rel</mark> com o valor <mark style="background-color: rgb(202, 80, 76);">external</mark>.</p>
+
+      <h3>Links Internos</h3>
+
+      <p><strong>Links Internos</strong> - faz o <strong>direcionamento a outra pagina</strong> que esta no mesmo servidor do site. Para criar uma nova pagina deve-se criar um novo arquivo
+        
+      <p>Para criar um link interno basta apertar (dentro da referencia [""]) <mark style="background-color: rgb(218, 218, 31);">ctrl + espaço</mark> para abrir as <mark style="background-color: rgb(218, 218, 31);"> opções de links internos</mark> (se tiver pasta vai aparecer também). <br><br> Para um arquivo que esta dentro de uma pasta deve-se referencias a origem do arquivo anteriormente a ele. <br> Ex: pasta/arquivo.html. <br><br> Já de uma pagina dentro de pasta para uma pagina fora da pasta deve-se referenciar pra ele voltar (como em um terminal) <br>Ex: ../arquivo.html (o ../ serve para retornar)</p>
+
+      <p>Para ir para <mark style="background-color: darkcyan;">primeira pagina</mark> deve-se adicionar o <mark style="background-color: darkcyan;">parametro rel="prev"</mark> e <mark style="background-color: greenyellow;">na segunda rel="next"</mark> (não existe rel internal) <br>
+      &#x27A1; Serve para melhorar o SEO do google. <br> Também existe um rel="nofollow" para sites que não se tem total confiança (significa que você não da um aval). Existe um target para a propria pagina _self.</p>
+
+      <p><strong>Para criar links de download</strong> usa-se a tag de ancora com o caminho para o arquivo que será baixado. <mark style="background-color: rgb(155, 91, 123);">Para que seja baixado usa-se o parametro <strong>type</strong></mark>. <br> O valor do parametro vai depender do tipo de arquivo que será baixado. Para pdf por exemplo é application/pdf . Para adescobrir esse valor basta acessar o site: <br> <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="external">https://www.iana.org/assignments/media-types/media-types.xhtml</a></p>
+
+        <h3>Imagens Responsivas</h3>
+
+        <p><strong>Conceito de responsividade:</strong> Atitudes compreensivas que visam favorecer a autonomia <br>
+        <strong>Design Responsivo:</strong> Fazer com que uma página possa ser acessada independente da sua resolução de tela.</p>
+
+        <p>A tag <mark style="background-color: aqua;">&lt;picture&gt;</mark> serve para <mark style="background-color: aqua;">adicionar imagens de forma responsiva,</mark> através de <strong>sources</strong> que disponibilizam varios  de imagens para diferentes tamanhos de tela e navegadores. Dentro dela deve ser escrita a tag &lt;source&gt; e &lt;img&gt;</p>
+
+        <p>Ex: <br> <a href="outras-paginas-do-index/imagem-responsiva.html" target="_blank" rel="next">Pagina com imagem responsiva</a></p>
+
+        <p>Conforme o navegador vai diminuindo o tamanho da tela (lateralmente) vai substituindo a imagem que aparece.</p>
+
+        <p>O codigo <em>da página responsiva</em> fica assim: <br> <br>
+        <code>
+          &lt;picture&gt; <br>
+          &lt;source media="(max-width: 300px)"" <br> srcset="imagensindexprincipal/imagemp-300.png" type="image/png"&gt; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nível 1 <br>
+          &lt;source media="(max-width: 700px)" <br> srcset="imagensindexprincipal/imagemm-700.png" type="image/png"&gt; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nível 2 <br>
+          &lt;img src="imagensindexprincipal/imagemg-1000.png" alt=""&gt; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nível 3 <br>
+          &lt;/picture&gt;
+        </code>
+        </p>
+
+        <p>O uso do source deve respeitar a <strong>hierarquia do menor</strong>. O que tiver tamanho menor <em>(no max-width)</em> deve ficar a cima do que tem tamanho maior. Para não ter problema com a barra de rolagem atrapalhando, sempre aumente em 50px o max-width, assim ela não aparecerá</p>
+
+        <h3>O que é o source em sí?</h3>
+
+        <p>Source é usado para <mark style="background-color: rgb(197, 142, 90);">especificar multiplos recursos de mídias</mark>. Usado nas tags: &lt;picture&gt; , &lt;audio&gt; e &lt;video&gt; . É usado para disponibilizar multiplos formatos suportados por diferentes navegadores. <strong>Funciona como uma pilha</strong>, se a primeira opção não for compativel vai para segunda, se a segunda nao for vai para terceira, por isso é importante a <strong>hierarquização</strong> (<em>tag source não tem fechamento</em>)</p>
+
+        <p>Os parametros usados são:
+          <ul>
+            <li><strong>src</strong> ou <strong>srcset</strong> - Define o endereço do arquivo de mídia <br> Ex: srcset="imagem.png"</li> <br>
+            <li><strong>media</strong> - Define o tipo de mídia <br> Ex: media="(max-width: 500px)"</li> <br>
+            <li><strong>type</strong> - Define o tipo do arquivo <br> Ex: type="imagem/png"</li>
+          </ul>
+        </p>
+
+        <p>Qual a diferença entre src e srcset? - O srcset é usado <strong>apenas em source</strong>, enquanto o src é usado para <strong>todo o resto</strong>.</p>
+
+        <h3>Adicionando Audios e Videos</h3>
+
+        <p>Alguns navegadores não tem compatibilidade com alguns tipos de audios, logo, será preciso usar alguns sources com varios formatos para conseguir rodar na maioria dos navegadores</p>
+
+        <p>Depois de criar todos os sources deve-se adicionar um <strong>paragrafo para informar que seu navegador não é compativel com os formatos de audio</strong>. Depois de tentar carregar todos os sources ele exibirá a mensagem de "Seu navegador não é compativel com esse arquivo." Qualidade top é para arquivos de download. <strong>Arquivos de navegação devem ser de fácil acesso</strong> (<em>leves e rapidos</em>)</p>
+
+        <p>Na tag <mark style="background-color: yellow;">&lt;audio&gt;</mark> pode-se adicionar o parametro <mark style="background-color: chartreuse;">preload</mark>. Ele tem 3 valores: <mark style="background-color: chartreuse;">none</mark> (sem preload) <mark style="background-color: chartreuse;">auto</mark>(o site só vai parar de carregar com o arquivo inteiro) e <mark style="background-color: chartreuse;">metadata</mark> (vai carregar só o nome do arquivo e quando der play vai começar a puxar o audio). Também tem o <mark style="background-color: palevioletred;">control</mark> para <mark style="background-color: palevioletred;">mostrar os controles</mark> (menu pequeno pra dar play). Também tem <mark style="background-color: rgb(185, 145, 71)">loop</mark> para o <mark style="background-color: rgb(185, 145, 71)">audio ficar repetindo</mark> e o <mark style="background-color: rgb(214, 59, 59);">autoplay</mark> para que já <mark style="background-color: rgb(214, 59, 59);">toque o audio assim que carregar a pagina</mark></p>
+        
+        <p>Para vídeos é a mesma coisa, só vai mudar o type que deve ficar com video/mp4 (<em>por exemplo</em>). <strong>Tome cuidado com direitos autorais para qualquer tipo de midia.</strong></p>
+
+        <p>Para adicionar video usamos a tag <mark style="background-color: yellow;">&lt;video&gt;</mark>. Nela pode-se adicionar o parametro <mark style="background-color: tomato;">width</mark> para <mark style="background-color: tomato;">escolher o tamanho da janela</mark>. O <mark style="background-color: violet;">controls</mark> para ter um <mark style="background-color: violet;">menu interativo</mark> para dar play. Também podemos adicionar o parametro <mark style="background-color:lightblue">poster</mark> para escolher uma imagem pra ficar como <mark style="background-color:lightblue">thumbnail</mark></p>
+
+        <p>Videos <strong>hospedados no proprio site</strong> vão consumir muito trafego de dados. Se o video tem 10MB e é acessado por 1024 pessoas o trafego de dados vai se de 10GB e <strong>esse trafego encarece o custo</strong> para o dono do site (cliente).</p>
+
+        <p>A melhor forma de <strong>baratear</strong> é usar o <strong>youtube como hospedeiro</strong> e depois puxar para o site. Para isso basta clicar em compartilhar, depois incorporar. Com isso ele vai montar um codigo HTML pronto (da pra mexer nos parametros do codigo no proprio youtube na hora de incorporar). O <strong>problema</strong> do youtube é que vai recomendar outros videos além do que está aparecendo, podendo aparecer um video de um concorrente. <br> Existem outras plataformas para hospedar videos pagas e gratuitas. Um exemplo é o vimeo (pago). Ele vai mostrar somente o video que voce escolheu sem recomendar outros.</p>
+
+        <h2>CSS - Cascadiang Style Sheets (Folhas de Estilo Cascata)</h2>
+
+        <h3>Estilo Inline</h3>
+
+        <p><strong>Estilo Inline</strong> significa que o parametro style <strong>é criado na propria tag</strong> e dentro dela <mark>sub-parametros para modificar o estilo</mark>. (<em>tag por tag</em>) <br> &#x27A1; O CSS não tem significado nenhum, é só estilo, é só perfumaria. </p>
+
+        <ul>
+          <li>Para deixar o <mark style="background-color: orange;">fundo colorido</mark> usa-se <mark style="background-color: orange;">background-color:cor</mark> <br> Ex: &lt;h1 style="background-color:blue;"&gt;</li> <br>
+
+          <li>Para deixar a <mark style="background-color: peru;">cor de um texto colorida</mark> usa-se o <mark style="background-color: peru;">color:cor</mark> <br> Ex: &lt;h1 style="color:blue;"&gt;</li> <br>
+
+          <li>Para mudar a <mark style="background-color: plum;">fonte</mark> usa-se o <mark style="background-color: plum;">font-family:arial</mark> <br> Ex: &lt;h1 style="font-family:arial;"&gt;</li>
+        </ul>
+
+        <p>O Inline polui o HTML quando usado muitas vezes. No dia a dia é usado pontualmente para coisas especificas. (<em>Inline = na mesma linha</em>) <br> &#x27A1; O conteudo fica misturado com o estilo e isso não é bom</p>
+
+        <p>É possivel colocar no body um sub-parametro font-size para <strong>definir uma altura padrão</strong> e usar (nos font-sizes das tags de texto) o "em" que é uma <strong>medida em relação</strong> ao px definido. <br> &#x27A1;Ex: Se o font-size for 20px: 1em = 20px / 2em = 40px / 0,5em = 10px</p>
+
+        <h3>Estilo Local / Interno</h3>
+
+        <p><strong>Estilo Local</strong> significa que o estilo é <strong>definido no head</strong> e executado no body. Abra a tag style no head (<em>tudo que for escrito ali vai ser considerado CSS</em>). Esse estilo é baseado em <strong>SELETORES "{}"</strong>. Esses <mark>seletores aplicam os estilos as tags</mark>. Para fazer isso, dentro do style você escreve a tag que quer estilizar e abre conlchetes "{}" Tudo que for escrito vai ser aplicado a tag. Serve para aplicar em muitas tags sem precisar escrever uma por uma. <br> <br> Ex: 
+        <pre>
+          <code>&lt;head&gt;
+            &lt;style&gt;
+               body{
+                  background-color: pink;
+               font-family: Arial, Helvetica, sans-serif;
+               font-size: 20px;
+           }
+            &lt;/style&gt;
+          &lt;/head&gt;</code>
+        </pre></p>
+
+        <p>A vantagem é que deixa o codigo muito mais organizado, simples e prático. <br> As desvantagens são que o estilo ocupa muito mais linhas que o conteudo e se tiver muitas paginas e quiser o mesmo estilo vai ter que copiar e colar em todas elas. (dificultando modificações temporarias)</p>
+
+        <ul>
+          <li>O parametro <mark style="background-color: rgba(119, 42, 173, 0.616);">text-align: justify;</mark> deixa o paragrafo <strong>alinhado com a tela</strong> de forma que o texto fique <strong>completando a tela</strong> (se aumentar ou diminuir o texto vai aparecer de maneira completa na tela). Melhor usar no body para que o todo o conteudo fique alinhado</li>
+        </ul>
+
+        <h3>Estilo Externo</h3>
+
+        <p><strong>Estilo Externo</strong> é a maneira mais versatil de adicionar estilo CSS ao HTML. O estilo é adicionado por meio de uma página externa.</p>
+
+        <p>Você vai criar um arquivo <mark>style.css</mark> e nele escrever os estilos (<em>não precisa abrir a tag style, só escrever a tag abrir {} e escrever os estilos</em>). Para que o index consiga puxar o estilo basta, no head, adicionar o link:css. A recomendação do nome do arquivo é style.css mas pode ter qualquer nome.</p>
+
+        <p>No css existem regras que podem ser definidas. Para adicionar uma regra usa-se o "@" + "regra" Ex: @charset "UTF-8"; para definir  (deve-se adicionar sem precedentes)</p>
+
+        <p>Quando for alterado os estilos, todos os arquivos que estejam linkados sofreram a alteração. Pode-se linkar quantos arquivos ".css" quiser. Ele vai somar e aplicar. (serve para coisas especificas que será feito em algumas paginas)</p>
+
+        <p style="color: #00ff0088; background-color: black;">Evite ao maximo o estilo inline. Pode-se usar todos os tipos ao mesmo tempo: inline, local e externo</p>
+      </main>
+  </body>
+</html>

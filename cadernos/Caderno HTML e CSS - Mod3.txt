@@ -1,0 +1,428 @@
+VIDEO 1 - 
+   
+   Video introdutorio que fala o que vamos aprender
+   
+VIDEO 2 - Git e Github
+   
+   Versionamento de software - aqui não sera ensinado tudo sobre versionamento. Somente para o uso do curso - umas das funções principais
+   (superficialmente) - (O curso em video tem um curso completo de GitHub)
+   
+   O gerenciador de versão serve para guardar todas as versões de arquivos que foram modificados. Vamos utilizar gerenciador de versão git.
+   Ele vai manter versões do seu codigo no seu computador.
+   
+   No entanto se o hardware der algum problema você perde todos os seus arquivos versionados. Ou se você quer mostrar seu site para alguem
+   precisará hospedar em nuvem o versionamento, no caso o GitHub.
+   O git vai fazer o versionamento no seu computador, enquanto o GitHub vai hospedar o versionamento na nuvem.
+   
+   O repositorio é um local onde se guarda coisas. É o local onde ficará o versionamento feito pelo git.
+   Enquanto o repositorio remoto é o GitHub. O gitHub é como se fosse um backup do seu repositorio
+   
+   O GitHub permite trabalhar em equipe, cada um atualiza o seu repositorio local e quando quiser manda para o repositorio remoto.
+   Quando se manda do repositorio local para o remoto, se está fazendo um PUSH
+   
+   ***print***
+   
+VIDEO 3 - 
+   
+   baixe o git, depois baixe o github.desktop (vincule ao VSCode padrão). Reinicie apos a instalação
+   => só instala em sistemas 64bits.
+   
+VIDEO 4 - 
+   
+   selecione uma foto e um email e um username. Nomeie seus repositorios sem palavras sem sentido. Você usará ele futuramente para conseguir um
+   emprego e o empregador vai querer dar uma olhada no seu github
+   
+   Bote uma senha longa e segura, que não são faceis de lembrar mas vão proteger
+   
+   Crie a conta, verifique o email, vai em settings, adicione uma foto sua, os dados, etc.
+   
+   O link do seu perfil vai ser github.com/SeuUsuario
+   
+   No github desktop entre com o seu username e senha
+   
+VIDEO 5 - 
+   
+   *da pra deixar o github desktop escuro
+   
+   Crie uma pasta (repositorio) para servir ao git. Dai clica, no github desktop, "creat a new repository on hard drive"
+   o name tem que ser exatamente o nome da pasta. o "local patch" é onde voce vai querer criar o seu repositorio (onde esta a pasta)
+   inicializa com o readme. A licença é o MIT
+   
+   Quando voce clicar em criar repositorio ele vai analisar todos os arquivos buscando as modifcações. Ele vai criar um license, .gitatributes,
+   o readme e uma pasta oculta chamada .git (nunca mexa nessa pasta, é nela que é feito o versionamento) o .git mantem copias do seus projetos
+   
+   O github desktop vai recomendar publicar o versionamento no github. Nesse momento voce pode escolher se quer que o repositorio fique publico
+   ou privado (só voce ver). Voce só consegue mostrar para outras pessoas deixando publico. A partir disso todos os arquivos estarao no github.
+   Teste olhando se ele está no repositorio, agora basta deixar atualizado fazendo commits
+   
+VIDEO 6 - 
+   
+   Quando foir deita uma alteração, o VSCode vai ficar com 1 em baixo da lupa (isso significa que ha uma alteração), tambem  aparece um "M" ao
+   lado do nome do arquivo que quer dizer "modificado"
+   
+   Se voltar no github desktop ele vai perceber e mostrar a alteração. Para que o repositorio do git seja atualizado com a alateração é preciso
+   dar "commit". Para isso, no github desktop, no canto inferior esquerdo, dê um titulo e clique em "commit to master". Com isso o repositorio
+   local estara atualizado. 
+   
+   o commit faz a atualização do repositorio local
+   
+   Para mandar a atualização para o github, no github desktop clique em push "origin", basta entrar no github e ver a atualização
+   
+   Se voce quiser criar um repositorio de git novo, vai em file, new repository e prencher.
+   
+   No canto superior esquerdo ele fala qual repositorio esta ativo no momento. "current repository"
+   
+   Se voce quiser excluir um repositorio, nunca delete a pasta, vai no repositorio corrente que voce quer apagar, va em "repository" e "remove"
+   dessa forma voce excluiu o repositorio local, o do github ainda estará la.
+   Para deletar do github vai em settings, "delete this repository" (não é reversivel)
+   
+VIDEO 7 - 
+   
+   Como botar seu site no ar com o GitHub Pages
+   
+   acessa o repositorio, (só funciona se o repositorio for publico)
+   vai em settings, em github pages, clique em "chose a theme", escolha o minimal e em "select theme", quando voltar, vai ter um link. Ele é
+   composto pelo seu NomeDeUsuario.github.io . Ele vai abrir o arquivo readme, na primeira vez pode levar uns 3 minutos pra abrir. Para acessar
+   as paginas do projeto coloca uma "/" e o nome da pasta de destino, depois uma "/" e o nome do arquivo.
+   
+   Depois do "io" voce coloca uma barra e se refere ao caminho desde o repositorio principal ate o arquivo especifico
+   O padrão (NomeDeUsuario.github.io) abr o README
+   
+   ***TESTAR*** => quando o arquivo é index.html não precisa referenciar na URL, só colocar a pasta que ele esta
+   
+   O README aceita links. Então voce pode criar, na sua pagina principal (README) os links para as paginas especificas que estão dentro do seu
+   repositorio (basta escrever a tag "a" como no HTML)
+   
+   Pra postar seu site, basta criar um repositorio com os arquivos do site e dar PUSH (tem que deixar publico)
+   
+   Quando voce da commit em um repositorio que nao existe ele vai criar o repositorio. O arquivo HTML deve ter o nome index.html
+   
+   quando o site estiver PUSHADO vai no github, entra no repositorio, settings, vai em github pages e em source coloca master branch. Depois
+   disso la no github pages vai estar o link do site hospedado. Agora voce pode mandar o link do site pra quem voce quiser.
+   
+   No site qr-code-generator.com é possivel a partir do link do site gerar um QR CODE
+   
+   O github pages só serve para HTML, CSS e JavaScript (da propria pagina) não tem compatibilidade com banco de dados por exemplo
+   
+   *** Ver como entrar nos exercicios certinho ***
+   
+VIDEO 8 - 
+   
+   Quando for editar um arquivo, abra o github desktop, depois clica em abrir no VSCode. 
+   
+   Depois das altrações voce da commit e depois push
+   
+VIDEO 9 - 
+   
+   O github é uma rede social, você pode seguir programadores e repositorios
+   
+   na secção "search to jump to", quando for pesquisar algo tem 3 opções de busca:
+   
+   * in this repository (serve para pesquisar dentro do repositorio)
+   * in this user (serve para pesquisar dentro do usuario)
+   * all github" (serve pra buscar no github)
+   
+   ao pesquisar "all github" , vai ter um menu na lateral esquerda onde pode-se filtrar sua busca por: repositorios, codigo, commits, discuções,
+   topicos, usuarios, etc.
+   
+   voce pode clicar em "follow" para seguir um usuario
+   
+   nos repositorios, em "watch" voce pode acompanhar e receber notificações toda vez que ele for atualizado.
+   
+   Voce pode dar estrela nos repoositorios para segui-los
+   
+   Se voce acessar github.com/explore voce pode explorar projetos e pessoas. Vvai aparecer um menu superior com as opções "topicos" , "trending"
+   "events" , etc.
+   
+   no "trading" é poossivel filtrar pelo idioma
+   
+   existem empresas que tambem estao no github como a microsoft => github.com/microsoft
+   
+   voce pode dar estrelas nos seus proprios repositorios
+   
+   voce pode ajudar os desenvolvedores apontando erros ou dificuldades. Dentro dos repositorios tem uma area de issues que são as duvidas.
+   dentro dela tem as duvidas abertas (não resolvidas) e as fechadas (ja resolvidas)
+   
+   voce pode criar uma issue en "new issues"
+   
+   para colocar um comentario em baixo da foto basta clicar em "set status"
+   
+VIDEO 10 - clonando um projeto
+   
+   para clonar um repositorio clique em "clone or download" e clica em "open in desktop"
+   
+VIDEO 11 - 
+   
+   Cuidado com PCs que outras pessoas acessem, elas podem colocar um keyloguer e roubar suas senhas. Pra evitar isso use o google authenticator
+   
+VIDEO 12 - 
+   
+   Imagem de fundo <> imagens do conteudo
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   

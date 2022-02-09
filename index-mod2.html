@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo 2 Curso HTML e CSS</title>
+    <link rel="stylesheet" href="style-2.css">
+</head>
+<body>
+    <main>
+
+    <h1><em>Curso HTML e CSS <br> Modulo 2</em></h1>
+
+    <h2>Psicologia das 
+        <mark style="color: orange; background-color: white;">C</mark><mark style="color: blue; background-color: white;">O</mark><mark style="color: red; background-color: white;">R</mark><mark style="color: green; background-color: white;">E</mark><mark style="color: fuchsia; background-color: white;">S</mark>
+    </h2>
+
+    <p>As cores são de suma importancia para tudo na vida. A compra de um produto está intrinsecamente ligada a cor dele e da embalagem. <strong>A harmonia visual de um site (harmonia de cores) vai decidir se você vai acessa-lo</strong> ou não e nada disso é conciente.</p>
+
+    <p>Cada cor remete a alguma coisa. Por exemplo o <mark style="background-color: white; color: blue; font-weight: bold;">azul</mark> é uma cor que remete a <mark style="background-color: rgb(102, 163, 255);">competencia, sabedoria, calma, confiança, profissionalismo, integridade e segurança</mark>. Alem disso é a <mark style="background-color: rgb(102, 163, 255);">cor com menor taxa de rejeição</mark>. 45% das pessoas gostam do azul e apenas 1% odeia o azul. É usada por muitas empresas. Ex: facebook, dell, twitter, linkedin e intel.</p>
+
+    <p>O <mark style="color: red; background-color: white; font-weight: bold;">vermelho</mark> remete ao <mark style="background-color: rgb(226, 107, 107);">amor, emoção, energia, mas também remete a raiva, perigo</mark>. Deve ser usado em sites de comida, moda, entreterimento serviço de emergencia e saude. Ao mesmo tempo deve ser evitado para produtos que querem remeter ao luxo, natureza e serviços em geral</p>
+
+    <p>Fundo preto e letra branca causa um cansaço visual muito rapido. Logo, pode ser usado mas não quando se tem muito texto. Para muito texto é melhor usar o fundo branco com letra preta</p>
+
+    <p><strong>Quanto mais é usado a cor mais se intensifica a psicologia das cores</strong>. Pequenos detalhes como a cor das roupas das pessoas que ficam em uma imagem do site fazem diferença, Remetem a diferentes emoções.</p>
+    
+    <p "><strong>Cada item ter suas cores fazem os produtos parecerem unicos</strong> e transmitirem diferentes emoções. Cada pessoa vai se identificar com um produto diferente dependendo de suas cores favoritas.</p>
+
+    <p style="font-size: 1.5em; text-decoration: underline; font-weight: bolder;">Tabela da psicologia das cores:</p>
+
+    <img src="midias/tabela-cores.PNG" alt="tabela sobre a psicologia das cores">
+
+    <h2>Como representar todas as cores</h2>
+
+    <p>No VSCode pode-se escrever as cores de 4 formas: </p>
+    <ul>
+        <li>Pelo <strong>Nome</strong> <br> (Ex: blue, darkred, white)</li>
+        <li>Pelo <strong>Codigo HexaDecimal</strong> <br> (Ex: #0000ff , #ffffff)</li>
+        <li>Pelo <strong>rgb</strong> (<abbr title="Vermelho">Red</abbr>, <abbr title="Verde">Green</abbr>, <abbr title="Azul">Blue</abbr>) <br> (Ex: rgb(0, 0, 255) , rgb(0, 0, 0)</li>
+        <li>Pelo <strong>hsl</strong> (<abbr title="Matiz">Hue</abbr>, <abbr title="Saturação">Saturation</abbr>, <abbr title="Luminosidade">Luminosity</abbr>) <br> (Ex: hsl(240, 100%, 50%) , hsl (0, 0%, 100%)</li>
+    </ul>
+
+    <h3>Codigo Hexadecimal</h3>
+    <p>O codigo <mark>decimal</mark> tem <mark>10</mark> algarismos: 1, 2, 3, 4, 5, 6, 7, 8 e 9. <br>
+    Enquanto o codigo <mark style="background-color: rgba(255, 0, 242, 0.555);">hexa-decimal</mark> tem <mark style="background-color: rgba(255, 0, 242, 0.555);">16</mark>: 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E e F. Sendo o <strong>"0" o menos significativo</strong> e o <strong>"F" o mais significativo</strong>. <em>(Hexa = 6 + Decimal = 10)</em></p>
+
+    <p>O codigo <strong>hexadecimal</strong> se baseia nas 3 cores primarias (vermelho, verde e azul) - começa com "#" e depois o codigo da cor de 6 digitos. (Ex: #a50bd2) <mark style="background-color: rgba(255, 0, 0, 0.555);">Os 2 primeiros algarismos são referentes ao vermelho</mark>, os <mark style="background-color: rgba(0, 128, 0, 0.555);">2 do meio referem ao verde</mark> e os <mark style="background-color: rgba(0, 0, 255, 0.555);">2 ultimos ao azul</mark>.</p>
+
+    <h3>RGB</h3>
+
+    <p>O RGB (red, green, blue) funciona como o hexadecimal, mas com valores de 0 a 255. Logo, para representar o azul ficaria 0, 0, 255. A sequencia é a mesma: o <mark style="background-color: rgba(255, 0, 0, 0.555);">primeiro "0" refere ao vermelho</mark>, o <mark style="background-color: rgba(0, 128, 0, 0.555);">segundo "0" refere ao verde</mark> e o <mark style="background-color: rgba(0, 0, 255, 0.555);">ultimo "0" refere ao azul</mark>.</p>
+
+    <p>O RGB é usado em TVs, celulares, notebooks, etc. (<em>O preto (ausensia de cor) = 0, 0, 0 Enquanto o branco = 255, 255, 255</em>)</p>
+
+    <h3>HSL</h3>
+
+    <p>O HSL (<abbr title="Matiz">Hue</abbr>, <abbr title="Saturação">Saturation</abbr> e <abbr title="Luminosidade">Luminosity</abbr>) funciona definindo a <mark style="background-color: pink;">matiz (cor) (de 0 a 360)</mark>, a <mark style="background-color: rgb(214, 190, 159);">saturação (de 0% a 100%)</mark> e <mark style="background-color: rgb(211, 200, 101);">luminosidade (de 0% a 100%)</mark> </p>
+    <ul>
+        <li>A <strong>matiz</strong> é o grau da cor  -  0 = vermelho | 120 = verde | 240 = azul</li>
+        <li>A <strong>saturação</strong> é percentual - 0% = cinza | 100% = cor total</li>
+        <li>A <strong>luminosidade</strong> é percentual - 0% = preto | 100% = branco</li>
+    </ul>
+
+    <p>Mas a maneira mais simples é usando o <strong>menu interativo</strong> do VSCode para escolher a cor atraves do menu. Basta colocar o mouse sobre qualquer cor que o menu vai aparecer. Ao clicar na barra superior onde tem "rgb" ele muda para 3 opções: hexadecimal, hsl ou rgb. </p>
+
+    <p> <span style="font-size: 1.5em; text-decoration: underline; font-weight: bolder;">Menu Interativo do VSCode</span> <br> O menu interativo tem 3 opções: <strong>tom</strong> (<em>tela maior</em>), <strong>transparencia</strong> (<em>barra do meio</em>) e <strong>cor</strong> (barra a direita)</p>
+
+    <img src="midias/vscode-cores.png" alt="demosntração do menu interativo">
+
+    <h3>Harmonia de Cores</h3>
+
+    
+    <img src="midias/circulo-cromatico.PNG" alt="Circulo Cromatico" width="350px">
+    
+    <h4>Circulo Cromatico</h4>
+
+    <p>&#x27A1; É dividido em 12 principais cores: <br> &#x27A1; É usado para harmonizar as cores (deixar bonito e ter simetria)</p>
+    <ul>
+        <li><strong>Cores Primarias</strong> =  <mark style="
+            background-color: black; color: yellow;">Amarelo</mark>, <mark style="
+            background-color: white; color: red;">Vermelho</mark> e <mark style="
+            background-color: white; color: blue;">Azul</mark> (<strong>são simetricas</strong>, formam um triangulo equilatero)</li>
+        <li><strong>Cores Secunarias</strong> = <mark style="
+            background-color: white; color: rgb(255, 145, 0);">Laranja</mark>, <mark style="
+            background-color: white; color: rgb(162, 0, 255);">Violeta</mark> e <mark style="
+            background-color: black; color: rgb(0, 255, 0);">Verde</mark> (forma um triangulo também, mas invertido e equilatero)</li>
+            <li><p><strong>Cores Terciárias</strong> = <strong>mistura entre todas as cores</strong> primarias e secundarias (esta <strong>ENTRE</strong> uma cor primaria e secundaria) <br> &#x27A1; Quando se vai juntar duas cores junta-se o nome das duas (<em>primeiro a primaria e depois a secundaria</em>). As principais cores terciarias são:</p>
+            <ul type="disc">
+                <li><mark style="background-color: #D0EA2B;">Amarelo-Esverdeado</mark></li>
+                <li><mark style="background-color: #FABC02;">Amarelo-Alaranjado</mark></li>
+                <li><mark style="background-color: #FD5308;">Vermelho-Alaranjado</mark></li>
+                <li><mark style="background-color: #A7194B; color: white">Vermelho-Arroxeado</mark></li>
+                <li><mark style="background-color: #3D01A4; color: white;">Azul-Arroxeado</mark></li>
+                <li><mark style="background-color: #0392CE;">Azul-Esverdeado</mark></li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>Temperatura das cores</h3>
+
+    <div id="coldpage">
+        <h4><span style="font-size: 1.2em;">Cores Frias</span> &#x27A1; do violelta ao amarelo-esverdeado</h4>
+        <ul>
+            <li><mark style="background-color: #8601AF; color: white;">Violeta</mark></li>
+            <li><mark style="background-color: #3D01A4; color: white;">Azul-Arroxeado</mark></li>
+            <li><mark style="background-color: #0247FE; color: white;">Azul</mark></li>
+            <li><mark style="background-color: #0392CE;">Azul-Esverdeado</mark></li>
+            <li><mark style="background-color: #66B032;">Verde</mark></li>
+            <li><mark style="background-color: #D0EA2B;">Amarelo-Esverdeado</mark></li>
+        </ul>
+        <img src="midias/cores-frias-1.png" alt="Cores Frias">
+    </div>
+
+    <div id="firepage">
+        <h4><span style="font-size: 1.2em;">Cores Quentes</span> - do amarelo ao vermelho-arroxeado</h4>
+        <ul>
+            <li><mark style="background-color: #FEFE33;">Amarelo</mark></li>
+            <li><mark style="background-color: #FABC02;">Amarelo-Alaranjado</mark></li>
+            <li><mark style="background-color: #FB9902;">Laranja</mark></li>
+            <li><mark style="background-color: #FD5308;">Vermelho-Alaranjado</mark></li>
+            <li><mark style="background-color: #FE2712; color: white;">Vermelho</mark></li>
+            <li><mark style="background-color: #A7194B; color: white;">Vermelho-Arroxeado</mark></li>
+        </ul>
+        <img src="midias/cores-quentes-1.png" alt="Cores Quentes">
+    </div>
+
+    <h3>Classificação Buscando a Harmonia</h3>
+
+    <p>Quando se esta montando um site tome cuidado com a escolha da <strong>paleta de cores</strong>. Uma paleta deve ter de <strong>3 a 5 cores</strong> (<em>melhor é 4</em>) + branco e preto. <br>Se o site tem uma marca (logo) ache a cor primaria da marca e use-a no site.</p>
+    
+    <ul>
+        <li><strong>Cores Complementares</strong> = <mark>Tem mais contraste entre sí</mark> (<strong>cores opostas</strong>) Ex: <mark style="background-color: #8601AF; color: white;">violeta</mark> e <mark>amarelo</mark></li>
+        <li><strong>Cores Análogas</strong> = <mark style="background-color: rgba(255, 0, 200, 0.6);">Cores que não tem constraste tão grande</mark>, mas é perceptivel.(<strong>são as cores vizinhas</strong>) <br> Ex: <mark style="background-color: #8601AF; color: white;">violeta</mark> e <mark style="background-color: #3D01A4; color: white;">azul arroxeado</mark></li>
+    </ul>
+
+    <p>Na criação do site <mark style="background-color: aqua;">deve-se usar cores analogas e complementares para definir sua paleta</mark> de cores. <br> Ex: violeta (principal), azul-arroxeado, vermelho-arroxeado (complementares) e amarelo (análoga)</p>
+
+    <ul>
+        <li><strong>Cores Análogas Relacionadas = duas cores complementares + pula uma e pega a proxima</strong>
+            <br> Ex: 
+            <mark style="background-color: #FEFE33;">amarelo</mark>, 
+            <mark style="background-color: #FABC02;">amarelo-alaranjado</mark> e 
+            <mark style="background-color: #FE2712; color: white">vermelho</mark>
+            (<em>pulou o vermelho-alaranjado</em>)</li>
+        <li><strong>Cores Intercaladas = pula uma cor</strong>. 
+            <br> Ex: 
+            <mark style="background-color: #FEFE33;">amarelo</mark>, 
+            <mark style="background-color: #FB9902;">laranja</mark> e 
+            <mark style="background-color: #FE2712; color: white">vermelho</mark> 
+            (<em>pulou o amarelo-alaranjado e o vermelho-alaranjado</em>)</li>
+        <li><strong>Cores Triádicas = pula 3 cores</strong> (<em>forma um triangulo</em>). 
+            <br> Ex: 
+            <mark style="background-color: #FEFE33;">amarelo</mark>, 
+            <mark style="background-color: #FE2712; color: white">vermelho</mark> e 
+            <mark style="background-color: #0247FE; color: white">azul</mark></li>
+        <li><strong>Cores em Quadrado = pula duas cores</strong> (<em>forma um quadrado</em>). 
+            <br> Ex: 
+            <mark style="background-color: #FEFE33;">amarelo</mark>, 
+            <mark style="background-color: #FD5308;">vermelho-alaranjdado</mark>, 
+            <mark style="background-color: #8601AF; color: white">violeta</mark> e 
+            <mark style="background-color: #0392CE;">azul-esverdeado</mark></li>
+        <li><strong>Cores Tetrádicas = escolhe duas cores e suas complmentares</strong> (<em>vai formar uma figura de quatro lados</em>) 
+            <br> Ex: 
+            <mark style="background-color: #66B032;">verde</mark> e 
+            <mark style="background-color: #FE2712; color: white;">vermelho</mark> + 
+            <mark style="background-color: #FB9902;">laranja</mark> e 
+            <mark style="background-color: #0247FE; color: white">azul</mark></li>
+        <li><strong>Monocromia = escolhe uma cor e altera sua saturação e seu brilho para formar outras cores</strong>. Muito harmonico. Para trabalhar monocromia sempre arraste pra baixo (no menu do VSCode) para manter a cor e mudar o tom 
+            <br> Ex: <mark style="background-color: #FB9902;">laranja</mark> - vai formar tons de laranja(<em>
+                <mark style="background-color: #FB9902;">laranja</mark>, 
+                <mark style="background-color: #d6531b;">laranja escuro</mark>, 
+                <mark style="background-color: #ad4b25; color: white">marrom claro</mark> e 
+                <mark style="background-color: #6b3017; color: white">marrom escuro</mark>
+            </em>)</li>
+    </ul>
+
+    <h3>Ferramentas de cores e paletas</h3>
+
+    <h4> <a class="adobe-color" href="https://color.adobe.com/pt/create" target="_blank" rel="external">Adobe Color</a></h4>
+
+    <p>Acesse o site <a class="adobe-color" href="https://color.adobe.com/pt/create" target="_blank" rel="external">color.adobe.com</a> - Site para escolher as cores no circulo cromatico (para as paletas), da os codigos hexadecimais das cores. Você escolhe a classificação e vai mexendo nas cores para definir as paletas.</p>
+
+    <img src="midias/adobecolor.png" alt="Exemplo do Adobe Color" width="600px">
+
+    <p>Tem a opção <mark style="background-color: rgba(38, 0, 255, 0.527);">extrair tema</mark> para <mark style="background-color: rgba(38, 0, 255, 0.527);">pegar a paleta conforme as cores de arquivos</mark>. Depois de pegar a paleta, pode-se voltar ao disco de cores para escolher outras cores com base na classificação das cores da imagem que foi extraido. Se você quiser <strong>extrair degrade</strong> pode ir em <strong>extrair gradiente</strong> para pegar o degadre baseado nas cores</p>
+
+    <p>Para conseguir uma <strong>sugestão de paleta</strong> vai em <ins>explorar</ins> &#x27A1; <ins>exibir</ins> &#x27A1; <ins>temas de cores</ins> &#x27A1; <ins>mais usados</ins>, para mostras as paletas mais utilizadas dai você escolhe a que mais gostou, clica nela e clica em cima de cada cor para copiar o hexadecimal delas. Para copiar em todos os formatos de representação de cores é só clicar em <ins>copiar como css</ins> (vai gerar em rgb, hsl e hexadecimal). Também pode ir em <mark style="background-color: yellowgreen;">tendencias</mark> para <mark style="background-color: yellowgreen;">buscar inspirações</mark> (ele mostra fotos com as paletas)</p>
+
+    <h4><a class="paletton" href="https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF" target="_blank" rel="external">Paletton</a></h4>
+
+    <p>Acesse o site <a class="paletton" href="https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF" target="_blank" rel="external">paletton.com</a> paletton.com - Nele, se clicar em examples ele vai <mark>mostrar como ficaria emm um site na web com essas cores</mark> (podendo colocar a cor de fundo branca ou preta) + aplicando as cores a alguns desenhos e animações para ver o contraste</p>
+
+    <img src="midias/paletton.png" alt="Exemplo Paletton" width="600">
+
+    <h4><a class="coolors" href="https://coolors.co/ffffff-941c2f-0e34a0-ff47da-1cfeba" target="_blank" rel="external">Coolors</a></h4>
+
+    <p>Acesse o site <a class="coolors" href="https://coolors.co/ffffff-941c2f-0e34a0-ff47da-1cfeba" target="_blank" rel="external">coolors.co</a> coolors.co - nele você consegue <mark style="background-color: tomato;">gerar paletas de modo aleatorio apertando o espaço</mark>. Você pode <strong>travar uma cor</strong> (clicando no cadeado) para que o algoritmo gere paletas com essa cor <br> &#x27A1; É mais pra quem está perdido</p>
+
+    <img src="midias/coolors.png" alt="Exemplo Coolors" width="600">
+
+    <h3>Como extrair uma cor</h3>
+
+    <p>Para <mark style="background-color: rgba(255, 0, 0, 0.507);">extrair uma cor</mark> usaremos uma extensão chamada <a class="colorzila" href="https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=pt-BR" target="_blank" rel="external">Colorzilla</a></p>
+
+    <p>Para usar o colorzilla basta clicar no <ins>icone da extensão</ins> &#x27A1; <ins>page-color</ins>. Conforme você passa pelas cores o identificador mostrará o hexadecimal dela. <strong>Para pegar basta clicar na cor que o codigo hexadecimal dela será copiado</strong>. Além de sites da pra pegar cores de PDFs, basta abri-lo no navegador.</p>
+
+    <h3>Degrade e Gradiente</h3>
+
+    <p>Para fazer degrade usa-se a propriedade <mark style="background-color: aquamarine;">background-image: linear-gradient(direção + primeira cor + segunda cor);</mark> (no style) <br> Ex <strong>por direção</strong> &#x27A1; background-image: linear-gradient (<mark>to right</mark>, white, blue); - é mais limitado (4 direções) <br> Ex <strong>por graus</strong> &#x27A1; background-image: linear-gradient (<mark>90deg</mark>, white, blue); - (360 direções)  </p>
+
+    <p>É possível fazer o gradiente com a "cor" transparente usando "transparent" no "color"</p>
+
+    <p>As 4 direções são: top (cima) | bottom (baixo) | left (esquerda) | right (direita). <br> Já as direções em graus vão de 0deg a 359deg</p>
+
+    <p>Exemplo de degrade / gradiente (neste caso aplicado a um paragrafo com &lt;br&gt; [maneira incorreta]):</p>
+
+    <p style="background-image: linear-gradient(to right, #92AA83, #E7F59E); width: 400px;" ><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+
+     <p>O degrade não precisa ser gritante (não exagere). Pode-se adicionar quantas cores quiser no gradiente. É possivel <mark style="background-color: #7BB2D9;">definir a porcentagem que cada uma das cores ocupará, basta colocar a porcentagem</mark> após a cor - Ex: <mark style="background-color: rgb(30, 30, 30); color: rgb(255, 169, 138);">#941C2F 20%, #0E34A0</mark>. Para que o <mark>degadre seja aplicado na tela inteira</mark> usa-se a propriedade <mark>background-attachment: fixed;</mark> . Também pode-se criar gradientes em outros formatos - Ex: em circulo - background-image: radial-gradient(circle, #FF92C2, #1CFEBA, #FF47DA, #0E34A0, #941C2F);</p>
+
+     <p style="background-image: radial-gradient(circle, #FF92C2, #1CFEBA, #FF47DA, #0E34A0, #941C2F); width: 300px;"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+
+        <p><span style="font-size: 1.5em; text-decoration: underline; font-weight: bold;">Diferença de um site com HTML puro e com CSS</span></p>
+        <img style="border: 4px solid red;" src="midias/comparativo-11.png" alt="comparativo" width="300px"> 
+
+        <h3 style="text-shadow: 2px 2px 2px rgb(136, 134, 134); color: grey f">Estudo Básico da Tipografia</h3>
+
+        <p>A tipografia surgiu pela necessidade de criar letras menores e mais bonitinhas para melhorar a legibilidade.</p>
+        
+        Tipografia<ul> 
+            <li>Typos (impresão [colocar coisa no papel])</li>
+            <li>Graphia (escrita [como escrever])</li>
+            <li>Estudo dos tipos (tipografia) - como desenhar as letrinhas</li>
+            <li>Tipo = como vou desenhar cada uma das letras</li>
+            <li>Os tipos (assim como as cores) transmitem emoções</li>
+        </ul>
+
+        <p>O designer deve se preocupar com boas <strong>letras</strong>, boas <strong>cores</strong> e boas <strong>imagens</strong>. Por exemplo, a palavra "Amor" esta relacionada a coisas suaves, delicadas, duradores, logo, é melhor um traço mais fino, suave. As palavras indicam emoções e este pode ser reforçado com um bom uso de tipografia (fonte).</p>
+
+        <h3>Anatomia do tipo</h3>
+
+        <p>A letra <mark style="background-color: aqua;">"x"</mark> é o <mark style="background-color: aqua;">ponto de partida</mark> para construção de todas as fontes. Pois a <strong>altura do "x" é a base da altura de todas as letras minusculas</strong>. Altura das minusculas = altura-x</p>
+
+        <ul>
+            <li>Altura do vazamento pra cima (ex: b, k) = altura ascendente</li>
+            <li>Altura do vazamento pra baixo (ex: g, Q) = altura descendete</li>
+            <li>Somatorio de todas as alturas = altura do corpo</li>
+        </ul>
+
+        <img src="midias/tipo5.jpeg" alt="alturas do tipo" width="400px">
+
+        <p>O prolongamento que existem em algumas fontes <strong>serifa</strong> (pequeno tracinho no as pontas das letras) - <strong>serve para guiar o olho</strong>, facilita a leitura das palavras</p>
+
+        <img src="midias/tipo6.jpeg" alt="como funciona a serifa" width="400px">
+
+        <p>Quando lemos não lemos letra por letra, vemos a primeira e ultima letra e as que estão dentro não precisam estar em ordem.</p>
+
+        <img src="midias/tipo4.png" alt="exemplo de porque não lemos letra por letra" width="400px">
+
+        <h3>Componentes Anatomicos Geometricos</h3>
+        <ul>
+            <li><strong>Letras Sereifadas</strong> = letras com pontas para guiar a leitura</li>
+            <li><strong>Haste</strong> = segmento reto na vertical</li>
+            <li><strong>Filete</strong> = haste deitada que une dois componentes</li>
+            <li><strong>Arco</strong> = barriguinha que une duas hastes</li>
+            <li><strong>Esporão</strong> = saltinho (triangulo) para segurar a base e não cair</li>
+            <li><strong>Vertice</strong> = o ponto oposto mais afastado da base de uma figura</li>
+            <li><strong>Terminal</strong> = elemento que não esta preso</li>
+            <li><strong>Braço</strong> = sai da haste e vai pra cima</li>
+            <li><strong>Perna</strong> = sai do braço ou haste e vai pra baixo</li>
+            <li><strong>Pé</strong> = base que segura a fonte</li>
+            <li><strong>Espinha</strong> = curva em s</li>
+            <li><strong>Barriga</strong> = dois arcos que se unem e formam a barriga</li>
+            <li><strong>Olho</strong> = area interna da letra</li>
+            <strong>
+                <li>Orelha = parte de cima</li>
+            </strong>
+            <li><strong>Cauda</strong> = parte descedente da letra</li>
+            <li><strong>Glifo</strong> = uma das letras da fonte = caractere ou letra</li>
+            <li><strong>Fonte</strong> = conjunto de glifos</li>
+        </ul>
+
+        <br>
+
+        <img src="midias/tipo2.jpeg" alt="componentes anatomicos geometricos" width="400px">
+        <img src="midias/tipo3.jpeg" alt="componentes anatomicos geometricos" width="442px">
+
+        <p><strong>Familia Tipografica</strong> = varios glifos com diferentes densidades: light, normal, seminegrito, negrito e extranegrito. Nem todas as fontes tem light, seminegrito e extranegrito, mas tem pelo menos normal e negrito.</p>
+
+        <img src="midias/tipo1.jpeg" alt="anatomia do tipo" width="400px">
+
+        <p>Escritas <mark style="background-color: aqua;">serifadas</mark> são <mark style="background-color: aqua;">melhores para midias impressas</mark> (livros, jornais, etc.). Para <mark style="background-color: gold;">midias digitais o melhor é o sans-serif</mark> (sem serifa)</p>
+
+        <h3>Demais Categorias de Fontes</h3>
+        <ul>
+            <li><strong>Seridadas</strong> = Com serifa</li>
+            <li><strong>Sans-Serif</strong> = Sem serifa</li>
+            <li><strong>Monoespaçada</strong> = Todas as letras tem o mesmo espaçamento (inclusive espaço , e !</li>
+            <li><strong>Handwriting</strong> (scriptada) = Tenta simular a escritura a mão</li>
+            <li><strong>Display/Comemorativa</strong> = Levam a alguma ideia ou filme</li>
+        </ul>
+
+        <p>Para leitura <mark style="background-color: darkgoldenrod;">nunca use cores não contrastantes</mark>, é fundo branco letra preta (ainda mais para leituras longas. Para leituras breves até da pra usar um fundo preto e letra branca, mas para textos longos não). Cuidado com espaço entre letras muito curtos.</p>
+
+        <h2>Fontes</h2>
+
+        <p>Para <mark style="background-color: rgba(255, 20, 145, 0.705);">mudar a fonte</mark> usa-se o parametro <mark style="background-color: rgba(255, 20, 145, 0.705);">font-family</mark>. Para <strong>fontes com dois nomes deve-se escrever entre ' '</strong> - Ex: 'Courier New' . Alguns dispositivos especificos não tem algumas fontes (mesmo sendo fontes basicas/famosas) para resolver isso basta adiocionar só a caracteristica da fonte. Ex: sans-serif (ele pegará qualquer fonte que seja sem serifa que o dispositivo tenha)</p>
+
+        <p>Deve-se criar uma <strong>combinação de fonte segura</strong>, ou seja, uma combinação de fontes <strong>que vão funcionar em praticamente todos os navegadores ou dispositivos</strong>. Pode-se adicionar quantas quiser, o navegador vai tentar a primeira opção depois passa pra proxima. Então deve-se seguir a ordem de preferencia.</p>
+            
+        <h4>Para adicionar o <mark style="background-color: forestgreen;">tamanho da fonte</mark> usa-se o parametro <mark style="background-color: forestgreen;">font-size</mark></h4>
+
+        <p>As medidas do font-size podem ser <strong><mark style="background-color: white; color: rgb(71, 109, 33); font-size: 1.2em;">ABSOLUTAS</mark></strong> ou <strong><mark style="color: darkblue; background-color: white; font-size: 1.2em;">RELATIVAS</mark></strong></p>
+
+        <mark style="background-color: white; color: rgb(71, 109, 33); font-size: 1.2em;"><strong>Medidas Absolutas</strong></mark><ul>
+            <li>cm, in ,mm, in, px, pt, pc</li>
+            <li>&#x27A1; mm e cm e in (inches) são dificeis de trabalhar porque cada dispositivo vai entender de um jeito diferente.</li>
+            <li>&#x27A1; px (pixel) em alguns dispositivos com tela retina, 1px = 1/4 de px. Então também é dificil de usar.</li>
+            <li>&#x27A1; pt e pc são medidas da tipografia (papel) logo, não se recomenda usar em telas</li>
+        </ul>
+
+        <mark style="font-size: 1.2em; background-color: white; color: darkblue;"><strong>Medidas Relativas</strong></mark><ul>
+            <li>em, ex, rem, vw, vh, %</li>
+            <li>&#x27A1; em = altura de "m" (maiusculo) de uma letra. Pode-se colocar valores inteiros 1em, 2em ou valores quebrados 1.2em 2.9em. É o mais usado</li>
+            <li>&#x27A1; ex = altura "x" = equivalente ao x (minusculo) de uma letra. Assim como o em aceita valores inteiros e quebrados</li>
+        </ul>
+
+        <p>No entando, a <mark style="background-color: darkcyan;">recomendação oficial da linguagem</mark> fala pra <mark style="background-color: darkcyan;">usar SOMENTE o "em" e o "px"</mark> (pixel)</p>
+
+        Observações <ul>
+            <li><strong>Não pode ter espaço entre a medida e o numero</strong>. Ex: 10px (certo) | 10 pc (errado) </li>
+            <li><strong>Numeros quebrados devem ter "."</strong> e não ",". Ex: 0.5</li>
+        </ul>
+
+        <p>Normalmente o tamanho padrão da fonte em pixels é 16px (= 1em)</p>
+
+        <p><strong>O melhor é usar o "em"</strong> pois, você usa porcentagem do tamanho padrão. Assim, viabiliza criar sources para multiplataformas (tv, celular, etc.)</p>
+
+        <h3>Peso e Estilo</h3>
+
+        <p>Peso da fonte = quando faz a fonte ficar mais magrinha ou mais gordinha. Nem todas as fontes tem os 5 pesos, a maioria tem normal e negrito.</p>
+
+        <img src="midias/tipo1.jpeg" alt="peso da fonte" width="500px">
+
+        <p>Para <strong>alterar o peso da fonte</strong> usa-se o parametro <strong>font-weight</strong>. <br> Os valores podem ser:  <abbr title="Fino">Lighter</abbr>, <abbr title="Normal">Normal</abbr>, <abbr title="Negrito">Bold</abbr> e <abbr title="Extranegrito">Bolder</abbr>. <br> Também pode-se usar <mark>valores numerios</mark> de 100 a 900 (de 100 em 100) <strong>garantindo maior precisão</strong>. Tudo vai depender se a fonte oferece esses pesos. O 100 é menos que o lighter e o 900 é mais que o extrabold</p>
+
+        <p>Tem também o <mark style="background-color: rgba(255, 0, 0, 0.8);">font-style</mark> para definir se fica em <mark style="background-color: rgba(255, 0, 0, 0.8);">italico</mark> ou <mark style="background-color: rgba(255, 0, 0, 0.8);">normal</mark></p>
+
+        <p>Para deixar <mark style="background-color: darkseagreen;">sublinhado</mark> usa-se a tag <mark style="background-color: darkseagreen;">text-decoration: underline</mark>;</p>
+
+        <p>o que mais vai ser usado é o font-family, font-weight, font-size e font-style. É possivel <mark style="background-color: sienna;">condensa-los em um só parametro chamado de font</mark>. Essa condensação é <mark style="background-color: springgreen;">chamada de shorthand (mãozinha)</mark>. A ordem do font é: font-style &#x27A1; font-weight &#x27A1; font-size &#x27A1; font-family (deve respeitar a ordem) <br> Ex: font: italic bolder 3em 'Work Sans', sans-serif; (a "," só é usada para colocar varias fontes).</p>
+
+        <h3>Familias de Fonte Externas</h3>
+
+        <p>O que ja vem embutido nos navegadores são fontes muito limitadas. Para usar fontes mais versateis podemos usar fontes externas puxando de sites.</p>
+
+        <p>o site <a id="googlefonts" href="https://fonts.google.com/" target="_blank" rel="external">https://fonts.google.com/</a> serve para pegar fontes. Pode-se filtrar em serif, sans-serif, monoespaçada, etc.</p>
+
+        <p>Para pegar a fonte do Google Fonts, pode <mark style="background-color: aqua;">fazer o download</mark> e <mark style="background-color: aqua;">puxar o arquivo para o HTML</mark> ou <mark style="background-color: rgba(9, 4, 255, 0.637);">puxar externamente (server) em "select this style"</mark>. Ele abre uma janela que se minimiza no canto superior direito. Para pegar a referencia copie o codigo do "import". <strong>O import entra como uma regra</strong>, portanto, deve ser escrito na primeira linha do style, sem precedentes (só pode ser precedido de regras). Normalmente é usado 3 tipos de fontes para compor as fontes de segurança. </p>
+
+        <p>Para diferentes pesos precisará adicionar as variações da mesma fonte ao codigo de incorporação ao HTML. Ele adicionará no mesmo codigo sem ocupar muitas linhas. </p>
+        <p>Ex: <pre><code>@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap'); - <mark>uma só variação</mark></code></pre> </p>
+        <p><pre><code>@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;&display=swap'); - <mark>algumas variações</mark></code></pre></p>
+
+        <p>Pode dar mais de um import no style, mas, para evitar isso é possível condensar varias fontes com diversas variações cada uma em apenas um import. Basta no Google Fonts ir adicionando as fontes e quando adicionar todas que for usar pegar o codigo do import.</p>
+
+        <h3>Familias de Fontes Internas</h3>
+
+        <p>Pegue o arquivo da fonte. Tem muitos sites que disponibilizam. Ex: <a id="dafont" href="https://dafont.com" target="_blank" rel="external">dafont.com</a>. Bastar baixar o arquivo e colocar na pasta do projeto (sempre organize os arquivos certinho no projeto para manejar mais facilmente)</p>
+
+        <p>Na escolha da fonte <strong>fique atento aos glifos</strong> para não pegar uma fonte que não tenha glifos com acentuação, pois não vai conseguir usar em portugues. <strong>Algumas também não diferenciam maiusculos e minusculos</strong>. Elas podem ter o formato .otf e .ttf ambos servem melhor a diferentes tipos de navegadores, use ambos com sources.</p>
+
+        <p>Para <mark style="background-color: rgba(255, 0, 43, 0.658);">adicionar a fonte</mark> você vai criar uma regra com um seletor especial: <mark style="background-color: rgba(255, 0, 43, 0.658);">@font-face </mark>para setar a fonte ao HTML. Ele vai abrir assim:</p>
+
+        <p><pre><code>
+            @font-face {
+            font-family: 'blank-river';
+            src: url('blank-river.ttf') format('truetype');</code></pre></p>
+        
+        <p>O format não abre direto, você tem que adicionar manualmente. O valor vai depender do formato do arquivo, <mark>se for otf vai ser opentype</mark>. <mark style="background-color: plum;">Se fot ttf vai ser truetype</mark> (essa cllassificação pode mudar em situações muito especificas. Por regra é assim Além delas tem <mark style="background-color: peru;">embedded &#x27A1; opentype</mark> e <mark style="background-color: palegreen;">truetype-aat &#x27A1; apple advanced typography.p</mark>
+
+        <p>O valor do <mark style="background-color: lightcoral;">font-family</mark> é o <mark style="background-color: lightcoral;">nome que a fonte terá</mark>, é com esse nome que você vai fazer a <strong>referencia para usar nos seletores</strong>. Já o <mark style="background-color: lightslategrey;">src</mark> é a <mark style="background-color: lightslategrey;">localização do arquivo</mark>.</p>
+
+        <p>Também deve-se usar o parametro <mark style="background-color: khaki;">font-wight</mark>: normal para determinar o <mark style="background-color: khaki;">peso da fonte</mark> e font-style: normal para definir que é ou não é itálico.</p>
+
+        <p>O <strong>Google Fonts</strong> é uma opção interessante pois deixará o <strong>site mais leve</strong>, mais esperto.</p>
+
+        <h3>Como capturar uma fonte</h3>
+
+        <p>Para <strong>capturar uma fonte</strong> de um site, usa-se uma extensão do google chrome chamada <a class="fontsninja" href="https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh?hl=pt-br" target="_blank" rel="external">Fonts Ninja<img src="midias/FONT-NINJA.png" alt="icone do ninja" width="24px" > </a></p>
+
+        <p>Para usar, basta clicar no ninja verde. Ele vai listar as fontes que estão sendo usadas e se colocar o mouse em cima ele vai falar se está em negrito ou italico, qual a cor, tamanho, etc. (só funciona para o que está escrito. Textos de imagens não pega) ele também mostra se esta normal, bold, extrabold, etc. O Fonts Ninja é um serviço pago, mas que na versão gratuira ja dá pra pegar as fontes dos sites</p>
+
+        <p>Ele tem um menu interativo que, ao escrever, ja pega as caracteristicas do que esta escrito na pagina igual ao que voce escreveu. Com o nome da fonte basta pesquisar no google fonts ou no dafont (um dos dois vai ter, mas se não tiver busque em ou outro site) para achar a fonte e usa-la no seu site</p>
+
+        <img src="midias/fonts-ninja-1.jpg" alt=" fonts ninja" width="400px"> <br>
+
+        <img src="midias/fonts-ninja-2.jpg" alt="fonts ninja" width="400px">
+
+        <h3>Como identificar fontes dentro de imagens</h3>
+
+        São 3 sites:<ul>
+            <li><strong>WhatFontIs</strong> - <a id="whatfontis" href="https://www.whatfontis.com/" target="_blank" rel="external">www.whatfontis.com/</a> (É o melhor que tem)</li>
+            <li><strong>FontSquirrel.com</strong> <a id="fontsquirrel" href="https://www.fontsquirrel.com/" target="_blank" rel="external">www.fontsquirrel.com/</a></li>
+            <li><strong>MyFonts.com</strong> <a id="myfonts" href="https://www.myfonts.com/" target="_blank" rel="external">www.myfonts.com/</a></li>
+        </ul>
+
+        <p>No site, você deve escolher uma fonte de cada vez (não vai ser tudo de uma ver como no fonts ninja). Ele vai pedir uma serie de informações para encontrar a fonte. Configure bem o brilho e o contraste pra ficar mais facil de achar a fonte. Para letras que encostam em outras, é possivel trassar uma reta para separar as letras. Depois ele vai pedir pra definir que letras são aquelas, se não conseguir identificar ou repetir as letras, deixe vazio. Ele vai listar as que achou parecidas. Vai aparecer variações muito parecidas.</p>
+        
+        <p>Cuidado com fontes pagas, use só as gratuitas. São 3 sites para caso não identificado em um, o outro identifique.</p>
+
+        <h3>Alinhamento de textos</h3>
+
+        <p>Temos 3 tipos de alinhamento: á <strong>esquerda</strong>, á <strong>direita</strong> e <strong>centralizado</strong>. Por padrão, ficará alinhado a esquerda</p>
+
+        <p>O parametro para alinhar o texto é o <mark style="background-color: aqua;">text-align</mark>: . <br> Os valores podem ser:
+            <ul>
+                <li><strong>justify</strong> (justificado - <mark style="background-color: aqua;">assim que o texto encostar na borda ele pula pra linha de baixo</mark>, não deixando criar barra de rolagem)</li>
+                <li><strong>left</strong> (á esquerda)</li>
+                <li><strong>right</strong> (á direira)</li>
+                <li><strong>center</strong> (ao centro)</li>
+                <li><strong>end</strong> (no final)</li>
+                <li><strong>start</strong> (no inicio)</li>
+            </ul></p>
+
+            <img style="width: 300px; border: 4px solid red;" src="midias/comparativo-6.png" alt="comparativo alinhamento">
+
+            <p>O parametro <mark>text-indent:</mark> serve pra dar o <mark>espacinho do paragrafo</mark>. Os <mark>valores</mark> devem ser <mark>em px</mark>. Fica bom por volta de 30px.</p>
+
+            <h3>Seletores Personalizados (id)</h3>
+
+            <p>O que esta dentro dos <mark>seletores</mark> <mark style="background-color: rgb(88, 88, 88); color: yellow;">"{}"</mark> são: <mark>declarações</mark> (<em>declarações são conjunto entre propriedades e valores</em>)</p>
+
+            <p>Para <mark style="background-color: rgb(255, 110, 255);">personalizar somente uma tag <strong>de um tipo de tag</strong></mark>, você deve <mark style="background-color: rgb(255, 110, 255);">cria uma identificação</mark> com a propriedade <mark style="background-color: rgb(255, 110, 255);"><strong>id="nome"</strong></mark> <br> &#x27A1;O nome que você quer dar ao seletor especial deve ficar entre aspas no "nome". <br> &#x27A1;Para se referir a ele, <strong>no CSS</strong>, você vai colocar a tag seguido de um # e por fim o nome. ex: <mark style="background-color: rgb(255, 110, 255);">h1#principal {}</mark></p>
+
+            <p>Tudo que for <mark style="background-color: cadetblue"><strong>id em HTML</strong></mark> é <mark style="background-color: lightcoral;"><strong># em CSS</strong></mark> e tudo que é <mark style="background-color: cadetblue"><strong>class em HTML</strong></mark> é <mark style="background-color: lightcoral;"><strong>. em CSS</strong></mark>.</p>
+
+            <p>No, entanto <mark style="background-color: rgb(0, 174, 255);">só pode ter <strong>um elemento com id</strong></mark> (pode ter varios id mas todos de elementos diferentes). <mark style="background-color: rgb(255, 208, 0);">Para fazer em <strong>varios elementos</strong> usamos a <strong>class</strong></mark></p>
+
+            <h3>Classificação de elementos (class)</h3>
+
+            <p>É como no id, mas é <strong>usado para varios elementos</strong>. Basta adicionar como parametro <strong>class="nome"</strong></p>
+
+            <p>Não <strong>nomeie</strong> suas classes e seus ids pela forma (ex: verde, vermelho) e sim <strong>pela função</strong> (ex: basico ~ verde)</p>
+
+            <p>Na class <mark>não precisa definir o tipo da tag</mark>, e sim <strong>começar com o . direto</strong> - Ex: .basico{}</p>
+
+            <p>Para trechos que não estão envelopados por tag, pode-se usar a tag &lt;span&gt; só para descriminar e poder aplicar uma class.</p>
+
+            <p>Pode-se aplicar <strong>mais de uma classe a um elemento</strong>. Basta que fiquem separadas por espaços. <br> Ex: h1 class="intermediario destaque" (está aplicando intermediario e destaque)</p>
+
+            <p>Quem sobrepõe quem <strong>segue uma hierarquia</strong>. Essa hierarquia é definida com base em <strong>quem liga por ultimo</strong>, a ordem é class > id > seletor padrão. O id sobrepõe o style padrão</p>
+
+            <h3>Pseudoclasses</h3>
+
+            <p>Uma <strong>&lt;div&gt; é um espaço qualquer</strong> (<em>ocupa uma linha inteira</em>). O atributo <mark style="background-color: rgba(137, 43, 226, 0.651);"><strong>height</strong> define a <strong>altura</strong></mark> (os valores devem ser em px). A <mark><strong>largura</strong> é o <strong>width</strong></mark> (<em>os valores também devem ser em px</em>)</p>
+
+            <p>O atributo <mark style="background-color: salmon;">border serve para criar uma borda</mark>. Os valores devem seguir a ordem: <strong>tamanho</strong>(px) &#x27A1; <strong>tipo</strong>(solid) &#x27A1; <strong>cor</strong>(black). border é uma shorthand.</p>
+
+            <p><mark>display: inline-block</mark> &#x27A1; <mark>serve para deixar tudo na mesma linha</mark> (alinha as divs horizontalmente) se diminuir a tela uma pula pra linha de baixo (não da pra fazer localmente. Só externo ou na tag style).</p>
+
+            <p>Pseudoclasse <mark>refere-se ao estado que um elemento está</mark>. Fica assim: "tag" ":" "estado" - Ex: div:hover{}.</p>
+
+            <p>Para <mark>criar a pseudoclasse usa-se :</mark> (<em>dois pontos</em>). <mark>Pseudoclasse está relacionado ao estado do elemento</mark> (se ta ativo, marcado, vazio, habilitado, etc.) <br> Ex: div:hover (primeiro vem a tag (div), depois a pseudoclasse (:) e por fim o estado (hover)) <br> <mark><strong>hover</strong> = o que <strong>vai acontecer quando passar o mouse</strong> em cima</mark> . Isso é uma <strong>configuração de ESTADO</strong>. SÓ vai ficar amarelo SE passar o mouse em cima. Serve para criar animações quando o mouse chegar perto de um elemento</p>
+
+            <p>Pode se criar estruturas para definir <mark style="background-color: aqua;"><strong>regras para algo que está dentro de algo</strong></mark>. <br> Ex: div > p{} &#x27A1; esse seletor só vai funcionar para paragrafos que estiverem dentro de uma div. <br> div:hover > p &#x27A1; Quando eu passar o mouse sobre o div, eu quero que <mark style="background-color: aqua;">o paragrafo que tem dentro dele faça</mark> (comando que esta dentro do seletor) <br> ">" significa filho (dentro de)</p>
+
+            <p><strong>display: none;</strong> &#x27A1; serve para que não mostre nada <br> <strong>display: block;</strong> &#x27A1; serve para mostrar</p>
+
+            <p>Exemplo do que pode ser feito com o conteudo acima:</p>
+
+            <div class="exemplo-hover">01</div>             
+            <div class="exemplo-hover">02</div>            
+            <div class="exemplo-hover">03</div>
+
+            <p>Isso seria o prototipo inicial de casos de <strong>menus que abrem quando passa o mouse em cima</strong>.</p>
+
+            <p>Tudo foi feito no <strong>style do head</strong>. Os codigos foram os seguintes:</p>
+
+            <p><pre><code>
+                &lt;style&gt;
+                div{
+                    display: inline-block;
+                    height: 200px;
+                    width: 200px; 
+                    background-color: lightgray; border: 1px solid black;
+                    text-align: center;
+                }
+        
+                div:hover{
+                    background-color: yellow;
+                }
+                &lt;/style&gt;
+            </code></pre></p>
+
+            <h3>Usando PseudoClasses</h3>
+
+            <p>links por padrão ficam azuis e quando visitados violeta, porém é possivel mudar isso com CSS. Para fazer isso <strong>basta adicionar o parametro color com a cor que queira que o link fique</strong>. A pseudoclasse <mark style="background-color: rebeccapurple; color: white;">:visited define a cor que fica os links <strong>VISITADOS</strong></mark> -> <br> Ex: a:visited {}. Se quiser manter sem diferença os visitados, bastar nao colocar a pseudoclasse visited.</p>
+
+            <p>Para <strong>tirar o sublinhado</strong> dos links usa-se a pseudoclasse <strong>text-decoration: none</strong>.</p>
+
+            <p>Da pra quando passar o mouse deixar negrito, criando um efeito muito legal. basta usar tag:houver { font-weight: bold; }</p>
+
+            <p>pseudoclasse <mark style="background-color: #0e35a093;">:active</mark> &#x27A1; vai funcionar <mark style="background-color: #0e35a093;">quando se clica nele</mark> (<em>só fica enquanto esta "clicando"</em>)</p>
+
+            <p><span style="font-weight: bold; font-size: 1.5em; text-decoration: underline;">pseudoelementos</span> <br> Temos também os <mark style="background-color: springgreen;"><strong>pseudoelementos</strong></mark> que podem agir nas <strong>classes</strong>, <strong>elementos</strong> e <strong>ids</strong>. <mark style="background-color: springgreen;">Mexem no conteudo periferico do elemento</mark>. Para criar pseudoelementos <strong>usa-se "::"</strong> (dois :) <br>Ex: a::after { content:' [link]' } <br> <strong>after</strong> &#x27A1; serve para o que vem depois. Também tem o <strong>before</strong> para o que vem <strong>antes</strong> <br> <strong>content</strong> &#x27A1; conteudo. Então ele vai escrever " [link]" depois do que tiver ancora (a)</p>
+
+            <p>Ex: para deixar a primeira linha de um paragrafo azul &#x27A1; <code>p::first-line{ color:blue}</code> </p>
+
+            <h3>Modelo de Caixas</h3>
+
+            <p>&#x27A1; É aplicavel ao HTML e CSS, <mark>serve para facilitar a organização do design</mark>. Imagine varias caixas, onde umas ficam dentro de outras. Esse é o modelo de caixas. Quando se coloca um elemento dentro do outro esta-se fazendo um aninhamento (em forma de ninho).</p>
+
+            <p>Todo elemento visivel de um site é uma caixa. Essa caixa tem um tamanhos e medidas. </p>
+
+            Anatomia de uma caixa:<ul>
+                <li>height (<strong>altura</strong>) &#x27A1; define a altura.</li>
+                <li>width (<strong>largura</strong>) &#x27A1; define a largura.</li>
+                <li>border (<strong>borda</strong>) &#x27A1; linha que circunda o conteudo.</li>
+                <li>padding (<strong>preenchimento</strong>) &#x27A1; espaço interno entre a borda e a linha do conteudo.</li>
+                <li>margin (<strong>margem</strong>) &#x27A1; preenchimento externo - da borda pra fora.</li>
+                <li>outlilne (<strong>contorno</strong>) &#x27A1; borda externa a borda. (se escreve como uma borda: com tamanho, tipo e cor)</li>
+            </ul>
+
+            <p>Exemplo de caixa com todos os atributos de caixa: <br>
+                <h6 id="caixa">EXEMPLO DE CAIXA</h6></p>
+
+            <p>Existem dois tipos de caixa, o <span style="background-color: black; color: #1CFEBA; font-weight: bold; font-size: 1.2em;">box-level</span> e o <span style="background-color: black; color: #FF47DA; font-weight: bold; font-size: 1.2em;">inline-level</span>.
+
+            <p><span style="font-size: 1.5em; text-decoration: underline;"><strong>box-level</strong></span> <br> Um exemplo de <mark style="background-color: #1CFEBA;">box-level</mark> é o <mark style="background-color: #1CFEBA;">&lt;h1&gt;</mark> &#x27A1; Eu vou usar o <mark style="background-color: #1CFEBA;">&lt;h1&gt;</mark> quando eu quero <mark style="background-color: #1CFEBA;">quebra a linha</mark>, <mark style="background-color: #1CFEBA;">cria uma caixa que ocupe a largura inteira</mark> e <mark style="background-color: #1CFEBA;">quebrar pra proxima linha</mark>. Ex:</p>
+
+            <h1 id="boxlevel">Isso é um exemplo de <span style="color: rgb(25, 0, 255);">box-level</span></h1>
+                
+            <p><span style="font-size: 1.5em; text-decoration: underline;"><strong>inline-level</strong></span> <br> Já um exemplpo de <mark style="background-color: #FF47DA;">inline-level</mark> é o <mark style="background-color: #FF47DA;">&lt;a&gt;</mark style="background-color: #FF47DA;"> &#x27A1; O <mark style="background-color: #FF47DA;">&lt;a&gt;</mark> eu vou usar quando eu quiser um <mark style="background-color: #FF47DA;">elemento e que a proxima caixa esteja do lado</mark> e que <mark style="background-color: #FF47DA;">não ocupe a linha toda</mark>. Ex:</p>
+
+            <p>texto para mostrar que nao quebra........ <a id="inline" href="#"> Isso é um exemplo de <span style="color: red;">inline-level</span></a> ........texto para mostrar que nao quebra &#x27A1; Esse exemplo foi feito dentro de um box level de paragrafo (&lt;p&gt;)</p>
+
+            <div class="container">
+                <ul id="centraliza"><mark style="background-color: #1CFEBA;">Exemplos de box-level:</mark>
+                    <li>&lt;div&gt;</li>
+                    <li>&lt;h1 até h6&gt;</li>
+                    <li>&lt;p&gt;</li>
+                    <li>&lt;main&gt;</li>
+                    <li>&lt;header&gt;</li>
+                    <li>&lt;nav&gt;</li>
+                    <li>&lt;article&gt;</li>
+                    <li>&lt;aside&gt;</li>
+                    <li>&lt;footer&gt;</li>
+                    <li>&lt;form&gt;</li>
+                    <li>&lt;video&gt;</li>
+                </ul>
+                <ul><mark style="background-color: #FF47DA;">Exemplos de inline-level:</mark>
+                    <li>&lt;span&gt;</li>
+                    <li>&lt;a&gt;</li>
+                    <li>&lt;code&gt;</li>
+                    <li>&lt;small&gt;</li>
+                    <li>&lt;strong&gt;</li>
+                    <li>&lt;em&gt;</li>
+                    <li>&lt;sup&gt;</li>
+                    <li>&lt;sub&gt;</li>
+                    <li>&lt;label&gt;</li>
+                    <li>&lt;button&gt;</li>
+                    <li>&lt;input&gt;</li>
+                    <li>&lt;select&gt;</li>
+                </ul>
+            </div>
+
+            <h3>Box-Level</h3>
+
+            <p>O google chrome tem uma ferramenta chamada <mark><strong>Dev-Tools</strong></mark> (ferramentas do desenvolvedor) para acessa-la basta <mark>inspecionar elemento</mark> na pagina. Ao acessar o dev-tools vai aparecer o <strong>modelo de caixas</strong>. (<em>As camadas padding, margin e border que tem "-" "-" "-" "-" dentro significa que não tem</em>).<br> <img src="midias/modelo-caixas.PNG" alt="modelo de caixas"></p>
+
+            <p>O proprio navegador aplica alguns estilos. O que está em user agent stylesheet. São os estilos que o proprio navegador configurou.</p>
+
+            <p>Para configurar se quer o <mark style="background-color: #1CFEBA;">box-level</mark>, usa-se: <mark style="background-color: #1CFEBA;">display: block;</mark> . Já para configurar o <mark style="background-color: #FF47DA;">inline-box</mark> usa-se o <mark style="background-color: #FF47DA;">display: inline-box</mark>. <strong>Sim, da pra transformar o que por padrão é inline-box em box-level e box-level em inline-box.</strong> O display: inline-block; <strong>vai continuar ser inline mas com caracteristica de bloco</strong> (da pra setar width e height por exemplo)<br><img src="midias/comparativo-9.png" alt="comparativo inline-box e box-level"></p>
+
+            <p>No dev-tools da pra <strong>mexer no codigo sem alterar o arquivo original</strong>. Da pra <strong>aumentar e diminuir os valores</strong> de estilo usando a rodinha do mouse, também da pra <strong>habilitar e desabilitar os estilos</strong>. Ele é bom para praticar as propriedades.</p>
+
+            <p> <span style="text-decoration: underline; font-size: 1.5em;"><strong>border</strong></span> <br> A shorthand <mark>border</mark> é composta por <mark>border-width</mark> (valor em px), <mark>border-style</mark> (tipo) e <mark>border-color</mark> (cor). <br> O <strong>border-style</strong> pode ter os seguintes valores: <strong>solid</strong> (borda solida), <strong>dotted</strong> (pontilhado bolinha), <strong>dashed</strong> (pontilhado quadrado), <strong>double</strong> (linha dupla), <strong>groove</strong> (margem 3D), etc.</p>
+
+            <p><span style="font-size: 1.5em; text-decoration: underline;"><strong>padding</strong></span> <br> O padding <mark style="background-color: lime;">cria um <strong>espacinho</strong> com a parede pra <strong>não ficar colado</strong></mark>. <strong>Pode-se especificar onde quer que aplique</strong> o padding - Ex: padding-(left, right, top, bottom): 10px. Criando um por um, da pra dimensionar melhor o site. O padding serve para <strong>ALINHAR</strong> as coisas com <strong>PRECISÃO</strong>.</p>
+
+            <img style="border: 4px solid red;" src="midias/comparativo.png" alt="comparativo com padding e sem padding">
+
+            <p>Básicamene o <mark><strong>DevTools</strong></mark> serve para <mark><strong>fazer testes</strong></mark>. Se ficar bom, você incorpora ao codigo original. Tudo que é feito nele é perdido ao atualizar caso não tenha sido incorporado ao codigo original.</p>
+
+            <p><span style="font-size: 1.5em; text-decoration: underline;"><strong>margin - centralização</strong></span> <br> A <mark style="background-color: rgb(0, 255, 110);">margin</mark> é configurada como padding. (pode dividir em left, right, top e bottom). <mark style="background-color: rgb(0, 255, 110);">Serve para dar um espaço</mark> (margem) <strong>para que as caixas não fiquem coladas uma na outra</strong>, ou <strong>usar para alinhar</strong>.</p>
+
+            <p>Para <mark style="background-color: rgb(83, 206, 255);"> centralizar a caixa de forma que não importe se aumenta ou diminui o tamanho da janela</mark>, usa-se o <mark style="background-color: rgb(83, 206, 255);">margin: auto;</mark> assim ele <mark style="background-color: rgb(83, 206, 255);">ficará posicionado ao centro</mark> (meio), serve se for uma caixa. <mark style="background-color: rgb(83, 206, 255);">se for um texto</mark>, basta usar o <mark style="background-color: rgb(83, 206, 255);">text-align: center;</mark></p>
+
+            <img src="midias/comparativo-3.png" alt="diferença entre o margin: auto;" width="400px" height="300px" style="border: 4px solid red;">
+
+            <p>Para dar margem em algo que ja tem margem, precisará usar a margem negativa. Para isso, basta usar o negatovo (Ex: margin: -10px;)</p>
+
+            <p>O <mark style="background-color: rgb(255, 96, 85);">outline fica entre a borda e a margem</mark>. Ele é feito que nem a borda (tamando[px], tipo[solid], cor[grey]). (Fica dentro da margem)</p>
+
+            <p><strong>border, padding, margin e outline</strong> podem ser escritos como <mark>short-hands</mark> ou <mark>separando seus atributos</mark>. <br>Os valores do margin tem a <strong>ordem de um relogio</strong>: top(cima), right(direita), bottom(baixo), left(esquerda). <mark>Se o valor das 4 forem o mesmo, basta informar o valor uma unica vez</mark>. Se colocar 2 valores o primeiro valerá para o de cima e de baixo e o segundo para esquerda e direita.</p>
+
+            <p>Da ainda para criar valores especificos. <br>
+            Ex: <br>
+            border-right-style: solid; &#x27A1; somente a borda direita vai ser do tipo solid<br>
+            border-left-width: 10px; &#x27A1; somente a largura da esquera da borda terá 10px</p>
+            
+            <p>No DevTools, se clicar na setinha da short-hand ele vai listar, de maneira detalhada, todos os estilos.</p>
+
+            <p>As tags de agrupamento são o <mark>&lt;div&gt; (para box-level)</mark> e o <mark>&lt;span&gt; (para inline-level)</mark>. Em sites antigos era comum usar varias divs uma dentro da outra e separa-las por classes ou ids, ainda é possivel fazer desse jeito, mas com o HTML5 da pra fazer de uma forma melhor, usando as <strong>grouping tags semanticas</strong></p>
+
+            <h3>Tags de Agrupamento</h3>
+
+            <p>Todo site tem um <strong>conteudo principal</strong> (essencia do site), <strong>cabeçalho</strong> (apresentação do site) e um <strong>rodapé</strong> (links extras, autor do site, etc). Todas as tags de agrupamento são reconhecidas como divs.</p>
+
+            <strong>Principais tags de agrupamento</strong><br><ul>
+                <li>header (cabeçalho) &#x27A1; escção para criar a apresentação do site.</li>
+                <li>main (principal) &#x27A1; secção para criar o conteudo principal do site.</li>
+                <li>footer (rodapé) &#x27A1; secção para links extras, autoria do site, etc.</li>
+                <li>nav (navegação) &#x27A1; serve para criar um menu (usa-se dentro de uma das 3 principais tags de agrupamento)</li>
+                <li>section (secção) &#x27A1; sere para criar uma secção</li>
+                <li>article (artigo) &#x27A1; serve para criar um artido</li>
+                <li>aside (a parte) &#x27A1; serve para conteudos perifericos ao artigo (usado dentro do artigo)</li>
+            </ul>
+
+            <h3>Sombras</h3>
+
+            <p> <nav style="font-size: 1.5em; text-decoration: underline;"><strong>box-shadow</strong></nav> Para criar <strong>sombras em caixas</strong> usa-se <strong>box-shadow: </strong>. Ele é <strong>composto por 5 valores</strong>: o <mark style="background-color: rgba(105, 90, 205, 0.699);">primeiro é sobre o deslocamento horizontal</mark> (em px), o <mark style="background-color: springgreen;">segundo é sobre o deslocamento vertical</mark> (em px), o <mark style="background-color: violet;">terceiro é o desfoco</mark> (em px), o <mark style="background-color: sandybrown;">quarto é a propagação</mark> (em px) e <mark style="background-color: skyblue;">por ultimo a cor</mark>. O deslocamento pode ser negativo, jogando a sobra para o outro lado (só não funciona para o espalhamento) Ex: <br> <img src="midias/box-shadow.PNG" alt="exemplo de box-shadow"> </p>
+
+            <img style="border: 4px solid red; width: 300px;" src="midias/compativo-4.png" alt="comparativo box shadow">
+
+            <p><nav style="font-size: 1.5em; text-decoration: underline;"><strong>text-shadow</strong></nav> Para criar <strong>sombras em textos</strong> usa-se <strong>text-shadow:</strong> . Serve para dar o efeito 3D nas letras. As sombras das letras devem ser suaves. Ex:<br> <img src="midias/text-shadow.PNG" alt="exemplo de text-shadow"> </p>
+
+            <img style="border: 4px solid red; width: 300px;" src="midias/comparativo-5.png" alt="comparativo text shadow">
+
+            <p>&#x27A1; As sombras funcionam como uma short-hand <br> &#x27A1; Também é possivel criar sombra pra dentro usando o inset </p>
+
+            <p><strong>TODA SOMBRA DEVE SER PRETA</strong>, não use sombra colorida. Só use o black e a luminosidade para deixar a sombra forte ou mais clara. A sombra não pode ser uma cor solida, ela tem que ser meio transparente pra dar o efeito de sombra</p>
+
+            <h3>Width e Height</h3>
+
+            <p><mark>Width</mark> se refere a <mark>largura (horizontal)</mark>. Enquanto <mark style="background-color: aqua;">Height</mark> se refere a <mark style="background-color: aqua;">altura (vertical)</mark>. Podemos definir valores fixos (em pixels [px]), com o valor fixo se aumentar ou diminuir o tamanho da janela, a largura e altura manteram o tamanho, podendo não ficar responsivo.</p>
+
+            <p>Já se usar o valor 100%, vai <strong>ajustar ao tamanho da janela conforme ela aumenta ou diminui</strong>, ficando responsivo. <br> Este recurso serve para quando <strong>diminuir o tamanho da janela do navegador a imagem acompanhe a redução mantendo a proporcionalidade.</strong> Se você quer que esse recurso se aplique a todas as imagens por exemplo, basta adicionar <mark style="background-color: rgb(88, 88, 88); color: yellow;">img { width:100%; }</mark>
+            </p>
+
+            <p>Também pode-se definir um tamanho maximo e minimo para width usando max-width e min-width. <br>
+            O <mark style="background-color: rgb(178, 245, 134);">max-width</mark> estabelece a <mark style="background-color: rgb(178, 245, 134);">largura máxima</mark> de um elemento. Ele <strong>evita</strong> que o valor usado da propriedade <strong>width se torne maior</strong> que o valor especificado por max-width (serve para não aumentar se o tamanho da janela aumentar). Já o <mark style="background-color: rgb(156, 147, 241);">min-width</mark> estabelece a <mark style="background-color: rgb(156, 147, 241);">largura minima</mark> e evita que o valor <strong>ultrapasse o minimo</strong> estabelecido.
+            </p>
+
+            <h3>Vertices Arredondados</h3>
+
+            <p>O <mark style="background-color: rgba(247, 216, 38, 0.856);">border-radius</mark> serve para setar o <mark style="background-color: rgba(247, 216, 38, 0.856);">raio da borda (<strong>fazer arredondamento das vertices</strong>)</mark>, o valor é em px. <em>Dá até pra fazer uma bola</em>. <strong>É possivel colocar quatro valores para os 4 vertices</strong>. A ordem é: canto superior esquedro &#x27A1; canto superior direito &#x27A1; canto inferior direito &#x27A1; canto inferior esquerdo. Se colocar dois valores o primeiro vai ser o canto superior direito e o oposto + canto superior esquerdo e seu oposto. (também da pra usar %)</p>
+
+            <img style="width: 300px; border: 4px solid red;" src="midias/comparativo-2.png" alt="comparativo com e sem o border-radius">
+
+            <h3>Bordas Decoradas</h3>
+
+            <p>É mais facil implementar direto com uma imagem, pode ser que a imagem não fique bem renderizada com esse recurso, logo é melhor usar um editor de imagem, criar a borda personalizada e alinhar.</p>
+            
+            <h3>Variaveis em CSS</h3>
+
+            <p><mark style="background-color: greenyellow;">Variaveis</mark> são usadas para <mark style="background-color: greenyellow;">guardar valores</mark> que serão usados posteriormente. </p>
+
+            <p>A <mark>pseudoclasse <strong>:root</strong></mark> &#x27A1; é a <mark>raiz da arvore</mark> que o documento tem. Tudo que for escrito ali <mark>serve para o documento inteiro</mark>. Aqui é onde <mark>posso criar/declara variaveis</mark>. <strong>Todas as variasveis começam com "--"</strong><br>Ex dentro do style: </p>
+
+            <img src="midias/var-css.PNG" alt="demonstração de variavel em css">
+
+            <p>A variavel fica disponivel como um valor padrão. Por exemplo, se definir variaveis com cores e der <mark style="background-color: black; color: white;">ctrl + space</mark> vai estar disponivel a variavel. A var é <mark style="background-color: hotpink;">referenciada com var(--NomeDaVariavel);</mark> e como normalmente ela é um valor, vai ser usada dentro de um atributo.</p>
+
+            <p>O uso de variaveis facilita muito quando se está criando o site além de, facilitar muito se precisar fazer alterações nos valores.</p>
+
+            <h3>Responsividade Estruturais</h3>
+
+            <p>Responsividade &#x27A1; Adaptar o conteudo do seu site ao tamanho de tela do dispositivo</p>
+
+            <p>Um site responsivo nunca deve ter rolagem lateral. Isso incomoda os usuarios visualmente, atrapalha o bom funcionamento do site e vai gerar grande evasão dos usuarios, diminuindo o SEO.</p>
+
+            <p>Para testar a reponsividade usaremos a extensão <a class="window-r" href="https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=pt-BR" target="_blank" rel="external">Window Resizer <img src="midias/window-resizer.jpg" alt="logo do window resizer" width="30px" height="30px"></a></p> 
+            
+            <p>Ela serve para ver quando precisará mudar para outro tipo de dispositivo, por exemplo, quando a imagem chega no limite pra abrir a barra de rolagem lateral. Assim você tem esse numero em px. Alem disso ele serve para ver como o site ficaria em diversos disposivitos, simulando suas resoluções.</p>
+
+            <p>Deixando um site com um main de largura definida, ele ficará responsivo ate que o tamanho da tela fique menor que a largura. Por isso, <mark style="background-color: gold;">para dixa-lo responsivo, podemos definir largura maxima e minima</mark>. Bons valores para maximo e minimo são: <mark style="background-color: black; color: white;">max-width: 800px;</mark>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<mark style="background-color: black; color: white;">min-width: 320px;<br></mark>&nbsp;&#x27A1;&nbsp;320px porque telefones antigos tinham essa resolução.</p>
+
+            <p>Também usaremos <mark style="background-color: rgb(255, 131, 73);"><strong>sources</strong> para conteudos que se beneficiam caso o tamanho da tela seja muito grande (televisão) ou muito pequeno (celular de antiga geração).</mark></p>
+
+            <p><span style="font-size: 1.5em; text-decoration: underline; font-weight: bold;">line-height</span> <br> <mark style="background-color: rgb(88, 88, 88); color: rgb(0, 255, 34);">line-height: 1em;</mark> ➡ serve para definir o <strong>espaçamento entre linhas</strong> (altura ente linhas). Usado para facilitar a leitura e não se perder</p>
+
+            <img style="border: 4px solid red; width: 400px;" src="midias/comparativo-10.png" alt="comparativo entre 1em e 10em de line-height">
+
+            <h3>Estilo em listas</h3>
+
+            <p>Para definir quantas <mark>colunas</mark> voce quer que tenha uma lista use <mark>columns: 2;</mark></p>
+
+            <p>Para que duas listas fiquem <strong>uma do lado da outra</strong> crie uma div em volta das "uls" que deseja emparelhar e uma classe. Use o atributo <mark style="background-color: rgb(88, 88, 88); color: rgb(0, 255, 0);">display: flex;</mark> (este atributo sera estudado em flexbox)</p>
+
+            <p>Em alguns casos, será necessario definir se as <strong>bolinhas da lista ficam pra dentro ou pra fora</strong> da folha, no caso de criar uma subdivisão da folha. Para definir se as bolinhas ficam para dentro ou para fora use ➡ <strong>list-style-position: inside; ou outside</strong></p>
+
+            <p>Para <mark style="background-color: hotpink;">colocar um <strong>emoji</strong> no lugar das <strong>bolinhas</strong></mark> nas listas não ordenadas basta usar ➡ <strong>list-style-type: '\2714';</strong> <br> ➡ depois do "\" vem o codigo do emoji (sem prefixo - &#x). Da pra colocar mais que um emoji em sequencia: basta ir separando com "\". <br> Quando você trocar por um emoji, vai ficar muito colado no item, então deve ser separado o emoji do item com o espaço (nbsp). O codigo que representa o nbsp (espaço em branco) é o 00A0 <br> Ex: com um emoji e 3 nbsp</p>
+
+            <ul style="list-style-type: '\2714\00A0\00A0\00A0'; columns: 3;">
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+            </ul>
+
+            <p><span style="font-size: 1.5em; font-weight: bold; text-decoration: underline;">transition-duration</span> <br> Serve para que o efeito tenha um <mark style="background-color: #1CFEBA;">tempo de transição</mark>. O valor é em segundos (s). Fica muito bom usado com o hover em menus por exemplo.</p>
+
+            <p><a id="exemplotransition" href="#">Exemplo de transição</a><br>&nbsp;</p>
+            
+
+            <h3>Seletores e Declarações</h3>
+
+            <p>Para aplicar estilo a duas tags, no mesmo seletor, basta separalas por uma virgula. Ex: <mark style="background-color: rgb(88, 88, 88); color: yellow;">h1, h2 { }</mark></p>
+
+            <p><span style="font-size: 1.5em; font-weight: bolder; text-decoration: underline;">seletores aplicados a tags dentro de tags</span> <br> Para que um seletor seja valido para <strong><mark>todas</mark></strong> as tags <mark style="background-color: rgb(88, 88, 88); color: yellow;">&lt;x&gt;</mark> que estiverem dentro de <mark style="background-color: rgb(88, 88, 88); color: yellow;">&lt;y&gt;</mark> (independente se a tag <mark style="background-color: rgb(88, 88, 88); color: yellow;">&lt;x&gt;</mark> estiver dentro de <mark style="background-color: rgb(88, 88, 88); color: yellow;">&lt;z&gt;</mark> que está dentro de <mark style="background-color: rgb(88, 88, 88); color: yellow;">&lt;y&gt;</mark>) usamos <mark style="background-color: rgb(88, 88, 88); color: yellow;">y x { }</mark> <br> Ex: <mark style="background-color: rgb(88, 88, 88); color: yellow;">&nbsp;main p { }&nbsp;</mark> &#x27A1; todos os "p" dentro de "main" sofreram, <strong>mesmo se estiverem dentro de outra tag</strong>.</p>
+
+            <p>Já para que um seletor seja valido <strong><mark>apenas</mark></strong> para a tag especifica <mark style="background-color: rgb(88, 88, 88); color: yellow;">&lt;x&gt;</mark> que esta dentro de <mark style="background-color: rgb(88, 88, 88); color: yellow;">&lt;y&gt;</mark> usa-se: <mark style="background-color: rgb(88, 88, 88); color: yellow;">&nbsp;y > x { }&nbsp;</mark></p>
+
+            <p><span style="text-decoration: underline; font-size: 1.5em"><strong>Anotações em HTML e CSS</strong></span> <br> Para fazer anotações no <mark style="background-color: black; color: rgb(1, 255, 1); font-weight: bolder;">&nbsp;CSS&nbsp;</mark> usa-se <mark style="background-color: rgb(88, 88, 88); color: rgb(1, 255, 1);">"/*"</mark> para abrir e <mark style="background-color: rgb(88, 88, 88); color: rgb(1, 255, 1);">"*/"</mark> para fechar.</p>
+
+            <p>Diferente do <mark style="background-color: black; color: rgb(255, 166, 1); font-weight: bolder;">&nbsp;HTML&nbsp;</mark> que usa <mark style="background-color: rgb(88, 88, 88); color: rgb(255, 166, 1);">"&lt;!--"</mark> para abrir e <mark style="background-color: rgb(88, 88, 88); color: rgb(255, 166, 1);">"-->"</mark> para fechar</p>
+
+            <p>Para criar uma configuração global abra um seletor para <mark style="background-color: rgb(88, 88, 88); color: yellow;">*{ }</mark> . O que for escrito nesse seletor será executado no documento inteiro.</p>
+
+            <p>Sempre deixe a <mark style="background-color: #1CFEBA;">ordem dos estilos na ordem das estruturas</mark> para ficar organizado</p>
+
+            <h3>Margem padrão e como tira-la</h3>
+            
+            <p>Por padrão, o h1 e algumas outras estruturas box-level, ficam com uma margem que não deixa o cabeçalho encostar na extremidade da pagina, ficando horroroso. Para resolver isso criamos uma <strong>configuração golbal para que nenhum bloco tenha margin ou padding</strong>. Com isso tudo ficará condensado, e os espaçamentos serão feitos com mais precisão.</p>
+
+            <img style="border: 4px solid red" src="midias/margin-padding-0.PNG" alt="configuração global de margin e padding">
+
+            <h3>Diferença entre <mark style="background-color: black; color: rgb(217, 255, 0); border-radius: 5px;">&nbsp;main &nbsp;p &nbsp;{&nbsp;</mark> e <mark style="background-color: black; color: rgb(217, 255, 0); border-radius: 5px;">&nbsp;main &nbsp;>&nbsp; p &nbsp;{&nbsp;</mark></h3>
+            
+            <p>O <mark style="background-color: black; color: rgb(217, 255, 0);">&nbsp;main&nbsp; p &nbsp;{&nbsp;</mark> &#x27A1; se <mark style="background-color: rgb(217, 255, 0);">aplica para todos os p dentro do main</mark> (independente se esse p estiver dentro de uma tag dentro do main)</p>
+
+            <p>O <mark style="background-color: black; color: rgb(0, 255, 234);">&nbsp;main &nbsp;> &nbsp;p &nbsp;{&nbsp;</mark> &#x27A1; se <mark style="background-color: rgb(0, 247, 255);">aplica somente para os p que estão dentro do main</mark> (se dentro do main tiver outra tag e dentro desta outra tag tiver um p, já não funciona)</p>
+        </main>
+</body>
+</html>

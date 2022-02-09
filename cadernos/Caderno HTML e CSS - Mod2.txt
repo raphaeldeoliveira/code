@@ -1,0 +1,845 @@
+VIDEO 1 - 
+   
+   explica como assistir as aulas pela plataforma + o que será abordado no curso
+   
+VIDEO 2 - 
+   
+   cores são de suma importancia para tudo na vida. A compra de um produto está intrinsecamente ligada a cor dele e da embalagem.
+   
+   A harmonia visual de um site (harmonia de cores) vai decidir se você vai acessa-lo ou não. Nada disso é conciente
+   
+   O que tem em comum o facebook, dell, twitter, linkedin e intel - todos usam a cor azul, mas em tons diferentes
+   => o azul tem uma ligação com: competencia, sabedoria, calma, confiança, profissionalismo, integridade, segurança. É a cor com menor
+   taxa de rejeição. 45% das pessoas gostam do azul e 1% odeia o azul
+   
+   O vermelho remete ao amor, emoção, energia, mas também remete a raiva, perigo. É usado em sites de comida, moda, entreterimento
+   serviço de emergencia e saude
+   => deve ser evitado para produtos que querem remeter ao luxo, natureza, serviços em geral
+   
+   a psicologia das cores se intensifica quando é usado muito daquela cor
+   
+   ***isso esstá no PDF da aula***
+   
+   Ex: netflix = preto e vermelho
+   
+   fundo preto e letra branca causa um cansaço visual muito rapido, logo, pode ser usado mas não quando se tem muito texto. Para muito
+   texto é melhor usar o fundo branco com letra preta
+   
+   o amarelo remete a felicidade, alegria e otimismo. O McDonalds usa o vermelho e amarelo, juntando alimentação com felicidade
+   
+   pequenos detalhes como a cor das roupas das pessoas que ficam em uma imagem do site fazem diferença. Remetem a diferentes emoções
+   
+   o verde remete a natureza, dinheiro, sorte, saude. Mas também remete a inveja. É usado para relaxamento, turismo, financeiro, meio
+   ambiente e ve-se evitar para luxo, tecnologia, meninas adolescentes
+   é usado pelo site do greenpeace
+   
+   site monocromatico = usa varios tons de uma determinada cor 
+   
+   o rosa remete a amor, romance, cuidados, sinceridade. Recomendado para produtos femininos (cosmeticos). Evite para produtos que não
+   remetam a algo sentimental ou doce
+   
+   o marrom remete a robustes, amizade, estabilidade. Porém é pouco usado
+   
+   o roxo remete a sabedoria, poder, criatividade. Mas deve ser evitado pois ão prende muito a atenção - usado para inovação
+   
+   os sabores conforme vão mudando as cores também vão mudando. Da pra relacionar uma cor para cada opção de itens
+   
+VIDEO 3 - 
+   
+   Como representar TODAS as cores
+   
+   No VSCode pode-se escrever as cores de 4 formas: 
+      * Pelo Nome                                   (Ex: blue, white)
+      * Pelo Codigo HexadDecimal                    (Ex: #0000ff , #ffffff)
+      * Pelo rgb (red, green, blue)                 (Ex: rgb(0, 0, 255) , rgb(0, 0, 0)
+      * Pelo hsl (hue, saturation, luminosity)      (Ex: hsl(240, 100%, 50%) , hsl (0, 0%, 100%)
+                 (matiz, saturação e luminosidade)
+   
+   Bases Decimais:
+   
+   Decimal     (10 algarismos) - 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+   HexaDecimal (16 algarismos) - 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F	
+   (6 + 10)                      (0 = menos significativo | F = mais significativo)
+   
+   O codigo hexadecimal se baseia nas 3 cores primarias (vermelho, verde e azul) - começa com "#" e depois o codigo da cor.
+   no codigo azul ele fica 00 para nulo em vermelho, 00 para nulo em verde e ff para o maximo do azul (nessa sequencia)
+   
+   O RGB (red, green, blue) funciona como o hexadecimal, mas com valores de 0 a 255. Logo, para representar o azul ficaria 0, 0, 255
+   
+   0, 0, 0 = preto | 255, 255, 255 = branco
+   
+   O RGB é usado em telas (TV, monitor, celular, etc)
+   
+   A quarta maneira é usando caracteristicas de cores - matiz (h), saturação (s) e luminozidade (l) = hsl
+   Ex: hsl(240, 100%, 50%)
+   
+   Mas a maneira mais simples é usando o menu interativo do VSCode para escolher a cor atraves do menu. Basta colocar o mouse sobre
+   qualquer cor que o menu vai aparecer. Ao clicar na barra superior onde tem "rgb" ele muda para 3 opções: hexadecimal, hsl ou rgb. 
+   
+   O menu interativo tem 3 opções: Tom (tela maior), transparencia (barra do meio) e cor (barra a direita)
+   
+VIDEO 4 - 
+   
+   Harmonia de Cores
+   
+   Circulo Cromatico - é dividido em 12 principais cores: 
+   => É usado para harmonizar as cores (deixa bonito = ter simetria)
+   
+   Cores Primarias =  amarelo, vermelho e azul (são simetricas, formam um triangulo equilatero)
+   Cores Secunarias = laranja, violeta e verde (forma um triangulo também)
+   
+   Cores Terciárias = mistura entre todas as cores primarias e secundarias (esta entre uma cor primaria e secundaria)
+   Quando se vai juntar duas cores junta-se o nome das duas. As principais cores terciarias são:
+   Ex: amarelo-esverdeado (aa cor primaria deve vir antes da secundaria)
+       amarelo-alaranjado
+       vermelho-alaranjado
+       vermelho-arroxeado
+       azul-arroxeado
+       azul-esverdeado
+   
+   Temperatura das cores
+   
+   As Cores Frias são do violelta ao amarelo-esverdeado (metade) {violeta, azul-arroxeado, azul, azul-esverdeado e verde}
+   
+   As Cores Quentes são do amarelo ao vermelho-arroxeado (50%) {amarelo, amarelo-alaranjado, laranja, vermelho-alarenjado, vermelho  e vermelho arroxeado}
+   
+   **na pagina colocar os prints da aula**
+   
+   Classificações buscando a harmonia.
+   
+   Quando se esta montando um site tome cuidado com a escolha da paleta de cores. Uma paleta deve ter de 3 a 5 cores (+ branco e preto)
+   
+   Se o site tem uma marca (logo) ache a cor primaria da marca e use-a no site como cor principal
+   
+   Cores complementares = tem mais contraste entre sí (são as cores opostas) Ex: violeta e amarelo
+   
+   Cores Análogas = cores que não tem constraste tão grande, mas é perceptivel.(são as cores vizinhas [ao lado]) 
+   Ex: violeta e azul arroxeado
+   
+   Na criação do site deve-se usar cores analogas e complementares para definir sua paleta de cores 
+   Ex: violeta (principal), azul-arroxeado, vermelho-arroxeado (complementares) e amarelo (análoga)
+   
+   Cores analogas relacionadas = duas cores complementares, pula uma e pega a proxima 
+   Ex: amarelo, amarelo-alaranjado e vermelho (pulou o vermelho-alaranjado)
+   
+   Cores Intercaladas = pula uma cor. Podendo ser quantas cores quiser.
+   Ex: amarelo, laranja e vermelho (pulou o amarelo-alaranjado e o vermelho-alaranjado)
+   
+   Cores Triadicas = pula 3 cores  (forma um triangulo). Ex: amarelo, vermelho e azul
+   
+   Cores em Quadrado = pula duas cores (forma um quadrado). Ex: amarelo, vermelho-alaranjdado, violeta e azul-esverdeado
+   
+   Cores Tetradicas = escolhe duas cores e suas complmentares (vai formar uma figura de quatro lados)
+   Ex: verde, vermelho + laranja e azul
+   
+   Monocromia = escolhe uma cor e altera sua saturação e seu brilho para formar outras cores. Muito harmonico
+   Ex: laranja - vai formar tons de laranja a marrom escuro {laranja, laranja escuro, marrom claro e marrom escuro)
+   
+VIDEO 5 - 
+   
+   Ferramentas de cores e paletas
+   
+   ADOBE COLOR
+   acesse o site https://color.adobe.com/pt/create - Site para escolher as cores no circulo cromatico (para as paletas), ainda da os 
+   codigos hexadecimais das cores. Você escolhe a classificação e vai mexendo nas cores para definir as paletas.
+   
+   tem a opção extrair tema para pegar a paleta conforme as cores ode arquivos. Além da paleta que ele gerar automaticamente, pode-se mexer
+   nas bolinhas para mudar o tom da cor. Depois de pegar a paleta, pode-se voltar ao disco de cores para escolher outras cores com base
+   na classificação das cores da imagem que foi extraido.
+   
+   se você quiser extrair degrade pode ir em extrair gradiente para pegar o degadre baseado nas cores
+   
+   Para conseguir uma sugestão de paleta vai em explorar, exibir, temas de cores, mais usados para mostras as paletas mais utilizadas
+   dai você escolhe a que mais gostou, clica nela e clica em cima de cada cor para copiar o hexadecimal delas.
+   Para copiar em todos os formatos de representação de cores é só clicar em "copiar como css" (vai gera em rgb, hsl e hexadecimal)
+   
+   Pode ir em tendencias para buscar inspirações (ele mostra fotos com as paletas)
+   
+   PALETTON
+   acesse o site paletton.com - Nele, se clicar em examples ele vai mostrar como ficaria um site na web com essas cores (podendo colocar
+   a cor de fundo branca ou preta) + aplicando as cores a alguns desenhos e animações
+   
+   COOLORS
+   acesse o site coolors.co - nele você consegue gerar paletas de modo aleatorio apertando o espaço. Todas elas seguem uma harmonia (não
+   são cores aleatorias). Você pode travar uma cor (clicando no cadeado) para que o algoritmo gere paletas com essa cor
+   => É mais pra quem está perdido
+   
+VIDEO 6 - 
+   
+   Como capturar uma cor - CollorZilla
+   
+   ***o gimp tambem tem um circulo cromatico para definir as cores***
+   
+   No google chrome play store, adicione a extensão "colorzilla" 
+   => Para usa-lo vai no site com as cores, clique no conta-gotas e na opção page-color. Na parte superior vai aparecer uma interface 
+   mostrando a cor que o mouse está em cima. Clicou na cor ele vai copiar o codigo hexadecimal daquela cor. Então pra pegar varias cores
+   você vai copiando e colando o hexadecimal das cores. Tambem dapra fazer com pdfs, basta abri-los no navegador. Pode-se colar nas
+   ferramentas de cores também.
+   
+VIDEO 7 - 
+   
+   Degrade e Gradiente
+   
+   Para fazer degrade usa-se a propriedade background-image: linear-gradient(direção + primeira cor + segunda cor);
+                                                         por direção - Ex:  (to right, white, blue); é mais limitado (4 direções)
+                                                         por graus --- Ex:  (90deg, white, blue);                    (360 direções)
+   Para mudar a dieção do degrade basta alterar o sentido (top, bottom, left e right)
+   
+   *****Para criar uma configuração global nas CSS abre um seletor para "*" ***** => é usado para fazer configurações.
+   
+   Se tentar fazer o degrade para cima ou para baixo ele vai ficar listrado. Para corrigir isso deve-se fazer uma configuração global para
+   height:  100%;
+   
+   para que o degadre seja aplicado na tela inteira usa-se a propriedade background-attachment: fixed;
+   
+   O degrade não precisa ser gritante (não exagere). Pode-se adicionar quantas cores quiser no gradiente
+   
+   Também da pra criar varios tipos de gradientes como:
+   
+   em circulo background-image: radial-gradient(circle, #FF92C2, #1CFEBA, #FF47DA, #0E34A0, #941C2F);
+   
+   pode-se escolher a porcentagem que a cor tenha no gradiente, basta escrever após a cor - ex: #941C2F 20%, #0E34A0
+   
+VIDEO 8 - 
+   
+   tag main = tipo uma div só que diz que isso é o conteudo principal
+   
+   padding = da uma margem pro texto não ficar encostado - Ex: padding: 10px;
+   (em px)
+   
+   margin: auto; ===> serve para centralizar independente do tamanho da tela
+   
+   border-radius: 20px; ===> serve para arrendondar as extremidades (ex: folha com angulo de 90g fica arredondado) **imagem**
+   
+   box-shadow: ; ==> serve para criar sombra - o primeiro parametro é quanto ela vai andar para o lado, o segundo o quanto vai andar pra
+   baixo, o terceiro é quanto vai espalhar e o ultimo é quanta transparencia a sombra vai ter
+   Ex: box-shadow: 10px 10px 10px black
+   
+   text-shadow: ; ===> da sombra as letras (da o efeito de estar em 3D) **muito bonito**
+   
+   text-align: center ===> parametro para alinhamento
+   
+   Para trabalhar monocromia sempre arraste pra baixo para manter a cor e mudar o tom
+   
+   No design não precisa mostrar que tem sombra, pode colocar a cor principal e descer um pouco pra pegar um tom mais escuro e colocar um
+   pouco de espelhamento
+   
+   Olhe a diferença entre com estilo e sem estilo
+   
+   img = site-com-estilo
+   img = site-sem-estilo
+   
+VIDEO 9 - 
+   
+   Estudo basico de Tipografia
+   
+   Antigamente os livros eram reproduzidos por monges copistas que copiavam os livros a mão. Logo a copia levava meses pra ser produzido
+   
+   Depois Gutenberg inventou a prensa mecanica de tipos moveis. Ela prensava formas com palavras em tinta no papel para escrever paginas 
+   completas. Ganhando muita velocidade
+   
+   Depois surgiu a necessidade de criar letras menores e mais bonitinhas para melhorar a legibilidade. Foi ai que surgiu a tipografia
+   
+   Tipografia = typos (impresão-colocar coisa no papel) graphia (escrita-como escrever)
+   Estudo dos tipos (tipografia) - como desenhar as letrinhas
+   
+   tipo = como vou desenhar cada uma das letras
+   
+   Os tipos, assim como as cores, transmitem emoções
+   
+   O designer deve se preocupar com boas letras, boas cores e boas imagens
+   
+   Ex: a palavra "Amor" esta relacionada a coisas suaves, delicadas, duradores, logo, é melhor um traço mais fino, suave.
+   As palavras indicam emoções e este pode ser reforçado com um bom uso de tipografia (fonte)
+   
+VIDEO 10 - 
+   
+   Continuação do estudo basico da tipografia
+   
+   Anatomia do tipo
+   
+   a letra "x" é o ponto de partida para construção de todas as fontes. Pois a altura do "x" é a base da altura de todas as letras
+   minusculas. Altura das minusculas = altura-x
+   
+   Altura das letras maiusculas = altura das letras maiusculas
+   
+   Altura do vazamento (parte da letra que fica pra cima da altura da minuscula - ex: b, k) = altura ascendente
+   
+   Altura do vazamento pra baixo (ex: g, Q) = altura descendete
+   
+   Somatorio de todas as alturas = altura do corpo
+   
+   **imagem com todas**
+   
+   O prolongamento que existem em alguamas fontes = serifa (pequeno tracinho no as pontas das letras) - serve para guiar o olho, facilita
+   a leitura das palavras. Quando lemos não lemos letra por letra, vemos a primeira e ultima letra e as que estão dentro não precisam
+   estar em ordem. (ex do print)
+   
+   COMPONENTES ANATOMICOS GEOMETRICOS
+   
+   sereifada = letras com pontas para guiar a leitura
+   
+   haste = segmento reto na vertical
+   
+   filete = aste deitada que une dois componentes
+   
+   arco = barriguinha que une duas hastes n
+   
+   esporão = saltinho (triangulo) para segurar a base e não cair
+   
+   vertice = o ponto oposto mais afastado da base de uma figura
+   
+   terminal = elemento que não esta preso
+   
+   braço = sai da haste e vai pra cima
+   
+   perna = sai do braço ou haste e vai pra baixo
+   
+   pé = base que segura a fonte
+   
+   espinha = curva s 
+   
+   barriga = dois arcos que se unem e formam a barriga
+   
+   olho = area interna da letra
+   
+   orelha = parte de cima
+   
+   cauda = parte descedente da letra
+   
+   glifo = uma das letras da fonte = caractere ou letra
+   
+   fonte = conjunto de glifos
+   
+   times new roman
+   
+   familia tipografica = varios glifos com diferentes densidades
+   light, normal, seminegrito, negrito e extranegrito
+   nem todas as fontes tem light, seminegrito e extranegrito. Mas tem pelo menos normal e negrito
+   
+   ***print***
+   
+   Categoria de fonte - preferivel para impressa
+   
+   sans-serif = sem serifa - preferivel para sites
+   
+   monoespaçada = todas as letras tem o mesmo espaçamento (inclusive espaço, ",", "!"
+   
+   handwriting (scriptada) = tenta simular a escritura a mão
+   
+   display/comemorativa = levam a alguma ideia ou filme
+   
+   para leitura nunca use cores não contrastantes, é fundo branco letra preta cuidado com espaço entre letras muito curtos.
+   
+VIDEO 11 - 
+   
+   Para mudar a fonte usa-se o parametro font-family. Para fontes com dois nomes deve-se escrever entre ' ' - Ex: 'Courier New'
+   Alguns dispositivos especificos não tem algumas fontes (mesmo sendo fontes basicas/famosas) para resolver isso basa adiocionar só a
+   caracteristica da fonte. Ex: sans-serif - ele pegara uma fonte que seja sem serifa
+   
+   pode-se colocar apenas "sans-serif" para que o navegador coloque uma fonte sem serifa
+   "serif" para o navegador colocar uma fonte serifada
+   "monospace" vai ser uma fonte mono-espaçada que o navegador escolheu
+   
+   Deve-se criar uma combinação de fonte segura, ou seja, uma combinação de fontes que vão funcionar em praticamente todos os navegadores
+    ou dispositivos. Pode-se adicionar quantas quiser, o navegador vai tentar a primeira opção depois passa pra proxima. Então deve-se seguir a ordem de
+   preferencia
+   
+   ***para aplicar estilo a duas tags na mesma linha basta separalas por uma virgula. Ex: h1, h2 {***
+   
+VIDEO 12 - 
+   
+   para adicionar o tamanho da fonte usa-se o parametro font-size
+   
+   Medidas Absolutas
+   
+   cm, in ,mm, in, px, pt, pc
+   =>mm e cm e in (inches) são dificeis de trabalhar porque cada dispositivo vai entender de um jeito diferente
+   =>px alguns dispositivos da apple 1px = 1/4 de px. Então também é dificil
+   =>pt e pc são medidas da tipografia (papel) logo, não se recomenda usar em tela
+   
+   Medidas Relativas
+   
+   em, ex, rem, vw, vh, %
+   => em (altura "m" = equivalente ao M (maiusculo) de uma letra - o mais usado
+   => ex (altura "x" = equivalente ao x de uma letra
+   
+   A recomendação oficial da linguagem fala pra usa SOMENTE o "em" e o "px" (pixel)
+   
+   ***não pode ter espaço entre a medida e o numero ex: 10px (certo) | 10 pc (errado) 
+   ***numeros quebrados devem ter "." e não "," - ex: 0.5
+   
+   normalmente o tamanho padrão da fonte em pixels é 16px (= 1em)
+   16px normalmente = 1em
+   
+   o melhor é usar o "em" pois, você usa porcentagem do tamanho padrão. Assim, viabiliza criar sources para multiplataformas (tv, celular)
+   
+VIDEO 13 - 
+   
+   Peso e Estilo
+   
+   peso da fonte = quando faz a fonte ficar mais magrinha ou mais gordinha
+   => para fazer isso,  usaremos uma fonte chamada 'Work Sans' (essa fonte não está no seu PC, nem no de ninguem)
+   para usa-la você precisa importa-la usando, no style [não é dentro do {}], o @import url('LinkDaFonte');
+   
+   *para alterar o peso da fonte usa-se o parametro "font-weight"*
+   os valores podem ser:  lighter, normal, bold e bolder
+                          lighter = mais leve, mais magrinha
+   também pode se usar valores numericos - vai de 100 a 900 (de 100 em 100).
+   o 100 é mais que o lighter
+   o 400 é o normal
+   o 900 é mais que o bolder
+   
+   tem também o font-style para deixar em italico
+   
+   da pra usar o sublinhado com o text-decoration: underline;
+   
+   o que mais vai ser usado é o font-family, font-weight, font-size e font-style. 
+   é possivel condensa-las em um só parametro chamado de font. Essa condensação é chamada de shorthand (mãozinha)
+   shorthand (mãozinha) é o condensamento de varios parametros em apenas um.
+   A ordem do font é: font-style => font-weight => font-size => font-family (deve respeitar a ordem)
+   ex: font: italic bolder 3em 'Work Sans', sans-serif;
+   a "," só é usada para colocar varias fontes. Não deve ser usada para separar os parametros
+   
+VIDEO 14 - 
+   
+   Familias de Fontes Externas
+   
+   O que ja vem embutido nos navegadores são fontes muito limitadas. Para usar fontes mais versateis podemos usar fontes externas
+   
+   o site https://fonts.google.com/ serve para pegar fontes. Pode-se filtrar em serif, sans-serif, monoespaçada, etc.
+   Para colocar a fonte no site pode fazer o download e puxar o arquivo para o HTML ou puxar externamente em "select this style" ele
+   abre uma janela que se minimiza no canto superior direito. Para pegar a referencia copie o codigo do "import". O import entra como uma
+   regra, portanto, deve ser escrito na primeira linha do style
+   
+   Para diferentes pesos precisará adicionar as variações da mesma fonte ao codigo de incorporação ao HTML. Ele adicionará no mesmo codigo
+   sem ocupar muitas linhas.
+   Ex:
+   
+   @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap'); - uma só variação
+   
+   @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); - 18 variações
+   
+   pode dar mais de um import no style
+   
+   pode-se condensar varias fontes em um só import para não precisar adicionar varios imports
+   Ex: @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+   
+   o que esta dentro dos seletores "{}" são:
+   declarações= conjunto entre propriedades e valores
+   
+   normalmente é usado 3 tipos de fontes
+   
+VIDEO 15
+   
+   Familia de Fontes Internas
+   
+   pegue o arquivo da fonte. Tem muitos sites que disponibilizam. Ex: dafont.com . Bastar baixar o arquivo e colocar na pasta do projeto
+   
+   na escolha da fonte fique atento aos glifos para não pegar uma fonte que não tenha glifos com acentuação, pois não vai conseguir usar
+   em portugues. Algumas também não diferenciam maiusculos e minusculos. Elas podem ter o formato .otf e .ttf ambos servem melhor a
+   diferentes tipos de naveegadores, use ambos com sources.
+   
+   para adicionar a fonte você vai criar uma regra com um seletor especial @font-face para setar a fonte ao HTML. Ele vai abrir assim:
+   
+        @font-face {
+            font-family: 'blank-river';
+            src: url('blank-river.ttf') format('truetype');
+   
+   (adicione o format, ele não vem como padrão)
+   
+   o format pode ter os seguintes valores: opentype (otf) | truetype (ttf) | embedded-opentype | truetype-aat (apple advanced typography)
+                                           svg
+   
+   os arquivos de fontes devem sere separados em uma psta chamada fonts
+   
+   todos as declarações devem estar dentro de '' . o font-family vai ser o nome da fonte que será usado para selecionar nos style
+   a url é o nome do arquivo da fonte, e o format é o formato do arquivo. Também deve-se usar o parametro font-wight para determinar o
+   peso (tamanho) (font-weight: normal) e (font-style: normal) para definir que não é itálico
+   
+   opte pelo google fonts para deixar o site mais leve e
+   
+VIDEO 16 - 
+   
+   Como capturar uma fonte de um site - usa-se uma extensão do google chrome chamada Fonts Ninja
+   link: https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh?hl=pt-br
+   
+   Para usar, basta clicar no ninja verde. Ele vai listar as fontes que estão sendo usadas e se colocar o mouse em cima ele vai falar se
+   está em negrito ou italico, qual a cor, tamanho, etc. (só funciona para o que está escrito. Textos de imagens não pega) ele
+   também mostra se esta normal, bold, extrabold, etc.
+   
+   O Fonts Ninja é um serviço pago, mas que na versão gratuira ja dá pra pegar as fontes dos sites
+   
+   Ele tem um menu interativo que, ao escrever ja pega as caracteristicas do que esta escrito na pagina igual ao que voce escreveu e deixa
+   aumentar tamanho, largura, etc. Com o nome da fonte basta pesquisar no google fonts ou no dafont (ou outro site) para achar a fonte e
+   usa-la no seu site
+   
+VIDEO 17 - 
+   
+   Como identificar fontes dentro de imagens
+   
+   Os resultados não são 100% precisos, só funciona 100% com o fonts ninja. 
+   
+   São 3 sites: 
+   
+      *whatfontis ===================> https://www.whatfontis.com/ =========> tem mais inteligencia, O MELHOR DOS 3
+      *fontsquirrel.com =============> https://www.fontsquirrel.com/
+      *myfonts.com ==================> https://www.myfonts.com/
+   
+   No site, você deve escolher uma fonte de cada vez (não vai ser tudo de uma ver como no fonts ninja). Ele vai pedir uma serie de
+   informações para encontrar a fonte. Configure bem o brilho e o contraste pra ficar mais facil de achar a fonte. Para letras que 
+   encostam em outras, é possivel trassar uma reta para separar as letras. Depois ele vai pedir pra definir que letras são aquelas, se
+   não conseguir identificar ou repetir as letras, deixe vazio. Ele vai listar as que achou parecidas. Vai aparecer variações muito
+   parecidas. Cuidado com fontes pagas, use só as gratuitas.
+   
+   São 3 sites para caso não identificado em um, o outro identifique.
+   
+VIDEO 18 - 
+   
+   Alinhamento de texto
+   
+   Temos 3 tipos de alinhamento: á esquerda, á direita e centralizado. Por padrão, ficará alinhado a esquerda
+   
+   os paragrafos geralmente tem alinhamento justificado. Logo, o melhor é setar, num seletor, text-align: justify
+   
+   Os valores do text-align pode ser: justify (assim que o texto encostar na borda ele pula pra linha de baixo) , center, end, left, right,
+   start, 
+   
+   text-indent: => serve pra dar o espacinho do paragrafo. Os valores devem ser em px. Fica bom por volta de 30px. 
+   
+VIDEO 19 - 
+   
+   Seletores Personalizados - id
+   
+   Para personalizar somente uma tag (que ja tem um style padrão) você deve cria uma identificação (na tag em questão) com a propriedade
+   id="Nome" - o nome que você quer da ao seletor especial deve ficar entre aspas no "Nome". Para se referir a ele você vai colocar a tag
+   seguido de um # e por fim o nome. ex: h1#principal {}
+   
+   tudo que for id em HTML é # em CSS e tudo que é class em HTML é . em CSS. No, entanto só se pode ter um elemento com id (pode ter 
+   varios id mas todos de elementos diferentes) Para fazer em varios elementos usamos a class
+   
+VIDEO 20 - 
+   
+   Classificação de elementos - class
+   
+   É como no id, mas é usado para varios elementos. Basta adicionar como parametro class="nome"
+   
+   Não nomeie suas classes e seus ids pela forma (ex: verde, vermelho) e sim pela função (ex: basico ~ verde)
+   
+   Na class não precisa definir o tipo da tag, e sim começar com o . direto - Ex: .basico {}
+   
+   Para setar direto em um trexo uma class, envelope com a tag span e sete o atributo class="Nome"
+   
+   pode-se aplicar mais de uma classe a um elemento. Basta que fiquem separadas por espaços. Ex: h1 class="intermediario destaque"
+   
+   quem sobrepõe quem segue uma hierarquia. Essa hierarquia é definida com base em quem liga por ultimo, a ordem é class, id, seletor 
+   padrão. O id sobrepõe o style padrão
+   
+VIDEO 21 - 
+   
+   <div> = um espaço qualquer - ocupa uma linha inteira
+   
+   atributo height = altura (os valores devem ser em px)
+   largura = width (os valores também devem ser em px)
+   
+   o atributo border serve para criar uma borda. Os valores devem seguir: tamanho (px) tipo (solid) e cor (black). (border = shorthand)
+   
+   display: inline-block ===> serve para deixar tudo na mesma linha (alinha as divs horizontalmente) se diminuir a tela uma pula pra linha
+   de baixo
+   
+   pseudoclasse refere-se ao estado que um elemento está. A morfoliga é "tag" ":" "estado" - Ex: div:hover{}
+   
+   para criar a pseudoclasse usa-se : Pseudoclasse está relacionado ao estado do elemento (se ta ativo, marcado, vazio, habilitado, etc.)
+   Ex: div:hover - primeiro vem a tag (div), depois a pseudoclasse (:) e por fim o estado (hover)
+   hover = vai ficar da forma do hover quando passar o mouse em cima . Isso é uma configuração de ESTADO. SÓ vai ficar amarelo SE passar o
+   mouse em cima. Serve para criar animações quando o mouse chegar perto de um elemento
+   
+   ***Pode se criar estruturas para definir regras pra algo que está dentro de algo. Ex: div > p{} => esse seletor só vai funcionar para
+   paragrafos que estiverem dentro de uma div.
+   
+   display:none => serve para que não mostre nada
+   display: block; ===> serve para mostrar
+   
+   div:hover > p ===> quando eu passar o mouse sobre o div, eu quero que o paragrafo que tem dentro dele faça (comando que esta dentro do seletor)
+   > = filho (dentro de)
+   
+   => Isso seria o prototipo inicial de casos de menus que abrem quando passa o mouse em cima.
+   
+VIDEO 22 - 
+   
+   links por padrão ficam azuis e quando visitados violeta, porém é possivel mudar isso com CSS. Para fazer isso basta adicionar o 
+   parametro color com a cor que queira que o link fique.
+   A pseudoclasse :visited define a cor que fica os links visitados -> Ex: a:visited {}
+   Se quiser manter sem diferença os visitados, bastar nao colocar a pseudoclasse visited
+   
+   Para tirar o sublinhado dos links usa-se a pseudoclasse text-decoration: none.
+   
+   Da pra quando passar o mouse deixar negrito, criando um efeito muito legal. basta usar tag:houver { font-weight: bold; }
+   
+   pseudoclasse :active => para quando se clica nele (só fica enquanto esta "clicando")
+   
+   Temos também os pseudoelementos que podem agir nas classes, elementos e ids. Mexem no conteudo periferico do elemento. Para criar 
+   pseudoelementos usa-se :: (dois :)
+   Ex: a::after { content:' [link]' }
+   after serve para o que vem depois | content = conteudo
+   
+VIDEO 23 - 
+   
+   Modelo de Caixas
+   
+   => É aplicavel ao HTML e CSS, serve para facilitar a organização do design. Imagine varias caixas, onde umas ficam dentro de outras.
+   Esse é o modelo de caixas. Quando se coloca um elemento dentro do outro esta-se fazendo um aninhamento (em forma de ninho).
+   
+   Ex: print
+   
+   Todo elemento visivel de um site é uma caixa. Essa caixa tem um tamanho/medida. Aa medidas são: altura (height), largura (width), toda
+   caixa tem também uma borda (border - linha que circunda o conteudo). Padding = preenchimento - é o espaço (interno) entre a borda e a 
+   linha do conteudo *print*. Também tem o margin (margem) = preenchimento externo (da borda pra fora). Outline (contorno) é uma borda que
+   bordeia a borda . Essa é a anatomia de uma caixa
+   
+   Existem dois tipos de caixa, o box-level e o inline-level. Eles tem paragrafos (paragrafos também são caixas). Um box-level sempre se
+   inicia em uma linha nova e ocupa a largura total da tela e pula pra proxima linha antes de continuar o conteudo. Já uma caixa inline-
+   level ele vai pula para o lado, vai desenhar uma caixa exatamente do tamanho para conter o conteudo do elemento e quando ele termina
+   não quebra a linha e continua o conteudo. *print*
+   
+   Ex de box-level = <div> | Ex de inline-level = <span>. Eu vou usar o <div> quando eu quero quebra a linha, cria uma caixa que ocupe a 
+   largura inteira e quebrar pra proxima linha. O <span> eu vou usar quando eu quiser um elemento e que a proxima caixa esteja do lado (
+   sem ocupar a linha toda).
+   
+   Demais ex de box-level: <div>, <h1> - <h6>, <p>, <main>, <header>, <nav>, <article>, <aside>, <footer>, <form> e <video>
+   
+   Demais ex de inline-level: <span>, <a>, <code>, <small>, <strong>, <em>, <sup> - <sub>, <label>, <button>, <input> e <select>
+   
+VIDEO 24 - 
+   
+   Box-Level
+   
+   O dev-tools do google chrome (inspecionar elemento) ja mostra o modelo de caixas *print-no-pc*
+   As camadas padding, margin e border que tem "-" "-" "-" "-" dentro significa que não tem.
+   
+   O proprio navegador aplica alguns estilos. O que está em user agent stylesheet são os estilos que o proprio navegador configurou.
+   
+   display: block; =====> box-level
+   display: inline-box => inline-box
+   *print comparativo inline e level
+   
+   No dev-tools da pra mexer o codigo sem alterar o arquivo original. Da pra aumentar e diminuir os valores de estilo usando a rodinha
+   do mouse, também da pra habilitar e desabilitar os estilos. Ele é bom para praticar as propriedades.
+   
+   a shorthand border é composta por border-width [valor em px], border-style [tipo][, border-color [cor]. O border-style pode ter os
+   seguintes valores: solid [borda solida], dotted [pontilhado bolinha], dashed [pontilhado quadrado], double [linha dupla], groove
+   [margem 3D]
+   
+   Pode-se especificar onde que que aplique o padding - Ex: padding-[left, right, top, bottom]: 10px (padding = criar um espacinho com
+   a parede pra não ficar colado) Criando um por um, da pra dimensionar melhor o site.
+   ***O padding serve para ALINHAR as coisas com PRECISÃO.
+   dá pra usar o padding nas bordas
+   
+   Básicamene o DevTools serve para fazer testes. Se ficar bom, você incorpora ao codigo original. Tudo que é feito nele é perdido ao
+   atualizar caso não tenha sido incorporado ao codigo original.
+   
+VIDEO 25 - 
+   
+   margin é configurada como padding. (pode dividir emleft, right, top e bottom). Serve para dar um espaço (dar margem) para que as 
+   caixas não fiquem coladas uma na outra, ou usar para alinhar.
+   
+   para centralizar a caixa de forma que não importe se aumenta ou diminui o tamanho da janela, usa-se o margin: auto; assim ele ficará
+   posicionado ao centro (meio). Serve se for uma caixa, se for um texto, basta usar o text-align: center;
+   
+   O outline fica entre a borda e a margem.  Ele é feito que nem a borda (tamando[px], tipo[solid], cor[grey]). (Fica dentro da margem)
+   
+   border, padding, margin e outline podem ser escritos como short-hands ou separando seus atributos.
+   Os valores do margin tem a ordem de um relogio: top(cima), right(direita), bottom(baixo), left(esquerda). Se o valor das 4 forem o
+   mesmo, basta informar o valor uma unica vez. Se colocar 2 valores o primeiro valerá para o de cima e de baixo e o segundo para 
+   esquerda e direita.
+   
+   Da ainda para criar valores especificos. 
+   Ex: 
+   * border-right-style: solid (somente a borda direita vai ser do tipo solid)
+   * border-left-width:10px (somente a largura da esquera da borda terá 10px)
+   
+   No DevTools, se clicar na setinha da short-hand ele vai listar, de maneira detalhada, todos os estilos.
+   
+   O tipo de caixa é definido no atributo display: . Para box-level o valor vai ser de block. Já para inline-level vai ser inline-box
+   
+   **Dá pra converter uma tag que por padrão é inline em box, assim como box em inline. Basta definir no estilo o display: inline-box;
+   (para definir inline-level) ou display: block (para definir box-level)
+   
+   O display: inline-block; vai continuar ser inline mas com caracteristica de bloco (da pra setar width e height por exemplo)
+   
+   ***Somente no block pode-se configurar width e height. No inline-box não vai funcionar essas configurações de tamanho.
+   
+VIDEO 26 - 
+   
+   As tags de agrupamento são o <div> (box-level) e o <span> (inline-level). Em sites antigos era comum usar varias divs uma dentro da
+   outra e separa-las por classess ou ids, ainda é possivel fazer desse jeito, mas com o HTML5 da pra fazer de uma forma melhor, usando
+   as grouping tags semanticas
+   
+   Todo site tem um conteudo principal (essencia do site), cabeçalho (apresentação do site) e um rodapé (links extras, autor do site, etc)
+   
+   A tag <header> é usada para o cabeçalho, a tag <main> que é usado para conteudo principal e <footer> para o rodapé. (todas as tags 
+   listadas são vistas como uma div
+   
+   A tag <nav> serve para criar um menu (usada dentro de uma das tags de agrupamento)
+   
+   Para criar uma secção usa-se a tag <section>. <article> pra criar um artigo. <aside> pra um conteudo periferico(relacionado) ao artigo.
+   
+VIDEO 27 - Sombras
+   
+   As sombras funcionam como uma short-hand
+   
+   Sempre que achar algum bug, olhe o DevTools para tentar achar o erro, pode ajudar.
+   
+   Para criar sombras em caixas, usa-se shadow-box: ;. Ele é composto por 4 valores: o primeiro é sobre o deslocamento horizontal (em px),
+   o segundo é sobre o deslocamento vertical (em px), o terceiro é o desfoco (em px), o quarto é a propagação (em px) e por ultimo a cor.
+   O deslocamento pode ser negativo, jogando a sobra para o outro lado (só não funciona para o espalhamento)
+   
+   Também é possivel criar sombra pra dentro usando o inset
+   
+   Toda sombra deve ser preta, não use sombra colorida. Só use o black e a luminosidade para deixar a sombra forte ou mais clara. A sombra
+   não pode ser uma cor solida, ela tem que ser meio transparente pra dar o efeito de sombra
+   
+VIDEo 28 - vertices arredondados
+   
+   O border-radius serve para setar o raio da borda (fazer arredondamento das vertices), o valor é em px. É possivel fazer até uma bola.
+   É possivel colocar quatro valores para os 4 vertices. A ordem é: canto superior esquedro, canto superior direito, canto inferior 
+   direito e canto inferior esquerdo. Se colocar dois valores o primeiro vai ser o canto superior direito e o oposto + canto superior
+   esquerdo e seu oposto. Também da pra usar %
+   
+VIDEO 29 - bordas decoradas
+   
+   **É mais facil implementar direto com uma imagem, poe ser que a imagem não fique bem renderizada com esse recurso, logo é melhor usar
+   um editor de imagem e alinhar.**
+   
+VIDEO 30 - Desafio do capitulo 16
+   
+   => a numeração dos videos agora vai ficar errada, poia pulei alguns videos que não tinham conteudo
+   => Fiz o desafio completo, mas alguns recursos não apliquei por não ter sido ensinado nos videos ainda
+   
+VIDEO 31 - 
+   
+   Antes de começar a fazer o site, temos que PLANEJAR o site. O planejamento envolve o layout, as cores e as fontes.
+   
+   Uma importante ferramenta para desenhar o sie é o mockflow
+   
+   Nele você cria mocks (desenhos com estruturas ja desenhadas que representa como ficará seu site, serve para planejar)
+   
+   {;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:}
+   {;:;:;:;:;:   USUARIO E SENHA DO MOCKFLOW   ;:;:;:;:;:;}
+   {;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:}
+   {;:;:               USER:  conto...               ;:;:;}
+   {;:;:               SENHA: Fif...               ;:;:;:;}
+   {;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:}
+   
+   Nele você escolhe o work wireframe (protótipo usado em design de interface - Ex: html, bootstrap, android TV, etc.) e depois vai 
+   pegando e arrastando as estruturas para dentro da folha pra desenhar o site. É possivel adicionar diferentes desenhos que representam 
+   diferentes funções, tamanhos, cores, etc.
+   
+   *print*ex-mockflow*print*
+   
+VIDEO 32 - 
+   
+   Variaveis em CSS
+   
+   variaveis são usadas para guardar valores que serão usados posteriormente. 
+   
+   Para fazer anotações no CSS usa-se "/*" para abrir e "*/" para fechar. Diferente do HHTML que usa "<!--" para abrir e "-->" para fechar
+   
+   A pseudoclasse :root => é a raiz da arvore que o documento tem. Tudo que for escrito ali serve para o documento inteiro. Aqui é onde
+   posso criar/declara variaveis. Todas as variasveis começam com "--"
+   
+   Ex: para criarmos variaveis para definir as cores:
+   
+   :root{
+      --cor0: #c5ebd6;
+      --cor1: #83e1ad;
+      --cor2: #3ddc84;
+      --cor3: #2fa866;
+      --cor4: #1a5c37;
+      --cor5: #063d1e;
+   }
+   
+   Se você der ctrl + space , os ultimos itens listados serão as cores em variaveis.
+   
+   Para usar a variavel escreva "var(--NomeDaVariavel);"
+   
+   Fica muito mais facil, além de, se decidir mudar as cores, basta mudar a cor da variavel
+   
+   Também podemos criar variaveis para fontes
+   
+   Sempre deixe a ordem dos estilos na ordem das estruturas para ficar organizado
+   
+   Por padrão, o h1 e algumas outras estruturas box-level , ficam com uma margem que não deixa o cabeçalho encostar na extremidade da
+   pagina, ficando horroroso. Para resolver isso criamos uma configuração golbal para que nenhum bloco tenha margin ou padding
+   
+   Ex:
+   
+   *{
+    margin: 0px;
+    padding: 0px;
+   }
+   
+   Com isso tudo ficará condensado, e os espaçamentos serão feitos com mais precisão.
+   
+VIDEO 33 - 
+   
+   Responsividade = adaptar o conteudo do seu site ao tamanho de tela do dispositivo
+   
+   nunca deixe seu site ter rolagem lateral
+   
+   Uma das formas mais simples de criar resposividade é com recursos de tamanho (largura) maximo e minimo.
+   
+   para testar a reponsividade usaremos a extensão window resizer. Ela serve para ver quando precisará mudar para outro tipo de
+   dispositivo, por exemplo, quando a imagem chega no limite pra abrir a barra de rolagem lateral. Assim você tem esse numero em px. Alem
+   disso ele serve para ver como o site ficaria em diversos disposivitos, simulando suas resoluções.
+   
+   margini: auto; => fica centralizado
+   
+   deixando um site com um main de largura definida, ele fica responsivo ate que o tamanho da tela fique menor que a largura.
+   
+   max-width: 800px;
+   min-width: 320px; (os celulares mais antigos tinham essa largura, esse seria o minimo tirando alguns dispositivos especificos)
+   
+   Se colocar width: 100%; ele vai ficar responsivo. Mesmo se diminuir muito ele continuará mantendo a imagem
+   
+   Ex: img { width: 100%; }
+   
+   Você pode definir um main variando de uma janela minima ate uma janela maxima. Ex: max-width: 800px; & min-width: 320px; => assim o 
+   main (folha que fica o conteudo) vai variar entre esses tamanhos.
+   
+   Também usaremos sources para conteudos que se beneficiam caso o tamanho da tela seja grande ou pequeno dependendo da situação.
+   
+VIDEO 34 - 
+   
+   width: 100%; => serve pra imagem ou janela => se ajustar ao tamanho da tela
+   
+   recurso para que o efeito tenha um tempo de transição => transition-duration: 0.5s; => o valor é em s *video-mostrando*
+   
+   max-width => usado para que uma imagem que esteja com margin: auto use um max-width: 10px; => a imagem terá no maximo essa largura
+   
+   se quiser que uma tag que esteja dentro da outra tenha um estilo especifico basta escrever uma após a outra Ex: main p ao inves de
+   main > p
+   
+   line-height: 1em; => serve para definir o espaçamento entre linhas (altura ente linhas). *print- 1em X 10em -print*
+   => serve para facilitar a leitura e não se perder
+   
+   da pra fazer o gradiente com a "cor" transparente usando o "transparent"
+   
+   Para definir quantas colunas voce quer que tenha uma lista usa-se => columns: 2;
+   
+   para definir onde fica os pontinhos usa-se => list-style-position: inside; ou outside
+   
+   para colocar um emoji no lugar das bolinhas basta usar => list-style-type: '\2714'; => depois do \ o codigo do emoji
+   da pra colcoar mais que um emoji em sequencia: basta ir separando com \
+   o emoji que representa o nbsp (espaço em branco) é o 00A0
+   
+   para dar margem em algo que ja tem margem, precisará usar a margem negativa. Para isso, basta usar o -10px
+   
+   a propriedade content é usada com os pseudoelementos ::before e ::after para gerar conteúdo em um elemento
+   => usado para colocar emojis. Ex: content: '\00A0\1F517'
+
+====================================================================================================================================
+PAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIA
+====================================================================================================================================
+   
+   ***ver o penultimo video pra entender certinho que ele fez com o video e como um elemento influencia no outro***

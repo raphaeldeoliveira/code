@@ -1,0 +1,59 @@
+   para programar e ver o resultado sete a aba do VSCode a esqueda e a aba do navegador a direita para poder mexer nos dois
+   ao mesmo tempo. 
+   
+   o icone de duas folhas no canto superior esquerdo do VSCode abre e fecha as opções, então, enquanto estiver codando deixe
+   fechado para poder ter melhor aprovietamento da IDE
+   
+   *como o VSCode esta salvando automaticamente, basta atualizar o navegador para aparecer o que voce acabou de adicionar
+   sem precisar salvar no VSCode
+   
+   ctrl + space = mostra as opções de valor dentro de um atributo "aqui"
+   
+   **use somente letras minusculas nos nomes dos arquivos**
+   
+   *no gimp, se reduzir a largura a altura é reduzida proporcionalmente* - basta clicar em redimensionar imagem
+   
+   no gimp, apos alterar a altura, vai em arquivo e exportar como, selecionar a qualidade como 70% e esta salvo! Para alterar
+   a largura vai em imagem, redimensionar imagem, para concluir, da um TAB. Para abrir a imagem basta selecionar a imagem e 
+   ir na opção abrir com gimp
+   
+   para um site, uma largura recomendada é 600-650. 
+   
+   ctrl + b abre e fecha o menu lateral no vscode
+   
+   para envelopar (adicionar a tag em cima de algo que ja ets aescrito), selecione o texto, use ctrl + shift + p, enter, tag
+   que será usada (sem <>)
+   
+   comando no VSCode para voltar um agrupamento inteiro = seleciona, shift + tab. Pra ele ir pra frente usa só o TAB
+   
+   ctrl + clicar em cima do link = abre o link no vscode
+   
+   Para modificar varias linhas juntas, usa-se o comando "alt" + clicar onde quer mudar (com alt precionado) assimm da
+   pra escrever ou apagar todas as linhas selecionadas ao mesmo tempo
+   
+   Algumas tags da pra minimizar no VSCode como o body, head, ul e ol, etc. Bom para focar no que está programando
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   

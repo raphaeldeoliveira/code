@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to left, #689CF2, #6DFCE3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.centralizar-titulo{
+    text-align: center;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.referencias{
+    color: orangered;
+}
+
+a:hover{
+    font-weight: bold;
+    color: palegoldenrod;
+}
+
+a:active{
+    color: rgb(255, 174, 0);
+}
+
+a{
+    color: purple;
+}
+
+.li-de-referencias{
+    color: #black;
+}
+
+span{
+    color: #D46C39;
+    text-decoration: underline;
+}
+
+mark{
+    background-color: rgba(255, 68, 0, 0.705);
+    text-decoration: underline;
+}
