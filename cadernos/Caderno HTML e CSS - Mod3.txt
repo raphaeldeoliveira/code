@@ -159,80 +159,85 @@ VIDEO 12 -
    
    Imagem de fundo <> imagens do conteudo
    
+VIDEO 13 - 
    
+   Para colocar imagens de fundo usamos a propriedade "background-image" com o valor "url('NomeDaImagem')
    
+   se a imagem for muito pequena ela replicará varias vezes, porem ficara com uma linha separando que é perceptivel quando bem olhado (dependendo
+   da imagem) algumas ele vai replicar sem dar essa linha.
    
+   Se a imagem for muito grande ela ficará cortada e não aparecerá por completo
    
+   Também da pra adicionar uma imagem de fundo no body pra ficar no corpo inteiro do site
    
+   É possivel coloca em elementos (como uma div) não só no plano de fundo do site
    
+VIDEO 14 - 
    
+   *** commit no final do dia de trabalho ***
    
+   A propriedade "background-size: 100px 100px" serve para definir a largura e altura da imagem. O primeiro valor é referente a largura e o
+   segundo a altura. (da imagem de fundo) se ficar muito pequena, replicarávarias vezes para cobrir toda a area do fundo.
+   Ela vai abrir no tamanho padrão se não definir um background-size
    
+   A repetição é automatica, mas voce pode usar um "background-repeat: " voce pode usar o valor "no-repeat" para não repetir, "repeat" para
+   repetir. Também tem o "repeat-x" para repetir na horizontal e o "repeat-y" para repetir na vertical
    
+VIDEO 15 - 
    
+   voce pode definir o posicionamento do background com a pripriedade "background-position: " ela pode ter um ou dois valores com 4 posições.
+   Ex: background-position: right; (para pegar a parte da direita do fundo) / background-position: left bottom; (vai pegar a parte de baixo a
+   esquerda
    
+   Se voce quiser centralizar a imagem e ela não centralizar, crie um "height" com o valor 100vh (100% da viewport). Em casos que queira
+   centralizar verticalmente e horizontalmente. Ele define quanto % a altura da viewport vai ocupar.
+   *viewport = parte branca da pagina web
    
+   No "background-position" primeiro vem a coluna e depois vem a linha. Ex: background-position: right bottom
+   Serve como um ponto de ancoragem, uma referencia de onde vai ficar o posicionamento da imagem
    
+VIDEO 16 - 
    
+   O ideal é colocar uma cor de fundo mesmo usando uma imagem. Isso porque a primeira coisa que o navegador carrega é o conteudo, se a rede
+   estiver lenta e não carregar a imagem a tempo, o usuario vai ver a cor de fundo em vez da imagem. A cor branca de fundo fica feia de fundo.
    
+   O melhor valor para o background-size é o 100%, assim ele fica responsivo e se adaptara, cobrindo toda a viewport, independente do tamanho da
+   janela. 
+   O problema é que se diminuir muito ele ficara com o fundo aparecendo na vertical em baixo da imagem. Para resolver isso basta colocar
+   de valor: 100% 100%. Assim ele ficará com 100% da viewport na horizontal e 100% da viewport da vertical (não esqueça de colocar o height com
+   100vh). O problema disso é que, em alguns casos, a imagem ficara achatada e distorcida.
    
+   O valor contain (no background-size) deixará a imagem com 100% da proporção original.
    
+   Também tem o cover. Ele vai cobrir a tela inteira, mesmo que tenha que dar uma cortada e mostrarsó um pedaço da imagem (mantendo a proporção)
+   ele adapta a imagem de acordo com o tamanho da viewport
    
+   Tem o auto (automatico) (padrão) que vai deixar o tamanho normal
    
+   Se o conteudo for muito maior que o tamanho da imagem de fundo vai ficar com a cor de fundo aparecendo na parte de baixo.
    
+VIDEO 17 - 
    
+   A propriedade background-attachment
    
+   o valor scroll, o fundo vai rolar junto com o conteudo
    
+   o valor fixed, o fundo ficará com a imagem fixa (não aumenta ou diminindo se rolar a barra ge rolagem)
    
+   A combinação background-size: cover; + background-attachment: fixed; + max-width; => deixa o fundo responsivo sem distorcer o fundo
    
+   Existe a shorthand "background" - A ordem da shorthand: color, position, repeat e attachment (o "size" tem que ser definido sozinho)
    
+VIDEO 18 - 
    
+   O atributo position serve para definir a posição. O valor relativo significa que o position é relativo
+   O valor "absolute" deixa o posicionamento absoluto. Podendo configurar as porpriedades "left" e "top" com elas voce define a distancia entre
+   a borda lateral e o lado esquerdo e a borda de cima e o lado de cima. Em vez de usar valores absolutos como "100px" podemos usar valores
+   relativos como "50%"
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+   A propriedade "transform" serve para transformar. Os valores (o que vai ser transformado) são diversos. O valor translate(); serve para mexer
+   em um componente (a mesma função do posicionamento absoluto) nele, se voce colocar (-50%, -50%) junto com os valores de 50% de left e up ele
+   vai ficar centralizado exatamente no meio
    
    
    
