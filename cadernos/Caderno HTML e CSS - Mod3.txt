@@ -57,7 +57,7 @@ VIDEO 5 -
    
 VIDEO 6 - 
    
-   Quando foir deita uma alteração, o VSCode vai ficar com 1 em baixo da lupa (isso significa que ha uma alteração), tambem  aparece um "M" ao
+   Quando for deita uma alteração, o VSCode vai ficar com 1 em baixo da lupa (isso significa que ha uma alteração), tambem  aparece um "M" ao
    lado do nome do arquivo que quer dizer "modificado"
    
    Se voltar no github desktop ele vai perceber e mostrar a alteração. Para que o repositorio do git seja atualizado com a alateração é preciso
@@ -66,15 +66,18 @@ VIDEO 6 -
    
    o commit faz a atualização do repositorio local
    
-   Para mandar a atualização para o github, no github desktop clique em push "origin", basta entrar no github e ver a atualização
+   Para mandar a atualização para o github, no github desktop clique em push "origin", basta entrar no github e ver a atualização. Assim
+   será atualizado o repositorio remoto
    
    Se voce quiser criar um repositorio de git novo, vai em file, new repository e prencher.
    
    No canto superior esquerdo ele fala qual repositorio esta ativo no momento. "current repository"
    
-   Se voce quiser excluir um repositorio, nunca delete a pasta, vai no repositorio corrente que voce quer apagar, va em "repository" e "remove"
+   Se voce quiser excluir um repositorio, nunca delete a pasta. Vá no repositorio corrente que voce quer apagar, em "repository" e "remove"
    dessa forma voce excluiu o repositorio local, o do github ainda estará la.
-   Para deletar do github vai em settings, "delete this repository" (não é reversivel)
+   Para deletar do github vá em settings, "delete this repository" (deletar repositorios não é reversivel)
+   
+PAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUI
    
 VIDEO 7 - 
    
