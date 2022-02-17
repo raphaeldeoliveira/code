@@ -32,7 +32,7 @@ VIDEO 4 -
    selecione uma foto e um email e um username. Nomeie seus repositorios sem palavras sem sentido. Você usará ele futuramente para conseguir um
    emprego e o empregador vai querer dar uma olhada no seu github
    
-   Bote uma senha longa e segura, que não são faceis de lembrar mas vão proteger
+   Crie uma senha longa e segura, que não são faceis de lembrar mas vão proteger
    
    Crie a conta, verifique o email, vai em settings, adicione uma foto sua, os dados, etc.
    
@@ -66,18 +66,15 @@ VIDEO 6 -
    
    o commit faz a atualização do repositorio local
    
-   Para mandar a atualização para o github, no github desktop clique em push "origin", basta entrar no github e ver a atualização. Assim
-   será atualizado o repositorio remoto
+   Para mandar a atualização para o github, no github desktop clique em push "origin", basta entrar no github e ver a atualização
    
    Se voce quiser criar um repositorio de git novo, vai em file, new repository e prencher.
    
    No canto superior esquerdo ele fala qual repositorio esta ativo no momento. "current repository"
    
-   Se voce quiser excluir um repositorio, nunca delete a pasta. Vá no repositorio corrente que voce quer apagar, em "repository" e "remove"
+   Se voce quiser excluir um repositorio, nunca delete a pasta, vai no repositorio corrente que voce quer apagar, va em "repository" e "remove"
    dessa forma voce excluiu o repositorio local, o do github ainda estará la.
-   Para deletar do github vá em settings, "delete this repository" (deletar repositorios não é reversivel)
-   
-PAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUI
+   Para deletar do github vai em settings, "delete this repository" (não é reversivel)
    
 VIDEO 7 - 
    
@@ -221,7 +218,7 @@ VIDEO 16 -
    
 VIDEO 17 - 
    
-   A propriedade background-attachment
+   A propriedade background-attachment define como a imagem de fundo vai se comportar em relação a viewport
    
    o valor scroll, o fundo vai rolar junto com o conteudo
    
@@ -230,85 +227,102 @@ VIDEO 17 -
    A combinação background-size: cover; + background-attachment: fixed; + max-width; => deixa o fundo responsivo sem distorcer o fundo
    
    Existe a shorthand "background" - A ordem da shorthand: color, position, repeat e attachment (o "size" tem que ser definido sozinho)
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+PAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAREIAQUIPAR
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
    
-VIDEO 18 - 
+VIDEO 18 - Centralização vertical
    
-   O atributo position serve para definir a posição. O valor relativo significa que o position é relativo
-   O valor "absolute" deixa o posicionamento absoluto. Podendo configurar as porpriedades "left" e "top" com elas voce define a distancia entre
-   a borda lateral e o lado esquerdo e a borda de cima e o lado de cima. Em vez de usar valores absolutos como "100px" podemos usar valores
-   relativos como "50%"
+   Para alinhar verticalmente é preciso ter um container (fora) e um conteudo (dentro) => uma tag dentro de outra
    
-   A propriedade "transform" serve para transformar. Os valores (o que vai ser transformado) são diversos. O valor translate(); serve para mexer
-   em um componente (a mesma função do posicionamento absoluto) nele, se voce colocar (-50%, -50%) junto com os valores de 50% de left e up ele
-   vai ficar centralizado exatamente no meio
+   O atributo position serve para definir a posição. O valor "relative" define que o position é relativo (por padrão, o box tem o valor relativo)
    
+   O valor "absolute" deixa o posicionamento absoluto. Isso posibilita configurar as propriedades "left" e "top". Com elas voce define a distancia
+   entre o lado esquerdo do container e do conteudo | e entre o lado de cima do container e do conteudo. Em vez de usar valores absolutos como 100px 
+   podemos usar valores relativos como "50%".
    
+   O problema de usar 50% é que ele vai ate a metade de ambos os lados e assim a imagem ficará projetada no 1/4 pra baixo a direita ***print***
    
+   Para resolver isso usamos a propriedade "transform". Os valores (o que vai ser transformado) são diversos.
    
+   O valor translate(); serve para mexer num componente (tem a mesma função do posicionamento absoluto). Se voce colocar como valor (-50%, -50%) 
+   será feita a correção e o conteudo ficará centralizado.
    
+VIDEO 19 - 
    
+   Mostrou o site cordel do projeto
    
+VIDEO 20 - 
    
+   Baixou os arquivos pro projeto
    
+VIDEO 21 - 
    
+   Mostrou como fazer a base do site do projeto-12
    
+VIDEO 22 - 
    
+   100vh = 100% da view height
+   100wh = 100% da view width
    
+   A propriedade "text-transform" serve para formatar se as letras ficam maiusculas (valor = uppercase) ou minusculasas (valor = lowercase)
    
+   A propriedade "font-variant" cria variações de fontes. O valor "small-caps" deixa as letras do mesmo tamanho dando uma perspectiva que estão
+   maiusculas.
    
+   O line-height pode ter valores em "em"
    
+VIDEO 23 - 
    
+   Para deixar textos responsivos (que aumentam e dimunuem de tamanho conforme muda o tamanho da janela) na propriedade font-size pode definir uma
+   porcentagem da view width => Ex: font-size: 5vw;
    
+VIDEO 24 - 
    
+   Se o box-shadow ter o valor prefixado por um inset a sombra ficará pra dentro.
    
+   O que cria o efeito Parallax é a propriedade background-attachment: com o valor fixed. Isso deixará a imagem fixa enquanto rola a barra de
+   rolagem. Para o efeito dar certo uma imagem tem que sumir antes da outra aparecer para dar o efeito de tridimensionalidade
    
+VIDEO 25 - 
    
+   Mandou o projeto pro github.
    
+VIDEO 26 - 
    
+   Nunca use tabelas pra criar a estrutura (layout) do seu site. Isso era feito antigamente, hoje não é mais aceito. Deve ser usada somente para
+   apresentar dados em forma tabelar.
    
+VIDEO 27 - Tabela Basicano HTML
    
+   As tabelas simples seguem a seguinte hierarquia: 
    
+      <table>                      (abre a tabela)
+         <tablerow>                (linha da tabela)         tag real: <tr>
+            <tabledata>            (dados de tabela)         tag real: <td>       {não são colunas}
    
+   Se a hierarquia não for obedecida, o conteudo mal posicionado estará fora ou antes ou depois da tabela 
    
+   Por padrão ela não tem borda. Basta usar a propriedade border no td pra cada dado ter uma borda. Pode usar o padding para que os dados tenham um
+   espaçamento dentro delas, ficando mais bonito. 
    
+   O espaço entre as bordas pode ser corrigido com a propriedade border-collapse. O valor padrão é separate (que as deixa separadas). Se o valor for
+   collapse elas vão se juntar e ficará sem espaçamento - deve ser aplicada no table (fica como uma tabela padrão)
+   ***print - comparativo12 - print***
    
+   O fechamento das tags <tr> e <td> são opcioonais, porém fica mais sucetivel ao erro não fecha-las
    
+   As linhas não precisam ter o mesmo numero de colunas nem as colunas precisam ter o mesmo numero de linhas.
    
+VIDEO 28 - 
    
+   Pra fazer o alinhamento horizontal basta usar o text-align (no <td>). O alinhamento vertical por padrão é center. Se voce quiser que fique em outra
+   posicção use a propriedade vertical-align (podendo ter valores top e bottom)
    
+   As tabelas do excel, por padrão, numeros ficam alinhados a direita. Se quiser fazer isso crie uma casse e use o text-align: right;
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+VIDEO 29 - 
    
    
    

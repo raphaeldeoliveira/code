@@ -431,11 +431,9 @@
 
             <h3>Seletores Personalizados (id)</h3>
 
-            <p>O que esta dentro dos <mark>seletores</mark> <mark style="background-color: rgb(88, 88, 88); color: yellow;">"{}"</mark> são: <mark>declarações</mark> (<em>declarações são conjunto entre propriedades e valores</em>)</p>
+            <p>Para <mark style="background-color: rgb(255, 110, 255);">personalizar somente uma tag </mark>, você deve <mark style="background-color: rgb(255, 110, 255);">cria uma identificação</mark> com a propriedade <mark style="background-color: rgb(255, 110, 255);"><strong>id="nome"</strong></mark> <br> &#x27A1;O nome que você quer dar ao seletor especial deve ficar entre aspas no "nome". <br> &#x27A1;Para se referir a ele, <strong>no CSS</strong>, você vai colocar a # seguido pelo nome do id. <br> Ex: <mark style="background-color: rgb(255, 110, 255);">#principal {}</mark></p>
 
-            <p>Para <mark style="background-color: rgb(255, 110, 255);">personalizar somente uma tag <strong>de um tipo de tag</strong></mark>, você deve <mark style="background-color: rgb(255, 110, 255);">cria uma identificação</mark> com a propriedade <mark style="background-color: rgb(255, 110, 255);"><strong>id="nome"</strong></mark> <br> &#x27A1;O nome que você quer dar ao seletor especial deve ficar entre aspas no "nome". <br> &#x27A1;Para se referir a ele, <strong>no CSS</strong>, você vai colocar a tag seguido de um # e por fim o nome. ex: <mark style="background-color: rgb(255, 110, 255);">h1#principal {}</mark></p>
-
-            <p>Tudo que for <mark style="background-color: cadetblue"><strong>id em HTML</strong></mark> é <mark style="background-color: lightcoral;"><strong># em CSS</strong></mark> e tudo que é <mark style="background-color: cadetblue"><strong>class em HTML</strong></mark> é <mark style="background-color: lightcoral;"><strong>. em CSS</strong></mark>.</p>
+            <p>Tudo que for <mark style="background-color: cadetblue"><strong>id em HTML</strong></mark> é <mark style="background-color: lightcoral;"><strong># em CSS</strong></mark> e tudo que é <mark style="background-color: cadetblue"><strong>class em HTML</strong></mark> é <mark style="background-color: lightcoral;"><strong>. em CSS</strong></mark>. <br>Ex: id="cordefundo" (na tag) &#x27A1; #cordefundo (no style) <br>Ex: class="subtitulo" (na tag) &#x27A1; .subtitulo (no style)</p>
 
             <p>No, entanto <mark style="background-color: rgb(0, 174, 255);">só pode ter <strong>um elemento com id</strong></mark> (pode ter varios id mas todos de elementos diferentes). <mark style="background-color: rgb(255, 208, 0);">Para fazer em <strong>varios elementos</strong> usamos a <strong>class</strong></mark></p>
 
@@ -452,6 +450,8 @@
             <p>Pode-se aplicar <strong>mais de uma classe a um elemento</strong>. Basta que fiquem separadas por espaços. <br> Ex: h1 class="intermediario destaque" (está aplicando intermediario e destaque)</p>
 
             <p>Quem sobrepõe quem <strong>segue uma hierarquia</strong>. Essa hierarquia é definida com base em <strong>quem liga por ultimo</strong>, a ordem é class > id > seletor padrão. O id sobrepõe o style padrão</p>
+
+            <p>Se você quiser criar um estilo <mark style="background-color: #1CFEBA;">apenas para uma tag de uma class</mark> você deve, no CSS, colocar o nome da tag seguido de . e a classe (serve para id também, a difernça é que vai ser um # separando o nome da tag e o nome da classe. <br> Ex: section.normal{ } &#x27A1;somente as sections com a class normal terão esse estilo.</p>
 
             <h3>Pseudoclasses</h3>
 

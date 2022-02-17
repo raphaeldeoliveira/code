@@ -9,58 +9,54 @@
 </head>
 <body>
     <main>
-        <h1>Curso de HTML e CSS Modulo 3</h1>
+        <h3>*** A parte de git e github foi excluida por não estar bem explicada e eu não ter entendido certinho. Melhor fazer um curso mais profundo sobre o assunto. ***</h3>
 
-            <h2>Git e GitHub</h2>
+        <h3>Imagens de fundo é diferente de Imagens de conteudo</h3>
 
-            <p> <span class="subtitulo">Git</span> <br> Git é um <mark>sistema de controle de versionamento</mark> e serve para <strong>registrar o historico de edições</strong> de qualquer tipo de arquivo.</p>
+        <p>Para colocar <strong>imagens de fundo</strong> usamos a propriedade <mark>"background-image"</mark> com o valor <mark class="mark3">"url('NomeDaImagem')</mark></p>
 
-            <p>O gerenciador de versão serve para guardar <strong>todas as versões de arquivos que foram modificados</strong>. Ele vai manter versões do seu codigo no seu computador.</p>
+        <p>Se a imagem for <strong>muito pequena</strong> ela repetirá varias vezes, porem, em alguns casos, ficará com uma linha separando que é perceptivel quando bem olhado (dependendo da imagem) algumas ele vai replicar sem dar essa linha. <br> Já se a imagem for <strong>muito grande</strong> ela ficará cortada e não aparecerá por completo</p>
 
-            <p>Nesse curso não será ensinado a usar a ferramenta git de forma completa. Se tiver interesse em aprender, basta acessar o curso completo <a href="https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA" target="_blank" rel="external">Curso de Git Completo</a></p>
+        <p>Da pra criar imagem de fundo para todas as tags, no entanto é recomendada para algumas tags como body e divs</p>
 
-            <p> <span class="subtitulo">GitHub</span> <br> No entanto e se o hardware der algum problema você perde todos os seus arquivos versionados? Ou se você quer mostrar seu site para alguem? Precisará <mark>hospedar em nuvem o versionamento</mark>, no caso o GitHub. O <strong>git vai fazer o versionamento no seu computador</strong>, enquanto o <strong>GitHub vai hospedar o versionamento na nuvem</strong>.</p>
+        <p><span class="subtitulo">tamanho</span> <br> A propriedade "<mark>background-size: 100px 100px</mark>" serve para <strong>definir a largura e altura da imagem</strong>. O primeiro valor é referente a largura e o segundo a altura. Se a imagem ficar muito pequena, replicará varias vezes para cobrir toda a area do fundo. Ela vai abrir no tamanho padrão se não definir um background-size.</p>
 
-            <p>O <strong>repositorio</strong> é um <strong>local onde se guarda coisas</strong> &#x27A1; É o local <strong>onde ficará o versionamento feito pelo git</strong>. <br> Enquanto o repositorio remoto é o GitHub. O GitHub é como se fosse um backup do seu repositorio</p>
+        <p>O valor 100% 100% deixara o fundo cobrindo 100% da viewport tanto na horizontal quanto na vertical (o primeiro valor define na horizontal e o segundo na vertical) O problema disso é que, em alguns casos, a imagem ficará achatada e distorcida.</p>
 
-            <p>O <strong>GitHub</strong> permite <strong>trabalhar em equipe</strong>, cada um atualiza o seu repositorio local e quando quiser manda para o repositorio remoto. <br><mark>Quando se manda do repositorio local para o remoto, se está fazendo um <strong>PUSH</strong></mark></p>
+        <p>Se colocar como valor o <mark>contain</mark> a imagem ficará com 100% da proporção original</p>
 
+        <p>O valor cover deixa a imagem com a viewport 100% mesmo que tenha que cortar algum pedaço (adapta a imagem ao tamanho da janela)</p>
+
+        <p>O valor auto (padrão) deixa no tamanho original</p>
+
+        <p>Lembre-se que se o conteudo for muito extenso a imagem nãoa companhará, e pode ficar com uma imagem de fundo pouco agradável.</p>
+
+        <p><span class="subtitulo">repetição</span> <br> A propriedade "<mark class="mark2">background-repeat: </mark>" define se a <strong>imagem terá repetição</strong> e qual tipo. Os valores podem ser:
             <ul>
-                <li><strong>Repositorio Local</strong> - local onde estarão os versionamentos</li>
-                <li><strong>Repositorio Remoto</strong> - local em que ficará hospedado (nuvem)</li>
-            </ul> <br>
+                <li>repeat &#x27A1; para repetir tanto horizontalmente quanto verticalmente (por padrão fica como repeat)</li>
+                <li>no-repeat &#x27A1; para que não haja repetição</li>
+                <li>repeat-x &#x27A1; para repetir somente na horizontal</li>
+                <li>repeat-y &#x27A1; para repetir somente na vertical</li>
+            </ul>
+        </p>
 
-            <p>O <mark><strong>commit</strong></mark> faz a <strong>atualização</strong> do <mark>repositorio local</mark>. <br> Já o <mark class="mark2"><strong>push origin</strong></mark> faz a <strong>atualização</strong> do <mark class="mark2">repositorio remoto</mark> (manda os dados pro GitHub)</p>
+        <p><span class="subtitulo">posicionamento</span> <br> A propriedade "<mark class="mark3">background-position: </mark>" define o <strong>posicionamento da imagem</strong>. Ela pode ter um ou dois valores com 5 posições (center, top, bottom, left e right). Serve como um ponto de ancoragem, uma referencia de onde vai ficar o posicionamento da imagem <br> Ex: background-position: left center; &#x27A1; a imagem vai ficar posicionada a esquerda e ao centro</p>
 
-            <img style="width: 500px; border: 4px solid red" src="midias/gitegithub.jpeg" alt="mapa mental">
+        <p>Quando quiser centralizar a imagem, talvez ocorra um erro em relação a altura (height). Isso acontece porque a viewport não esta configurada para exibit na tela inteira. Para resolver isso crie um atributo height com o valor "100vh" que representa 100% da viewport. <br> <strong>Viewport</strong> = parte branca do navegador.</p>
 
-            <p><span class="subtitulo">GitHub Desktop</span> <br> Para começar a usar o GitHub Desktop escolha uma pasta (repositorio) para servir ao git. Clique em <mark>creat a new repository on hard drive</mark>. O name tem que ser exatamente o nome da pasta. O "local patch" é onde voce vai querer criar o seu repositorio (onde esta a pasta) inicializa com o readme. A licença deve ser do MIT.</p>
+        <p><span class="subtitulo">relação entre a imagem e o conteudo</span><br> A propriedade background-attachment define como a imagem de fundo vai se comportar em relação a viewport</p>
 
-            <img style="width: 400px; border: 4px solid red;" src="midias/githubdesktop1.png" alt="mostrando os campos que devem ser preenchidos na hora que criar um git para um repositorio">
+        <p>Com o valor scroll, o fundo vai rolar junto com o conteudo</p>
 
-            <p>Quando voce clicar em criar repositorio ele vai analisar todos os arquivos buscando as modifcações. Ele vai criar os arquivos: license ; .gitatributes ; readme e uma pasta oculta chamada .git (nunca mexa nessa pasta, é nela que é feito o versionamento) o .git mantem copias do seus projetos e os versionamentos.</p>
+        <p>Já com o valor fixed, o fundo ficará com a imagem fixa quando rolar pra baixo</p>
 
-            <p>O github desktop vai recomendar publicar o versionamento no github. Nesse momento voce pode escolher se quer que o repositorio fique publico ou privado. Voce só consegue mostrar para outras pessoas e criar o link para acessar seus arquivos fora do github, deixando publico. A partir disso todos os arquivos estarão no github. Teste olhando se ele está no repositorio, agora basta deixar atualizado fazendo commits</p>
+        <h3>Demais Dicas</h3>
 
-            <p>Quando for feita uma alteração, o VSCode vai ficar com "1" em baixo da lupa (isso significa que ha uma alteração), tambem  aparece um "M" ao lado do nome do arquivo que quer dizer "modificado".</p>
+        <p>O ideal é colocar uma cor de fundo mesmo usando uma imagem. Isso porque a primeira coisa que o navegador carrega é o conteudo, se a rede estiver lenta e não carregar a imagem a tempo, o usuario vai ver a cor de fundo em vez da imagem. A cor branca de fundo fica feia de fundo.</p>
 
-            <img style="width: 400px; border: 4px solid red;" src="midias/githubdesktop2.png" alt="como que o VSCode mostra que houve alterações">
+        <p> <span class="subtitulo">melhor combinação para maioria das imagens de fundo</span> <br> A combinação background-size: cover; + background-attachment: fixed; + max-width; &#x27A1; deixa o fundo responsivo sem distorcer o fundo</p>
 
-            <p>O commit faz a atualização do repositorio local. Para mandar a atualização para o github, no github desktop, clique em push "origin". Basta entrar no github e ver a atualização</p>
-
-            <p>Botão do Push após dar um commit</p>
-
-            <img class="imagens" src="midias/githubdesktop4.png" alt="onde fica o botão push">
-
-            <p> <span class="subtitulo">Interface do GitHub Desktop</span></p>
-
-            <img width="800px" class="imagens" src="midias/githubdesktop3.png" alt="Interface do GitHub Desktop">
-
-            <p>No canto superior esquerdo em (current repository) podemos ver o repositorio que está ativo.</p>
-
-            <p>Se voce quiser <mark>excluir um repositorio com o git</mark>, <strong>nunca delete a pasta</strong>. Vá (no GitHub Desktop) no repositorio corrente que voce quer apagar, em "repository" e "remove". Dessa forma voce excluiu o repositorio local, o do github ainda estará la. Para deletar do github vá em settings, "delete this repository" (deletar repositorios não é reversivel)</p>
-
-            <img src="midias/githubdesktop5.png" alt="Onde se deleta repositorios">
+        <p>Existe a shorthand "background" &#x27A1; A ordem da shorthand: color, position, repeat e attachment (o "size" tem que ser definido sozinho se não buga ***testar***)</p>
     </main>
 </body>
 </html>
