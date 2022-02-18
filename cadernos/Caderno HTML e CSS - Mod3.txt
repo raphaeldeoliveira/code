@@ -322,46 +322,63 @@ VIDEO 28 -
    
    As tabelas do excel, por padrão, numeros ficam alinhados a direita. Se quiser fazer isso crie uma casse e use o text-align: right;
    
-VIDEO 29 - 
+VIDEO 29 - Estrutura basica das tabelas grandes
    
+   A hierarquia das tabelas grandesé diferente:
    
+      <table>
+         <teablehead>                               tag real: <thead>
+            <tr> , <td> , <th>
    
+         <teablebody>                               tag real: <tbody>
+            <tr> , <td> , <th>
    
+         <teablefoot>                               tag real: <tfoot>   
+            <tr> , <td> , <th>
    
+   <th> => É usado para titulos. Por padrão fica em negrito e centralizado ao meio - É equivalente ao <td>
    
+   Não tem problema usar as tags <thead> , <tbody> e <tfoot> para tags pequenas.
    
+VIDEO 30 - 
    
+   A tabela tambem tem a <caption> que é uma legenda da tabela (tipo titulo) - fica dentro do table. O caption deve conter somente texto. A legenda
+   vai ficar acima da tabela
    
+   O atributo scope é usado no <th> para definir se o titulo é em relção a linha (valor = row) ou a coluna (valor = col). Isso não causa resultado
+   visual mas ajuda no SEO.
    
+   Se definir o width no primeiro elemento da coluna (junto de um width definido em table) todas as debaixo se igualaram a esse mesmo width (pois
+   aumentará o tamanho do outro titulo).
    
+VIDEO 31 - Efeito Zebrado
    
+   A pseudoclasse :nth-child(2n){ } fará com que aquele estilo seja aplicado de 1 a cada 2. O numero pode altrar para definir quanto ele vai pular e
+   repetir. O estilo vai ser aplicado da segunda linha em diante, para que seja aplicado na primeira basta usar 2n-1
    
+   Também da pra usar (no lugar de 2n) odd para as linhas impares ou even para linhas pares.
    
+   Você pode colocar qualquer estilo nas linhas, mas é mais usado para criar o efeito zebrado pra não confundir uma linha com a outra.
    
+VIDEO 32 - 
    
+   Para o cabeçalho ficar fixo quando descer na barra de rolagem, deixamos o table com "position: relative;" e usamos em thead > tr > th{ } um position
+   com o valor sticky. Esse sticky significa que ele vai fixar assim que encostar no topo. Para definir o ponto que ele vai colar usamos a propriedade
+   "top: 0;" assim no "0" ele vai fixar (no chrome, o 0 deixa um espacinho. Pra resolver use -1px. Por padrão ele vai arrastar só o conteudo. Se tiver um
+   background-color ele deve ser definirdo no thead > tr >th{ } também.
    
+   esse recurso não funciona tão bem em alguns navegadores, mas no google chrome fica perfeito. 
    
+   ***print - comparativo-13 - print***
    
+VIDEO 33 - Mesclagem de tabelas
    
+   Para juntar colunas (<td>) em uma só usamos colspan="numerodecolunas". Já para juntar linhas (<td>) usamos rowspan="numerodelinhas"
+   Elas não são CSS, deve ser aplicada direto na tag HTML.
    
+   Pense que row (coluna é juntar a coluna de cima com a de baixo) e que col (linha é juntar a linha com a do lado)
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+VIDEO 34 - 
    
    
    
