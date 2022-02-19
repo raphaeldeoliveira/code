@@ -394,27 +394,27 @@ VIDEO 36 - Escopo dos <th>. (só existe escopo em <th>)
    
 VIDEO 37 - 
    
+   Se o width for definido no style de table, estará sendo definido o tamanho total da tabela. Assim, as colunas que ela tem se encaixaram
+   / ajustaram nesse tamanho do width definido em table.
+   
+   Para personalizar colunuas voce pode definir uma class para cada linha da coluna, mas no caso de muitos elementos é inviavel. Ou pode
+   usar a tag <colgroup> (que deve ficar em baixo/dentro de <table>) e dentro do colgroup criar as tags <col> (as tags <col> não tem fechamento)
+   e nessas tags adicionar o estilo (inline ou atravez de classes) que será aplicado a coluna inteira.
+   
+   Pode-se adicionar no <col> o atributo span="numero" para que seja aplicado no "numero" de colunas. Ele vai aplicar na coluna em quesão e na
+   coluna ao lado.
    
    
+VIDEO 38 - Tabelas Responsivas
    
+   Para resolver o problema de criar rolagem lateral em dispositivos pequenos usamos a propriedade overflow. Ela pode ser overflow para os
+   dois eixos, overflow-x para o eixo X (horizontal) e overflow-y para o eixo Y (vertical). No caso da rolagem lateral usamos o overflow-x.
+  O valor deve ser auto. Dessa forma vai ter uma barra de rolagem só na tabela, o esto do site continuará responsivo. 
    
+   Também pode-se colocar um width com o valor referente a uma % da viewport para que a tabela fique com certa largura e não de a impressão da
+   barra de rolagem ser do conteudo.
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+   => Isso deve ser aplicado no style de uma <div> que envelopa o <table>
    
    
    
