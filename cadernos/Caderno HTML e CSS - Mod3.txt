@@ -354,7 +354,7 @@ VIDEO 30 -
 VIDEO 31 - Efeito Zebrado
    
    A pseudoclasse :nth-child(2n){ } fará com que aquele estilo seja aplicado de 1 a cada 2. O numero pode altrar para definir quanto ele vai pular e
-   repetir. O estilo vai ser aplicado da segunda linha em diante, para que seja aplicado na primeira basta usar 2n-1
+   repetir. O estilo vai ser aplicado da segunda linha em diante, para que seja aplicado na primeira basta usar 2n-1 (se aplica no <td>)
    
    Também da pra usar (no lugar de 2n) odd para as linhas impares ou even para linhas pares.
    
@@ -380,19 +380,19 @@ VIDEO 33 - Mesclagem de tabelas
    
 VIDEO 34 - 
    
+   **desafios completos** - mostrou as imagens - meio?
    
+VIDEO 35 - 
    
+   O colspan e o rowspan só funcionam quando ah todos os dados escritos. Ele não se aplicará em duas linhas se não tiver duas tags de
+   linha. Portanto ele não aplica na hora, porque precisa que o restante da estrutura exista pra ele aplicar
    
+VIDEO 36 - Escopo dos <th>. (só existe escopo em <th>)
    
+   Quando se usa mesclagem, o scope deve ter valor colgroup ou rowgroup. Caso contrario ele vai definir que apenas na unica linha ou coluna
+   que o scope valerá, pois ele deve ficar em relação a mais que uma linha ou coluna.
    
-   
-   
-   
-   
-   
-   
-   
-   
+VIDEO 37 - 
    
    
    
