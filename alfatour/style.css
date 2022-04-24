@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(imagens/grafo3.png);
+}
+
+header{
+height: 80px;
+background-color: #034CAD;
+}
+
+nav{
+    width: 800px;    
+    margin: auto;    
+    /*padding: 20px;
+    box-shadow: 6px 6px 6px black;
+    border-radius: 0px 0px 15px 15px;*/
+}
+
+.introducao1{
+    margin: auto;
+    font-family: 'Patrick Hand', Courier, monospace;
+    background-color: white;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+.introducao2{
+    padding: 20px;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    font-family: 'Patrick Hand', Courier, monospace;
+}
+
+.meio{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 20px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 6px 6px 6px black;
+}
+
+footer{
+    margin-top: 35px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.linkheader{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1.2em;
+    padding: 6px;
+    border-radius: 13px;
+}
+
+.linkheader:hover{
+    color: #034CAD;
+    background-color: white;
+    padding: 6px;
+    transition-duration: 0.5s;
+    border-radius: 13px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.imagens{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.espacamento{
+    padding: 10px;
+}
+
+.linkk{
+    color: white;
+    text-decoration: none;
+}
+
+.linkk:hover{
+    color: #034CAD;
+    transition-duration: 0.7s;
+}
+
+.teste{
+    width: 50%;
+}
+
+.quemsomosnos{
+    background-color: black;
+    color: white;
+    font-family: 'Patrick Hand', Courier, monospace;
+}
+
+.qesquerdo{
+    font-size: 2em;
+}
+
+.qcentro{
+    font-size: 0.7em;
+}
+
+.qdireita{
+    font-size: 0.85em;
+}
+
+.bolinha{
+    width: 180px;
+    border: solid rgb(199, 199, 199) 10px;
+    border-radius: 100px;
+}
+
+.espacamento2{
+    padding-left: 18px;
+
+}
+
+#bol1:hover{
+    border: solid rgb(59, 162, 222) 10px;
+    transition-duration: 0.8s;
+}
+
+#bol2:hover{
+    border: solid rgb(0, 161, 0) 10px;
+    transition-duration: 0.8s;
+}
+
+#bol3:hover{
+    border: solid rgb(170, 170, 0) 10px;
+    transition-duration: 0.8s;
+}
+
+#bol4:hover{
+    border: solid rgb(124, 38, 236) 10px;
+    transition-duration: 0.8s;
+}
+
+#bol5:hover{
+    border: solid red 10px;
+    transition-duration: 0.8s;
+}
+
+#bol6:hover{
+    border: solid rgb(238, 106, 222) 10px;
+    transition-duration: 0.8s;
+}
+
+.textobolinha{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.espacamento4{
+    padding-top: 50px;
+}
+
+.fotoperfil{
+    width: 170px;
+    border: solid 10px white;
+    border-radius: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contatos{
+    font-family: 'Lato', Courier, monospace;
+    font-size: 1.3em;
+}
+
+.pessoa{
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Patrick Hand', Courier, monospace;
+    font-size: 2em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
